@@ -1,0 +1,199 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "yylAdmin",
+  "home_page_url": "https://doc.yyladmin.top/yylAdminDoc/",
+  "feed_url": "https://doc.yyladmin.top/yylAdminDoc/feed.json",
+  "description": "基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理等前后台基础功能，简单轻量，开箱即用，前后分离，免费开源",
+  "author": {
+    "name": "skyselang"
+  },
+  "items": [
+    {
+      "title": "配置",
+      "url": "https://doc.yyladmin.top/yylAdminDoc/config/",
+      "id": "https://doc.yyladmin.top/yylAdminDoc/config/",
+      "content_html": "<h2 id=\"admin\"> admin</h2>\n<h2 id=\"index\"> index</h2>\n",
+      "date_modified": "2021-04-26T06:57:29.944Z",
+      "authors": [
+        {
+          "name": "skyselang"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "教程",
+      "url": "https://doc.yyladmin.top/yylAdminDoc/course/",
+      "id": "https://doc.yyladmin.top/yylAdminDoc/course/",
+      "content_html": "<h2 id=\"教程\"> 教程</h2>\n",
+      "date_modified": "2021-04-26T06:57:29.945Z",
+      "authors": [
+        {
+          "name": "skyselang"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "常见问题",
+      "url": "https://doc.yyladmin.top/yylAdminDoc/fqa/",
+      "id": "https://doc.yyladmin.top/yylAdminDoc/fqa/",
+      "content_html": "<h2 id=\"常见问题\"> 常见问题</h2>\n",
+      "date_modified": "2021-04-26T06:57:29.946Z",
+      "authors": [
+        {
+          "name": "skyselang"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "基础",
+      "url": "https://doc.yyladmin.top/yylAdminDoc/guide/base/",
+      "id": "https://doc.yyladmin.top/yylAdminDoc/guide/base/",
+      "content_html": "<h2 id=\"开发环境\"> 开发环境</h2>\n<ul>\n<li><a href=\"https://www.xp.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">phpStudy</a>（Windows10，Nginx1.16，MySQL5.5，PHP7.2，Redis）</li>\n<li><a href=\"https://www.phpcomposer.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Composer</a>（v2.0）</li>\n<li><a href=\"https://nodejs.org/zh-cn/\" target=\"_blank\" rel=\"noopener noreferrer\">Node.js</a>（v12.x）</li>\n</ul>\n<h2 id=\"版本控制\"> 版本控制</h2>\n<ul>\n<li><a href=\"https://git-scm.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Git</a></li>\n</ul>\n<h2 id=\"后端框架\"> 后端框架</h2>\n<ul>\n<li><a href=\"https://www.kancloud.cn/manual/thinkphp6_0/1037479\" target=\"_blank\" rel=\"noopener noreferrer\">ThinkPHP</a>（v6.0）</li>\n</ul>\n<h2 id=\"前端框架ui\"> 前端框架UI</h2>\n<ul>\n<li><a href=\"https://cn.vuejs.org/v2/guide/syntax.html\" target=\"_blank\" rel=\"noopener noreferrer\">Vue</a>（v2.x）</li>\n<li><a href=\"https://element.eleme.cn/#/zh-CN/component/installation\" target=\"_blank\" rel=\"noopener noreferrer\">Element</a>（v2.x）</li>\n</ul>\n",
+      "date_modified": "2021-04-26T06:57:29.955Z",
+      "authors": [
+        {
+          "name": "skyselang"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "目录",
+      "url": "https://doc.yyladmin.top/yylAdminDoc/guide/catalog/",
+      "id": "https://doc.yyladmin.top/yylAdminDoc/guide/catalog/",
+      "content_html": "<h2 id=\"yyladmin\"> yylAdmin</h2>\n<div><pre><code>yylAdmin\n├── app                        <span># 应用（核心目录）</span>\n│   │── admin                  <span># 后台接口</span>\n│   <span>|</span>   │── controller         <span># 控制器（请求参数）</span>\n│   <span>|</span>   │── middleware         <span># 中间件（拦截或过滤请求）</span>\n│   │── common                 <span># 公共（核心）</span>\n│   <span>|</span>   │── cache              <span># 缓存</span>\n│   <span>|</span>   │── controller         <span># 控制器</span>\n│   <span>|</span>   │── middleware         <span># 中间件</span>\n│   <span>|</span>   │── model              <span># 模型</span>\n│   <span>|</span>   │── <span>service</span>            <span># 业务逻辑</span>\n│   <span>|</span>   │── utils              <span># 工具类</span>\n│   <span>|</span>   │── validate           <span># 验证器（验证参数）</span>\n│   └── index                  <span># 前台接口</span>\n│   <span>|</span>   │── controller         <span># 控制器（请求参数）</span>\n│   <span>|</span>   │── middleware         <span># 中间件（拦截或过滤请求）</span>\n│   <span>|</span>   │── <span>service</span>            <span># 业务逻辑</span>\n│   <span>..</span>.\n├── config                     <span># 配置目录（admin、index，其它为tp配置）</span>\n├── extend                     <span># 扩展类库</span>\n├── public                     <span># 对外访问目录</span>\n│   │── private                <span># 数据库文件在里面</span>\n│   │── static                 <span># 静态资源目录</span>\n│   │── storage                <span># 上传目录（读写权限）</span>\n│   │── .htaccess              <span># apache重写文件</span>\n│   │── index.php              <span># 入口文件</span>\n│   └── nginx.htaccess         <span># nginx重写文件</span>\n│   <span>..</span>.                 \n├── route                      <span># 路由（没有用到路由）</span>\n├── runtime                    <span># 运行时目录（读写权限）</span>\n├── vendor                     <span># Composer类库目录</span>\n├── .env.example               <span># 环境变量示例文件，重命名.env后使用</span>\n<span>..</span>.\n<span># 更多请参考thinkphp6目录结构</span>\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br></div></div><h2 id=\"yyladminweb\"> yylAdminWeb</h2>\n<div><pre><code>yylAdminWeb\n├── build                      <span># 构建相关</span>\n├── public                     <span># 静态资源</span>\n│   │── favicon.ico            <span># favicon图标</span>\n│   └── index.html             <span># html模板</span>\n├── src                        <span># 源代码</span>\n│   ├── api                    <span># 所有请求接口</span>\n│   ├── assets                 <span># 主题字体等静态资源</span>\n│   ├── components             <span># 全局公用组件</span>\n│   ├── directive              <span># 全局指令</span>\n│   ├── filters                <span># 全局filter</span>\n│   ├── layout                 <span># 全局layout</span>\n│   ├── router                 <span># 路由</span>\n│   ├── store                  <span># 全局store管理</span>\n│   ├── styles                 <span># 全局样式</span>\n│   ├── utils                  <span># 全局公用方法</span>\n│   ├── views                  <span># 所有页面</span>\n│   ├── App.vue                <span># 入口页面</span>\n│   ├── main.js                <span># 入口文件加载组件初始化等</span>\n│   ├── permission.js          <span># 权限管理</span>\n│   └── setting.js             <span># 基础设置</span>\n├── .env.xxx                   <span># 环境变量配置</span>\n├── .eslintrc.js               <span># eslint配置项</span>\n├── package.json               <span># package.json</span>\n├── postcss.config.js          <span># postcss配置</span>\n└── vue.config.js              <span># vue-cli配置</span>\n<span>..</span>.\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br></div></div>",
+      "date_modified": "2021-04-26T06:57:29.962Z",
+      "authors": [
+        {
+          "name": "skyselang"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "安装",
+      "url": "https://doc.yyladmin.top/yylAdminDoc/guide/install/",
+      "id": "https://doc.yyladmin.top/yylAdminDoc/guide/install/",
+      "content_html": "<h2 id=\"环境要求\"> 环境要求</h2>\n<ul>\n<li>PHP &gt;= 7.2.5<br>\n安装 fileinfo、redis 扩展<br>\n开启 putenv、proc_open 函数</li>\n<li>MySQL &gt;= 5.5</li>\n<li>Redis</li>\n<li>node &gt;= 10.15.0</li>\n<li>npm &gt;= 5.6.0</li>\n</ul>\n<h2 id=\"安装后端\"> 安装后端</h2>\n<div><pre><code><span># 克隆项目</span>\n<span>git</span> clone https://gitee.com/skyselang/yylAdmin.git\n\n<span># 进入项目目录</span>\n<span>cd</span> yylAdmin\n\n<span># 设置composer</span>\n<span>composer</span> config -g repo.packagist <span>composer</span> https://mirrors.aliyun.com/composer/\n\n<span># 安装依赖</span>\n<span>composer</span> <span>install</span>\n\n<span># 导入数据库</span>\n数据库文件：public/private/yyladmin.sql\n\n<span># 修改配置</span>\n重命名.env.example成.env环境变量文件修改里面配置（或修改config文件夹里面的配置）\n\n<span># 环境配置（phpStudy）</span>\n根据你的实际情况配置\n域名：localhost\n端口：9526\n根目录：yylAdmin/public\nPHP版本：7.3\n伪静态Nginx：\nlocation / <span>{</span>\n    <span>if</span> <span>(</span><span>!</span>-e <span>$request_filename</span><span>)</span><span>{</span>\n        rewrite  ^<span>(</span>.*<span>)</span>$  /index.php?s<span>=</span><span>$1</span>  last<span>;</span>   <span>break</span><span>;</span>\n    <span>}</span>\n<span>}</span>\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br></div></div><h2 id=\"安装前端\"> 安装前端</h2>\n<div><pre><code><span># 克隆项目</span>\n<span>git</span> clone https://gitee.com/skyselang/yylAdminWeb.git\n\n<span># 进入项目目录</span>\n<span>cd</span> yylAdminWeb\n\n<span># 使用cnpm</span>\n<span>npm</span> <span>install</span> -g cnpm --registry<span>=</span>https://registry.npm.taobao.org\n\n<span># 安装依赖</span>\ncnpm <span>install</span>\n\n<span># 修改配置</span>\n在.env.xxx环境变量文件里面修改接口地址（后端环境配置域名端口）\nVUE_APP_BASE_API <span>=</span> <span>'http://localhost:9526'</span>\n\n<span># 本地开发 启动项目</span>\ncnpm run dev\n\n<span># 开发完打包正式环境</span>\ncnpm run build:prod\n\n<span># 开发完打包测试环境</span>\ncnpm run build:stage\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br></div></div><h2 id=\"访问后台\"> 访问后台</h2>\n<p>地址：http://localhost:9527<br>\n账号：yyladmin<br>\n密码：123456<br>\n管理员：skyselang<br>\n密码：123456</p>\n",
+      "date_modified": "2021-04-26T06:57:29.970Z",
+      "authors": [
+        {
+          "name": "skyselang"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "介绍",
+      "url": "https://doc.yyladmin.top/yylAdminDoc/guide/",
+      "id": "https://doc.yyladmin.top/yylAdminDoc/guide/",
+      "content_html": "<h2 id=\"简介\"> 简介</h2>\n<p>yylAdmin是一个基于ThinkPHP6和Vue2极简后台管理系统，只有登录退出、权限管理、日志管理等基础功能；前后台基础框架；你可以在此基础上根据你的业务需求进行开发扩展。简单轻量，开箱即用，前后分离，免费开源。</p>\n<h2 id=\"功能\"> 功能</h2>\n<ul>\n<li>登录退出</li>\n<li>权限管理</li>\n<li>日志管理</li>\n<li>实用工具</li>\n<li>接口文档：自动生成接口文档，在线调试</li>\n<li>表单构建：表单设计操作，自动生成Vue代码</li>\n<li>...</li>\n</ul>\n<h2 id=\"演示\"> 演示</h2>\n<p>地址：<a href=\"https://admin.yyladmin.top\" target=\"_blank\" rel=\"noopener noreferrer\">yylAdmin demo</a><br>\n账号：yyladmin、admin、demo、php<br>\n密码：123456<br>\n提示：演示账号只有部分权限，请安装后体验全部功能</p>\n<h2 id=\"支持\"> 支持</h2>\n<p>如果本项目对您有所帮助，请点个Star支持我们</p>\n<ul>\n<li><a href=\"https://gitee.com/skyselang/yylAdmin\" target=\"_blank\" rel=\"noopener noreferrer\">Gitee</a><img src=\"https://gitee.com/skyselang/yylAdmin/badge/star.svg\" alt=\"Gitee\"></li>\n<li><a href=\"https://github.com/skyselang/yylAdmin\" target=\"_blank\" rel=\"noopener noreferrer\">Github</a><img src=\"https://img.shields.io/github/stars/skyselang/yylAdmin\" alt=\"Github\"></li>\n</ul>\n",
+      "image": "https://gitee.com/skyselang/yylAdmin/badge/star.svg",
+      "date_modified": "2021-04-26T06:57:29.975Z",
+      "authors": [
+        {
+          "name": "skyselang"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "鸣谢",
+      "url": "https://doc.yyladmin.top/yylAdminDoc/guide/thank/",
+      "id": "https://doc.yyladmin.top/yylAdminDoc/guide/thank/",
+      "content_html": "<p>感谢以下项目，排名不分先后</p>\n<ul>\n<li><a href=\"https://github.com/php/php-src\" target=\"_blank\" rel=\"noopener noreferrer\">PHP</a></li>\n<li><a href=\"https://github.com/top-think/framework\" target=\"_blank\" rel=\"noopener noreferrer\">ThinkPHP</a></li>\n<li><a href=\"https://github.com/firebase/php-jwt\" target=\"_blank\" rel=\"noopener noreferrer\">PHP-JWT</a></li>\n<li><a href=\"https://github.com/overtrue/pinyin\" target=\"_blank\" rel=\"noopener noreferrer\">Pinyin</a></li>\n<li><a href=\"https://github.com/vuejs/vue\" target=\"_blank\" rel=\"noopener noreferrer\">Vue</a></li>\n<li><a href=\"https://github.com/ElemeFE/element\" target=\"_blank\" rel=\"noopener noreferrer\">Element</a></li>\n<li><a href=\"https://github.com/PanJiaChen/vue-element-admin\" target=\"_blank\" rel=\"noopener noreferrer\">vue-element-admin</a></li>\n<li><a href=\"https://github.com/wangeditor-team/wangEditor\" target=\"_blank\" rel=\"noopener noreferrer\">wangEditor</a></li>\n<li><a href=\"https://github.com/apache/echarts\" target=\"_blank\" rel=\"noopener noreferrer\">ECharts</a></li>\n<li><a href=\"https://gitee.com/hg-code/thinkphp-apidoc\" target=\"_blank\" rel=\"noopener noreferrer\">Apidoc</a></li>\n<li>更多composer、npm依赖项目</li>\n</ul>\n",
+      "date_modified": "2021-04-26T06:57:29.978Z",
+      "authors": [
+        {
+          "name": "skyselang"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "yylAdmin",
+      "url": "https://doc.yyladmin.top/yylAdminDoc/",
+      "id": "https://doc.yyladmin.top/yylAdminDoc/",
+      "content_html": "",
+      "date_modified": "2021-04-26T06:57:30.011Z",
+      "authors": [
+        {
+          "name": "skyselang"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "添加后台接口",
+      "url": "https://doc.yyladmin.top/yylAdminDoc/use/adminapi/",
+      "id": "https://doc.yyladmin.top/yylAdminDoc/use/adminapi/",
+      "content_html": "<p>yylAdmin</p>\n<h3 id=\"添加接口代码\"> 添加接口代码</h3>\n<div><pre><code>控制器  \napp/admin/controller/Member.php  \n\n验证器  \napp/common/validate/MemberValidate.php\n\n模型  \napp/common/model/MemberModel.php\n\n业务逻辑  \napp/common/service/MemberService.php\n\n缓存  \napp/common/cache/MemberCache.php\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><p><img src=\"https://images.gitee.com/uploads/images/2021/0119/154801_d0c15bdc_1051221.png\" alt=\"添加接口代码\"></p>\n<blockquote>\n<p>这一步不是必须的，如果是仅仅用来设置权限控制前端显示可直接下一步，参考系统管理-&gt;地图坐标拾取，没有接口代码，只有菜单信息</p>\n</blockquote>\n<h3 id=\"添加菜单信息\"> 添加菜单信息</h3>\n<p><img src=\"https://images.gitee.com/uploads/images/2021/0119/153318_c8e9efd7_1051221.png\" alt=\"添加菜单信息\"></p>\n<blockquote>\n<p>如果有对应的接口，菜单链接必须严格按照 应用/控制器/操作 格式填写，区分大小写</p>\n</blockquote>\n<h3 id=\"分配相应权限\"> 分配相应权限</h3>\n<p><img src=\"https://images.gitee.com/uploads/images/2021/0119/150220_43634569_1051221.png\" alt=\"分配相应权限\"></p>\n<blockquote>\n<p>如果是系统管理员则拥有所有权限，无需分配</p>\n</blockquote>\n",
+      "image": "https://images.gitee.com/uploads/images/2021/0119/154801_d0c15bdc_1051221.png",
+      "date_modified": "2021-04-26T06:57:30.013Z",
+      "authors": [
+        {
+          "name": "skyselang"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "添加后台页面",
+      "url": "https://doc.yyladmin.top/yylAdminDoc/use/adminpage/",
+      "id": "https://doc.yyladmin.top/yylAdminDoc/use/adminpage/",
+      "content_html": "<p>yylAdminWeb</p>\n<h3 id=\"新建接口文件\"> 新建接口文件</h3>\n<p>src/api/member.js\n<img src=\"https://images.gitee.com/uploads/images/2021/0119/155256_a80c5e34_1051221.png\" alt=\"\"></p>\n<blockquote>\n<p>注意接口函数的url参数值：/菜单链接</p>\n</blockquote>\n<h3 id=\"新建页面文件\"> 新建页面文件</h3>\n<p>src/views/member/member.vue\n<img src=\"https://images.gitee.com/uploads/images/2021/0119/155356_ff92fc06_1051221.png\" alt=\"\"></p>\n<h3 id=\"添加路由信息\"> 添加路由信息</h3>\n<p>src/router/index.js\n<img src=\"https://images.gitee.com/uploads/images/2021/0119/155501_58083487_1051221.png\" alt=\"\"></p>\n<blockquote>\n<p>路由配置的roles要与菜单链接一致</p>\n</blockquote>\n<h3 id=\"重新登录刷新权限\"> 重新登录刷新权限</h3>\n<p><img src=\"https://images.gitee.com/uploads/images/2021/0119/155659_f0b8ef56_1051221.png\" alt=\"\">\n<img src=\"https://images.gitee.com/uploads/images/2021/0119/155737_4b8f1ae8_1051221.png\" alt=\"\"></p>\n<blockquote>\n<p>侧边栏不会实时更新，需要重新登录拉取最新权限才会显示出来，\n如果没显示出来请检前面步骤查看是否已分配权限，roles和菜单链接是否一致等</p>\n</blockquote>\n",
+      "image": "https://images.gitee.com/uploads/images/2021/0119/155256_a80c5e34_1051221.png",
+      "date_modified": "2021-04-26T06:57:30.015Z",
+      "authors": [
+        {
+          "name": "skyselang"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "接口文档/调试",
+      "url": "https://doc.yyladmin.top/yylAdminDoc/use/apidoc/",
+      "id": "https://doc.yyladmin.top/yylAdminDoc/use/apidoc/",
+      "content_html": "<p>自动生成接口文档及在线调试功能使用的是 <a href=\"https://gitee.com/hg-code/thinkphp-apidoc\" target=\"_blank\" rel=\"noopener noreferrer\">ThinkPHP-ApiDoc</a>。<br>\n请查看文档 <a href=\"https://hg-code.gitee.io/thinkphp-apidoc/\" target=\"_blank\" rel=\"noopener noreferrer\">ThinkPHP-ApiDoc</a>， 按要求编写注释即可自动生成接口文档。</p>\n<p>然后可在后台 接口文档 功能页面查看接口文档信息和在线调试接口。</p>\n<p><img src=\"/assets/img/apidoc.png\" alt=\"apidoc\"></p>\n",
+      "image": "https://doc.yyladmin.top/yylAdminDoc/assets/img/apidoc.png",
+      "date_modified": "2021-04-26T06:57:30.016Z",
+      "authors": [
+        {
+          "name": "skyselang"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "添加前台接口",
+      "url": "https://doc.yyladmin.top/yylAdminDoc/use/indexapi/",
+      "id": "https://doc.yyladmin.top/yylAdminDoc/use/indexapi/",
+      "content_html": "<p>后台系统的会员管理在前面已经做好了，但是我们还要提供接口（登录、注册，获取用户信息等）给前台（Web、App、小程序等）前端使用。\n可以把前台接口写在 app/index ，这样可以复用代码（业务逻辑、缓存等）。\n过程和前面 添加后台接口 一样。</p>\n<h3 id=\"编写接口代码\"> 编写接口代码</h3>\n<p><img src=\"https://images.gitee.com/uploads/images/2021/0119/161927_e161732a_1051221.png\" alt=\"编写接口代码\"></p>\n<blockquote>\n<p>红框标注就是直接引用前面 新增接口 写好的代码</p>\n</blockquote>\n<h3 id=\"添加接口信息\"> 添加接口信息</h3>\n<p><img src=\"https://images.gitee.com/uploads/images/2021/0119/162149_7ed75c00_1051221.png\" alt=\"添加接口信息\"></p>\n<h3 id=\"设置是否无需权限\"> 设置是否无需权限</h3>\n<p>有些接口无需登录就可以访问的，如注册等</p>\n<p><img src=\"https://images.gitee.com/uploads/images/2021/0119/162451_af6c978e_1051221.png\" alt=\"设置是否无需权限\"></p>\n",
+      "image": "https://images.gitee.com/uploads/images/2021/0119/161927_e161732a_1051221.png",
+      "date_modified": "2021-04-26T06:57:30.017Z",
+      "authors": [
+        {
+          "name": "skyselang"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "新增功能",
+      "url": "https://doc.yyladmin.top/yylAdminDoc/use/",
+      "id": "https://doc.yyladmin.top/yylAdminDoc/use/",
+      "content_html": "<h2 id=\"步骤\"> 步骤</h2>\n<ul>\n<li>添加后台接口</li>\n<li>添加后台页面</li>\n<li>添加前后接口</li>\n<li>接口文档/调试</li>\n</ul>\n<p>接下来会以 会员管理 为例展开说明。</p>\n",
+      "date_modified": "2021-04-26T06:57:30.018Z",
+      "authors": [
+        {
+          "name": "skyselang"
+        }
+      ],
+      "tags": []
+    }
+  ]
+}
