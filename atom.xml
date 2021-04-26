@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
-  <id>https://doc.yyladmin.top/</id>
+  <id>https://doc.yyladmin.top/yylAdminDoc/</id>
   <title>yylAdmin</title>
   <subtitle>基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理等前后台基础功能，简单轻量，开箱即用，前后分离，免费开源</subtitle>
   <author>
     <name>skyselang</name>
   </author>
-  <updated>2021-04-26T05:10:37.168Z</updated>
+  <updated>2021-04-26T06:05:13.735Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
-  <link rel="self" href="https://doc.yyladmin.top/atom.xml"/>
-  <link rel="alternate" href="https://doc.yyladmin.top/"/>
+  <link rel="self" href="https://doc.yyladmin.top/yylAdminDoc/atom.xml"/>
+  <link rel="alternate" href="https://doc.yyladmin.top/yylAdminDoc/"/>
   <rights>Copyright by skyselang</rights>
   <contributor>
     <name>skyselang</name>
   </contributor>
   <entry>
     <title type="html">配置</title>
-    <id>https://doc.yyladmin.top/config/</id>
-    <link href="https://doc.yyladmin.top/config/"/>
+    <id>https://doc.yyladmin.top/yylAdminDoc/config/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/config/"/>
     <updated>2021-04-26T04:57:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="admin"> admin</h2>
 <h2 id="index"> index</h2>
@@ -33,8 +33,8 @@
   </entry>
   <entry>
     <title type="html">教程</title>
-    <id>https://doc.yyladmin.top/course/</id>
-    <link href="https://doc.yyladmin.top/course/"/>
+    <id>https://doc.yyladmin.top/yylAdminDoc/course/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/course/"/>
     <updated>2021-04-26T04:57:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="教程"> 教程</h2>
 ]]></content>
@@ -49,8 +49,8 @@
   </entry>
   <entry>
     <title type="html">常见问题</title>
-    <id>https://doc.yyladmin.top/fqa/</id>
-    <link href="https://doc.yyladmin.top/fqa/"/>
+    <id>https://doc.yyladmin.top/yylAdminDoc/fqa/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/fqa/"/>
     <updated>2021-04-26T04:57:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="常见问题"> 常见问题</h2>
 ]]></content>
@@ -65,8 +65,8 @@
   </entry>
   <entry>
     <title type="html">基础</title>
-    <id>https://doc.yyladmin.top/guide/base/</id>
-    <link href="https://doc.yyladmin.top/guide/base/"/>
+    <id>https://doc.yyladmin.top/yylAdminDoc/guide/base/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/guide/base/"/>
     <updated>2021-04-26T04:57:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="开发环境"> 开发环境</h2>
 <ul>
@@ -99,8 +99,8 @@
   </entry>
   <entry>
     <title type="html">目录</title>
-    <id>https://doc.yyladmin.top/guide/catalog/</id>
-    <link href="https://doc.yyladmin.top/guide/catalog/"/>
+    <id>https://doc.yyladmin.top/yylAdminDoc/guide/catalog/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/guide/catalog/"/>
     <updated>2021-04-26T04:57:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="yyladmin"> yylAdmin</h2>
 <div><pre><code>yylAdmin
@@ -179,8 +179,8 @@
   </entry>
   <entry>
     <title type="html">安装</title>
-    <id>https://doc.yyladmin.top/guide/install/</id>
-    <link href="https://doc.yyladmin.top/guide/install/"/>
+    <id>https://doc.yyladmin.top/yylAdminDoc/guide/install/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/guide/install/"/>
     <updated>2021-04-26T04:57:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="环境要求"> 环境要求</h2>
 <ul>
@@ -268,8 +268,8 @@ cnpm run build:stage
   </entry>
   <entry>
     <title type="html">介绍</title>
-    <id>https://doc.yyladmin.top/guide/</id>
-    <link href="https://doc.yyladmin.top/guide/"/>
+    <id>https://doc.yyladmin.top/yylAdminDoc/guide/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/guide/"/>
     <updated>2021-04-26T04:57:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="简介"> 简介</h2>
 <p>yylAdmin是一个基于ThinkPHP6和Vue2极简后台管理系统，只有登录退出、权限管理、日志管理等基础功能；前后台基础框架；你可以在此基础上根据你的业务需求进行开发扩展。简单轻量，开箱即用，前后分离，免费开源。</p>
@@ -306,8 +306,8 @@ cnpm run build:stage
   </entry>
   <entry>
     <title type="html">鸣谢</title>
-    <id>https://doc.yyladmin.top/guide/thank/</id>
-    <link href="https://doc.yyladmin.top/guide/thank/"/>
+    <id>https://doc.yyladmin.top/yylAdminDoc/guide/thank/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/guide/thank/"/>
     <updated>2021-04-26T04:57:58.000Z</updated>
     <content type="html"><![CDATA[<p>感谢以下项目，排名不分先后</p>
 <ul>
@@ -335,8 +335,8 @@ cnpm run build:stage
   </entry>
   <entry>
     <title type="html">yylAdmin</title>
-    <id>https://doc.yyladmin.top/</id>
-    <link href="https://doc.yyladmin.top/"/>
+    <id>https://doc.yyladmin.top/yylAdminDoc/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/"/>
     <updated>2021-04-26T04:57:58.000Z</updated>
     <author>
       <name>skyselang</name>
@@ -349,8 +349,8 @@ cnpm run build:stage
   </entry>
   <entry>
     <title type="html">添加后台接口</title>
-    <id>https://doc.yyladmin.top/use/adminapi/</id>
-    <link href="https://doc.yyladmin.top/use/adminapi/"/>
+    <id>https://doc.yyladmin.top/yylAdminDoc/use/adminapi/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/use/adminapi/"/>
     <updated>2021-04-26T04:57:58.000Z</updated>
     <content type="html"><![CDATA[<p>yylAdmin</p>
 <h3 id="添加接口代码"> 添加接口代码</h3>
@@ -395,8 +395,8 @@ app/common/cache/MemberCache.php
   </entry>
   <entry>
     <title type="html">添加后台页面</title>
-    <id>https://doc.yyladmin.top/use/adminpage/</id>
-    <link href="https://doc.yyladmin.top/use/adminpage/"/>
+    <id>https://doc.yyladmin.top/yylAdminDoc/use/adminpage/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/use/adminpage/"/>
     <updated>2021-04-26T04:57:58.000Z</updated>
     <content type="html"><![CDATA[<p>yylAdminWeb</p>
 <h3 id="新建接口文件"> 新建接口文件</h3>
@@ -433,8 +433,8 @@ app/common/cache/MemberCache.php
   </entry>
   <entry>
     <title type="html">接口文档/调试</title>
-    <id>https://doc.yyladmin.top/use/apidoc/</id>
-    <link href="https://doc.yyladmin.top/use/apidoc/"/>
+    <id>https://doc.yyladmin.top/yylAdminDoc/use/apidoc/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/use/apidoc/"/>
     <updated>2021-04-26T04:57:58.000Z</updated>
     <content type="html"><![CDATA[<p>自动生成接口文档及在线调试功能使用的是 <a href="https://gitee.com/hg-code/thinkphp-apidoc" target="_blank" rel="noopener noreferrer">ThinkPHP-ApiDoc</a>。<br>
 请查看文档 <a href="https://hg-code.gitee.io/thinkphp-apidoc/" target="_blank" rel="noopener noreferrer">ThinkPHP-ApiDoc</a>， 按要求编写注释即可自动生成接口文档。</p>
@@ -452,8 +452,8 @@ app/common/cache/MemberCache.php
   </entry>
   <entry>
     <title type="html">添加前台接口</title>
-    <id>https://doc.yyladmin.top/use/indexapi/</id>
-    <link href="https://doc.yyladmin.top/use/indexapi/"/>
+    <id>https://doc.yyladmin.top/yylAdminDoc/use/indexapi/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/use/indexapi/"/>
     <updated>2021-04-26T04:57:58.000Z</updated>
     <content type="html"><![CDATA[<p>后台系统的会员管理在前面已经做好了，但是我们还要提供接口（登录、注册，获取用户信息等）给前台（Web、App、小程序等）前端使用。
 可以把前台接口写在 app/index ，这样可以复用代码（业务逻辑、缓存等）。
@@ -480,8 +480,8 @@ app/common/cache/MemberCache.php
   </entry>
   <entry>
     <title type="html">新增功能</title>
-    <id>https://doc.yyladmin.top/use/</id>
-    <link href="https://doc.yyladmin.top/use/"/>
+    <id>https://doc.yyladmin.top/yylAdminDoc/use/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/use/"/>
     <updated>2021-04-26T04:57:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="步骤"> 步骤</h2>
 <ul>

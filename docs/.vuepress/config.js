@@ -1,10 +1,11 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
+  base: "/yylAdminDoc/",
   title: "yylAdmin",
   description: "基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理等前后台基础功能，简单轻量，开箱即用，前后分离，免费开源",
 
-  dest: "./pages",
+  dest: "./yyl",
 
   head: [
     [
