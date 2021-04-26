@@ -39,7 +39,7 @@ module.exports = config({
       { text: "使用", link: "/use/", icon: "edit" },
       { text: "教程", link: "/course/", icon: "blog" },
       { text: "常见问题", link: "/fqa/", icon: "question" },
-      { text: "Gitee", link: "https://github.com/skyselang/yylAdmin.git", icon: "gitee" },
+      { text: "Gitee", link: "https://gitee.com/skyselang/yylAdmin.git", icon: "gitee" },
     ],
 
     sidebar: {
@@ -66,7 +66,7 @@ module.exports = config({
     pageInfo: ['author', "visitor", 'time', "category", "tag", "word", "reading-time"],
 
     comment: {
-      type: "valine",
+      type: "disable",
       appId: "rekhopoCCAaMbKjGplamwMmR-gzGzoHsz",
       appKey: "kO8f1kV1ibDg81rrDBkWTHbR",
     },
