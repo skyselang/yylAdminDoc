@@ -6,7 +6,7 @@
   <author>
     <name>skyselang</name>
   </author>
-  <updated>2021-04-26T07:50:13.917Z</updated>
+  <updated>2021-04-27T01:42:31.347Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://doc.yyladmin.top/yylAdminDoc/atom.xml"/>
   <link rel="alternate" href="https://doc.yyladmin.top/yylAdminDoc/"/>
@@ -15,11 +15,12 @@
     <name>skyselang</name>
   </contributor>
   <entry>
-    <title type="html">教程</title>
-    <id>https://doc.yyladmin.top/yylAdminDoc/course/</id>
-    <link href="https://doc.yyladmin.top/yylAdminDoc/course/"/>
+    <title type="html">配置</title>
+    <id>https://doc.yyladmin.top/yylAdminDoc/config/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/config/"/>
     <updated>2021-04-26T07:00:42.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="教程"> 教程</h2>
+    <content type="html"><![CDATA[<h2 id="admin"> admin</h2>
+<h2 id="index"> index</h2>
 ]]></content>
     <author>
       <name>skyselang</name>
@@ -31,12 +32,11 @@
     <rights>Copyright by skyselang</rights>
   </entry>
   <entry>
-    <title type="html">配置</title>
-    <id>https://doc.yyladmin.top/yylAdminDoc/config/</id>
-    <link href="https://doc.yyladmin.top/yylAdminDoc/config/"/>
+    <title type="html">教程</title>
+    <id>https://doc.yyladmin.top/yylAdminDoc/course/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/course/"/>
     <updated>2021-04-26T07:00:42.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="admin"> admin</h2>
-<h2 id="index"> index</h2>
+    <content type="html"><![CDATA[<h2 id="教程"> 教程</h2>
 ]]></content>
     <author>
       <name>skyselang</name>
@@ -181,7 +181,7 @@
     <title type="html">安装</title>
     <id>https://doc.yyladmin.top/yylAdminDoc/guide/install/</id>
     <link href="https://doc.yyladmin.top/yylAdminDoc/guide/install/"/>
-    <updated>2021-04-26T07:00:42.000Z</updated>
+    <updated>2021-04-27T01:42:04.000Z</updated>
     <content type="html"><![CDATA[<h2 id="环境要求"> 环境要求</h2>
 <ul>
 <li>PHP &gt;= 7.2.5<br>
@@ -206,17 +206,17 @@
 <span>composer</span> <span>install</span>
 
 <span># 导入数据库</span>
-数据库文件：public/private/yyladmin.sql
+数据库文件：yyladmin.sql
 
 <span># 修改配置</span>
 重命名.env.example成.env环境变量文件修改里面配置（或修改config文件夹里面的配置）
 
 <span># 环境配置（phpStudy）</span>
-根据你的实际情况配置
+根据你的实际环境软件配置
 域名：localhost
 端口：9526
 根目录：yylAdmin/public
-PHP版本：7.3
+PHP版本：7.3.9
 伪静态Nginx：
 location / <span>{</span>
     <span>if</span> <span>(</span><span>!</span>-e <span>$request_filename</span><span>)</span><span>{</span>
@@ -251,7 +251,7 @@ cnpm run build:prod
 cnpm run build:stage
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br></div></div><h2 id="访问后台"> 访问后台</h2>
-<p>地址：http://localhost:9527<br>
+<p>地址：<a href="http://localhost:9527" target="_blank" rel="noopener noreferrer">http://localhost:9527</a><br>
 账号：yyladmin<br>
 密码：123456<br>
 管理员：skyselang<br>
@@ -435,7 +435,7 @@ app/common/cache/MemberCache.php
     <title type="html">接口文档/调试</title>
     <id>https://doc.yyladmin.top/yylAdminDoc/use/apidoc/</id>
     <link href="https://doc.yyladmin.top/yylAdminDoc/use/apidoc/"/>
-    <updated>2021-04-26T07:00:42.000Z</updated>
+    <updated>2021-04-26T07:51:51.000Z</updated>
     <content type="html"><![CDATA[<p>自动生成接口文档及在线调试功能使用的是 <a href="https://gitee.com/hg-code/thinkphp-apidoc" target="_blank" rel="noopener noreferrer">ThinkPHP-ApiDoc</a>。<br>
 请查看文档 <a href="https://hg-code.gitee.io/thinkphp-apidoc/" target="_blank" rel="noopener noreferrer">ThinkPHP-ApiDoc</a>， 按要求编写注释即可自动生成接口文档。</p>
 <p>然后可在后台 接口文档 功能页面查看接口文档信息和在线调试接口。</p>

@@ -9,10 +9,10 @@
   },
   "items": [
     {
-      "title": "教程",
-      "url": "https://doc.yyladmin.top/yylAdminDoc/course/",
-      "id": "https://doc.yyladmin.top/yylAdminDoc/course/",
-      "content_html": "<h2 id=\"教程\"> 教程</h2>\n",
+      "title": "配置",
+      "url": "https://doc.yyladmin.top/yylAdminDoc/config/",
+      "id": "https://doc.yyladmin.top/yylAdminDoc/config/",
+      "content_html": "<h2 id=\"admin\"> admin</h2>\n<h2 id=\"index\"> index</h2>\n",
       "date_published": "2021-04-26T07:00:42.000Z",
       "date_modified": "2021-04-26T07:00:42.000Z",
       "authors": [
@@ -23,10 +23,10 @@
       "tags": []
     },
     {
-      "title": "配置",
-      "url": "https://doc.yyladmin.top/yylAdminDoc/config/",
-      "id": "https://doc.yyladmin.top/yylAdminDoc/config/",
-      "content_html": "<h2 id=\"admin\"> admin</h2>\n<h2 id=\"index\"> index</h2>\n",
+      "title": "教程",
+      "url": "https://doc.yyladmin.top/yylAdminDoc/course/",
+      "id": "https://doc.yyladmin.top/yylAdminDoc/course/",
+      "content_html": "<h2 id=\"教程\"> 教程</h2>\n",
       "date_published": "2021-04-26T07:00:42.000Z",
       "date_modified": "2021-04-26T07:00:42.000Z",
       "authors": [
@@ -82,9 +82,9 @@
       "title": "安装",
       "url": "https://doc.yyladmin.top/yylAdminDoc/guide/install/",
       "id": "https://doc.yyladmin.top/yylAdminDoc/guide/install/",
-      "content_html": "<h2 id=\"环境要求\"> 环境要求</h2>\n<ul>\n<li>PHP &gt;= 7.2.5<br>\n安装 fileinfo、redis 扩展<br>\n开启 putenv、proc_open 函数</li>\n<li>MySQL &gt;= 5.5</li>\n<li>Redis</li>\n<li>node &gt;= 10.15.0</li>\n<li>npm &gt;= 5.6.0</li>\n</ul>\n<h2 id=\"安装后端\"> 安装后端</h2>\n<div><pre><code><span># 克隆项目</span>\n<span>git</span> clone https://gitee.com/skyselang/yylAdmin.git\n\n<span># 进入项目目录</span>\n<span>cd</span> yylAdmin\n\n<span># 设置composer</span>\n<span>composer</span> config -g repo.packagist <span>composer</span> https://mirrors.aliyun.com/composer/\n\n<span># 安装依赖</span>\n<span>composer</span> <span>install</span>\n\n<span># 导入数据库</span>\n数据库文件：public/private/yyladmin.sql\n\n<span># 修改配置</span>\n重命名.env.example成.env环境变量文件修改里面配置（或修改config文件夹里面的配置）\n\n<span># 环境配置（phpStudy）</span>\n根据你的实际情况配置\n域名：localhost\n端口：9526\n根目录：yylAdmin/public\nPHP版本：7.3\n伪静态Nginx：\nlocation / <span>{</span>\n    <span>if</span> <span>(</span><span>!</span>-e <span>$request_filename</span><span>)</span><span>{</span>\n        rewrite  ^<span>(</span>.*<span>)</span>$  /index.php?s<span>=</span><span>$1</span>  last<span>;</span>   <span>break</span><span>;</span>\n    <span>}</span>\n<span>}</span>\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br></div></div><h2 id=\"安装前端\"> 安装前端</h2>\n<div><pre><code><span># 克隆项目</span>\n<span>git</span> clone https://gitee.com/skyselang/yylAdminWeb.git\n\n<span># 进入项目目录</span>\n<span>cd</span> yylAdminWeb\n\n<span># 使用cnpm</span>\n<span>npm</span> <span>install</span> -g cnpm --registry<span>=</span>https://registry.npm.taobao.org\n\n<span># 安装依赖</span>\ncnpm <span>install</span>\n\n<span># 修改配置</span>\n在.env.xxx环境变量文件里面修改接口地址（后端环境配置域名端口）\nVUE_APP_BASE_API <span>=</span> <span>'http://localhost:9526'</span>\n\n<span># 本地开发 启动项目</span>\ncnpm run dev\n\n<span># 开发完打包正式环境</span>\ncnpm run build:prod\n\n<span># 开发完打包测试环境</span>\ncnpm run build:stage\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br></div></div><h2 id=\"访问后台\"> 访问后台</h2>\n<p>地址：http://localhost:9527<br>\n账号：yyladmin<br>\n密码：123456<br>\n管理员：skyselang<br>\n密码：123456</p>\n",
+      "content_html": "<h2 id=\"环境要求\"> 环境要求</h2>\n<ul>\n<li>PHP &gt;= 7.2.5<br>\n安装 fileinfo、redis 扩展<br>\n开启 putenv、proc_open 函数</li>\n<li>MySQL &gt;= 5.5</li>\n<li>Redis</li>\n<li>node &gt;= 10.15.0</li>\n<li>npm &gt;= 5.6.0</li>\n</ul>\n<h2 id=\"安装后端\"> 安装后端</h2>\n<div><pre><code><span># 克隆项目</span>\n<span>git</span> clone https://gitee.com/skyselang/yylAdmin.git\n\n<span># 进入项目目录</span>\n<span>cd</span> yylAdmin\n\n<span># 设置composer</span>\n<span>composer</span> config -g repo.packagist <span>composer</span> https://mirrors.aliyun.com/composer/\n\n<span># 安装依赖</span>\n<span>composer</span> <span>install</span>\n\n<span># 导入数据库</span>\n数据库文件：yyladmin.sql\n\n<span># 修改配置</span>\n重命名.env.example成.env环境变量文件修改里面配置（或修改config文件夹里面的配置）\n\n<span># 环境配置（phpStudy）</span>\n根据你的实际环境软件配置\n域名：localhost\n端口：9526\n根目录：yylAdmin/public\nPHP版本：7.3.9\n伪静态Nginx：\nlocation / <span>{</span>\n    <span>if</span> <span>(</span><span>!</span>-e <span>$request_filename</span><span>)</span><span>{</span>\n        rewrite  ^<span>(</span>.*<span>)</span>$  /index.php?s<span>=</span><span>$1</span>  last<span>;</span>   <span>break</span><span>;</span>\n    <span>}</span>\n<span>}</span>\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br></div></div><h2 id=\"安装前端\"> 安装前端</h2>\n<div><pre><code><span># 克隆项目</span>\n<span>git</span> clone https://gitee.com/skyselang/yylAdminWeb.git\n\n<span># 进入项目目录</span>\n<span>cd</span> yylAdminWeb\n\n<span># 使用cnpm</span>\n<span>npm</span> <span>install</span> -g cnpm --registry<span>=</span>https://registry.npm.taobao.org\n\n<span># 安装依赖</span>\ncnpm <span>install</span>\n\n<span># 修改配置</span>\n在.env.xxx环境变量文件里面修改接口地址（后端环境配置域名端口）\nVUE_APP_BASE_API <span>=</span> <span>'http://localhost:9526'</span>\n\n<span># 本地开发 启动项目</span>\ncnpm run dev\n\n<span># 开发完打包正式环境</span>\ncnpm run build:prod\n\n<span># 开发完打包测试环境</span>\ncnpm run build:stage\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br></div></div><h2 id=\"访问后台\"> 访问后台</h2>\n<p>地址：<a href=\"http://localhost:9527\" target=\"_blank\" rel=\"noopener noreferrer\">http://localhost:9527</a><br>\n账号：yyladmin<br>\n密码：123456<br>\n管理员：skyselang<br>\n密码：123456</p>\n",
       "date_published": "2021-04-26T07:00:42.000Z",
-      "date_modified": "2021-04-26T07:00:42.000Z",
+      "date_modified": "2021-04-27T01:42:04.000Z",
       "authors": [
         {
           "name": "skyselang"
@@ -172,7 +172,7 @@
       "content_html": "<p>自动生成接口文档及在线调试功能使用的是 <a href=\"https://gitee.com/hg-code/thinkphp-apidoc\" target=\"_blank\" rel=\"noopener noreferrer\">ThinkPHP-ApiDoc</a>。<br>\n请查看文档 <a href=\"https://hg-code.gitee.io/thinkphp-apidoc/\" target=\"_blank\" rel=\"noopener noreferrer\">ThinkPHP-ApiDoc</a>， 按要求编写注释即可自动生成接口文档。</p>\n<p>然后可在后台 接口文档 功能页面查看接口文档信息和在线调试接口。</p>\n<p><img src=\"/apidoc.png\" alt=\"apidoc\"></p>\n",
       "image": "https://doc.yyladmin.top/yylAdminDoc/apidoc.png",
       "date_published": "2021-04-26T07:00:42.000Z",
-      "date_modified": "2021-04-26T07:00:42.000Z",
+      "date_modified": "2021-04-26T07:51:51.000Z",
       "authors": [
         {
           "name": "skyselang"

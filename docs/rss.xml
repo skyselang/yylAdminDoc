@@ -6,20 +6,11 @@
     <link>https://doc.yyladmin.top/yylAdminDoc/</link>
     <description>基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理等前后台基础功能，简单轻量，开箱即用，前后分离，免费开源</description>
     <language>en-US</language>
-    <pubDate>Mon, 26 Apr 2021 07:50:13 GMT</pubDate>
-    <lastBuildDate>Mon, 26 Apr 2021 07:50:13 GMT</lastBuildDate>
+    <pubDate>Tue, 27 Apr 2021 01:42:31 GMT</pubDate>
+    <lastBuildDate>Tue, 27 Apr 2021 01:42:31 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by skyselang</copyright>
-    <item>
-      <title>教程</title>
-      <link>https://doc.yyladmin.top/yylAdminDoc/course/</link>
-      <guid>https://doc.yyladmin.top/yylAdminDoc/course/</guid>
-      <source url="https://doc.yyladmin.top/yylAdminDoc/rss.xml">教程</source>
-      <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
-      <content:encoded><![CDATA[<h2 id="教程"> 教程</h2>
-]]></content:encoded>
-    </item>
     <item>
       <title>配置</title>
       <link>https://doc.yyladmin.top/yylAdminDoc/config/</link>
@@ -28,6 +19,15 @@
       <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="admin"> admin</h2>
 <h2 id="index"> index</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>教程</title>
+      <link>https://doc.yyladmin.top/yylAdminDoc/course/</link>
+      <guid>https://doc.yyladmin.top/yylAdminDoc/course/</guid>
+      <source url="https://doc.yyladmin.top/yylAdminDoc/rss.xml">教程</source>
+      <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="教程"> 教程</h2>
 ]]></content:encoded>
     </item>
     <item>
@@ -169,17 +169,17 @@
 <span>composer</span> <span>install</span>
 
 <span># 导入数据库</span>
-数据库文件：public/private/yyladmin.sql
+数据库文件：yyladmin.sql
 
 <span># 修改配置</span>
 重命名.env.example成.env环境变量文件修改里面配置（或修改config文件夹里面的配置）
 
 <span># 环境配置（phpStudy）</span>
-根据你的实际情况配置
+根据你的实际环境软件配置
 域名：localhost
 端口：9526
 根目录：yylAdmin/public
-PHP版本：7.3
+PHP版本：7.3.9
 伪静态Nginx：
 location / <span>{</span>
     <span>if</span> <span>(</span><span>!</span>-e <span>$request_filename</span><span>)</span><span>{</span>
@@ -214,7 +214,7 @@ cnpm run build:prod
 cnpm run build:stage
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br></div></div><h2 id="访问后台"> 访问后台</h2>
-<p>地址：http://localhost:9527<br>
+<p>地址：<a href="http://localhost:9527" target="_blank" rel="noopener noreferrer">http://localhost:9527</a><br>
 账号：yyladmin<br>
 密码：123456<br>
 管理员：skyselang<br>
