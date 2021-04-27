@@ -4,7 +4,7 @@ icon: home
 title: yylAdmin
 heroImage: /logo.svg
 heroText: yylAdmin
-tagline: 基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理等前后台基础功能，简单轻量，开箱即用，前后分离，免费开源
+tagline: 基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等前后台基础功能，简单轻量，开箱即用，前后分离，免费开源
 action:
   - text: 快速上手 💡
     link: /guide/
