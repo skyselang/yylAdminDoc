@@ -3,7 +3,7 @@ const { config } = require("vuepress-theme-hope");
 module.exports = config({
   base: "/yylAdminDoc/",
   title: "yylAdmin",
-  description: "基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理等前后台基础功能，简单轻量，开箱即用，前后分离，免费开源",
+  description: "基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等前后台基础功能，简单轻量，开箱即用，前后分离，免费开源",
 
   dest: "./docs",
 
@@ -28,7 +28,7 @@ module.exports = config({
 
   themeConfig: {
     logo: "/logo.svg",
-    hostname: "https://doc.yyladmin.top",
+    hostname: "https://skyselang.github.io/yylAdminDoc/",
 
     author: "skyselang",
     repo: "https://github.com/skyselang/yylAdmin.git",

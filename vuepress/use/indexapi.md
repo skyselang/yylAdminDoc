@@ -9,15 +9,14 @@ title: 添加前台接口
 
 ### 编写接口代码
 
-![编写接口代码](https://images.gitee.com/uploads/images/2021/0119/161927_e161732a_1051221.png)
-> 红框标注就是直接引用前面 新增接口 写好的代码
+<img :src="$withBase('/image/use/indexapi.jpg')" alt="编写接口代码">
 
 ### 添加接口信息
 
-![添加接口信息](https://images.gitee.com/uploads/images/2021/0119/162149_7ed75c00_1051221.png)
+<img :src="$withBase('/image/use/indexapirule.jpg')" alt="添加接口信息">
 
 ### 设置是否无需权限
 
-有些接口无需登录就可以访问的，如登录、注册等
+<img :src="$withBase('/image/use/indexapiunauth.jpg')" alt="设置是否无需权限">
 
-![设置是否无需权限](https://images.gitee.com/uploads/images/2021/0119/162451_af6c978e_1051221.png)
+> 有些接口无需登录就可以访问的，如登录、注册等

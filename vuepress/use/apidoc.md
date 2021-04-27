@@ -8,4 +8,4 @@ title: 接口文档/调试
 
 然后可在后台 接口文档 功能页面查看接口文档信息和在线调试接口。
 
-![apidoc](/yylAdminDoc/img/use/apidoc.png)
+<img :src="$withBase('/image/use/apidoc.png')" alt="接口文档与调试">
