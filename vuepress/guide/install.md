@@ -29,17 +29,17 @@ composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
 composer install
 
 # 导入数据库
-数据库文件：public/private/yyladmin.sql
+数据库文件：yyladmin.sql
 
 # 修改配置
 重命名.env.example成.env环境变量文件修改里面配置（或修改config文件夹里面的配置）
 
 # 环境配置（phpStudy）
-根据你的实际情况配置
+根据你的实际环境软件配置
 域名：localhost
 端口：9526
 根目录：yylAdmin/public
-PHP版本：7.3
+PHP版本：7.3.9
 伪静态Nginx：
 location / {
     if (!-e $request_filename){
@@ -79,7 +79,7 @@ cnpm run build:stage
 
 ## 访问后台
 
-地址：http://localhost:9527  
+地址：[http://localhost:9527](http://localhost:9527)  
 账号：yyladmin  
 密码：123456  
 管理员：skyselang  
