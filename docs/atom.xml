@@ -6,7 +6,7 @@
   <author>
     <name>skyselang</name>
   </author>
-  <updated>2021-04-27T01:42:31.347Z</updated>
+  <updated>2021-04-27T15:17:24.383Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://doc.yyladmin.top/yylAdminDoc/atom.xml"/>
   <link rel="alternate" href="https://doc.yyladmin.top/yylAdminDoc/"/>
@@ -98,6 +98,44 @@
     <rights>Copyright by skyselang</rights>
   </entry>
   <entry>
+    <title type="html">介绍</title>
+    <id>https://doc.yyladmin.top/yylAdminDoc/guide/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/guide/"/>
+    <updated>2021-04-26T07:00:42.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="简介"> 简介</h2>
+<p>yylAdmin是一个基于ThinkPHP6和Vue2极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等基础功能；前后台基础框架；你可以在此基础上根据你的业务需求进行开发扩展。简单轻量，开箱即用，前后分离，免费开源。</p>
+<h2 id="功能"> 功能</h2>
+<ul>
+<li>登录退出</li>
+<li>权限管理</li>
+<li>日志管理</li>
+<li>实用工具</li>
+<li>接口文档：自动生成接口文档，在线调试</li>
+<li>表单构建：表单设计操作，自动生成Vue代码</li>
+<li>...</li>
+</ul>
+<h2 id="演示"> 演示</h2>
+<p>地址：<a href="https://admin.yyladmin.top" target="_blank" rel="noopener noreferrer">yylAdmin demo</a><br>
+账号：yyladmin、admin、demo、php<br>
+密码：123456<br>
+提示：演示账号只有部分权限，请安装后体验全部功能</p>
+<h2 id="支持"> 支持</h2>
+<p>如果本项目对您有所帮助，请点个Star支持我们</p>
+<ul>
+<li><a href="https://gitee.com/skyselang/yylAdmin" target="_blank" rel="noopener noreferrer">Gitee</a><img src="https://gitee.com/skyselang/yylAdmin/badge/star.svg" alt="Gitee"></li>
+<li><a href="https://github.com/skyselang/yylAdmin" target="_blank" rel="noopener noreferrer">Github</a><img src="https://img.shields.io/github/stars/skyselang/yylAdmin" alt="Github"></li>
+</ul>
+]]></content>
+    <author>
+      <name>skyselang</name>
+    </author>
+    <contributor>
+      <name>skyselang</name>
+    </contributor>
+    <published>2021-04-26T07:00:42.000Z</published>
+    <rights>Copyright by skyselang</rights>
+  </entry>
+  <entry>
     <title type="html">目录</title>
     <id>https://doc.yyladmin.top/yylAdminDoc/guide/catalog/</id>
     <link href="https://doc.yyladmin.top/yylAdminDoc/guide/catalog/"/>
@@ -168,6 +206,66 @@
 <span>..</span>.
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br></div></div>]]></content>
+    <author>
+      <name>skyselang</name>
+    </author>
+    <contributor>
+      <name>skyselang</name>
+    </contributor>
+    <published>2021-04-26T07:00:42.000Z</published>
+    <rights>Copyright by skyselang</rights>
+  </entry>
+  <entry>
+    <title type="html">yylAdmin</title>
+    <id>https://doc.yyladmin.top/yylAdminDoc/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/"/>
+    <updated>2021-04-26T07:00:42.000Z</updated>
+    <author>
+      <name>skyselang</name>
+    </author>
+    <contributor>
+      <name>skyselang</name>
+    </contributor>
+    <published>2021-04-26T07:00:42.000Z</published>
+    <rights>Copyright by skyselang</rights>
+  </entry>
+  <entry>
+    <title type="html">添加后台接口</title>
+    <id>https://doc.yyladmin.top/yylAdminDoc/use/adminapi/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/use/adminapi/"/>
+    <updated>2021-04-26T07:00:42.000Z</updated>
+    <content type="html"><![CDATA[<p>yylAdmin</p>
+<h3 id="添加接口代码"> 添加接口代码</h3>
+<div><pre><code>控制器  
+app/admin/controller/Member.php  
+
+验证器  
+app/common/validate/MemberValidate.php
+
+模型  
+app/common/model/MemberModel.php
+
+业务逻辑  
+app/common/service/MemberService.php
+
+缓存  
+app/common/cache/MemberCache.php
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><p><img src="https://images.gitee.com/uploads/images/2021/0119/154801_d0c15bdc_1051221.png" alt="添加接口代码"></p>
+<blockquote>
+<p>这一步不是必须的，如果是仅仅用来设置权限控制前端显示可直接下一步，参考系统管理-&gt;地图坐标拾取，没有接口代码，只有菜单信息</p>
+</blockquote>
+<h3 id="添加菜单信息"> 添加菜单信息</h3>
+<p><img src="https://images.gitee.com/uploads/images/2021/0119/153318_c8e9efd7_1051221.png" alt="添加菜单信息"></p>
+<blockquote>
+<p>如果有对应的接口，菜单链接必须严格按照 应用/控制器/操作 格式填写，区分大小写</p>
+</blockquote>
+<h3 id="分配相应权限"> 分配相应权限</h3>
+<p><img src="https://images.gitee.com/uploads/images/2021/0119/150220_43634569_1051221.png" alt="分配相应权限"></p>
+<blockquote>
+<p>如果是系统管理员则拥有所有权限，无需分配</p>
+</blockquote>
+]]></content>
     <author>
       <name>skyselang</name>
     </author>
@@ -267,133 +365,6 @@ cnpm run build:stage
     <rights>Copyright by skyselang</rights>
   </entry>
   <entry>
-    <title type="html">介绍</title>
-    <id>https://doc.yyladmin.top/yylAdminDoc/guide/</id>
-    <link href="https://doc.yyladmin.top/yylAdminDoc/guide/"/>
-    <updated>2021-04-26T07:00:42.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="简介"> 简介</h2>
-<p>yylAdmin是一个基于ThinkPHP6和Vue2极简后台管理系统，只有登录退出、权限管理、日志管理等基础功能；前后台基础框架；你可以在此基础上根据你的业务需求进行开发扩展。简单轻量，开箱即用，前后分离，免费开源。</p>
-<h2 id="功能"> 功能</h2>
-<ul>
-<li>登录退出</li>
-<li>权限管理</li>
-<li>日志管理</li>
-<li>实用工具</li>
-<li>接口文档：自动生成接口文档，在线调试</li>
-<li>表单构建：表单设计操作，自动生成Vue代码</li>
-<li>...</li>
-</ul>
-<h2 id="演示"> 演示</h2>
-<p>地址：<a href="https://admin.yyladmin.top" target="_blank" rel="noopener noreferrer">yylAdmin demo</a><br>
-账号：yyladmin、admin、demo、php<br>
-密码：123456<br>
-提示：演示账号只有部分权限，请安装后体验全部功能</p>
-<h2 id="支持"> 支持</h2>
-<p>如果本项目对您有所帮助，请点个Star支持我们</p>
-<ul>
-<li><a href="https://gitee.com/skyselang/yylAdmin" target="_blank" rel="noopener noreferrer">Gitee</a><img src="https://gitee.com/skyselang/yylAdmin/badge/star.svg" alt="Gitee"></li>
-<li><a href="https://github.com/skyselang/yylAdmin" target="_blank" rel="noopener noreferrer">Github</a><img src="https://img.shields.io/github/stars/skyselang/yylAdmin" alt="Github"></li>
-</ul>
-]]></content>
-    <author>
-      <name>skyselang</name>
-    </author>
-    <contributor>
-      <name>skyselang</name>
-    </contributor>
-    <published>2021-04-26T07:00:42.000Z</published>
-    <rights>Copyright by skyselang</rights>
-  </entry>
-  <entry>
-    <title type="html">鸣谢</title>
-    <id>https://doc.yyladmin.top/yylAdminDoc/guide/thank/</id>
-    <link href="https://doc.yyladmin.top/yylAdminDoc/guide/thank/"/>
-    <updated>2021-04-26T07:00:42.000Z</updated>
-    <content type="html"><![CDATA[<p>感谢以下项目，排名不分先后</p>
-<ul>
-<li><a href="https://github.com/php/php-src" target="_blank" rel="noopener noreferrer">PHP</a></li>
-<li><a href="https://github.com/top-think/framework" target="_blank" rel="noopener noreferrer">ThinkPHP</a></li>
-<li><a href="https://github.com/firebase/php-jwt" target="_blank" rel="noopener noreferrer">PHP-JWT</a></li>
-<li><a href="https://github.com/overtrue/pinyin" target="_blank" rel="noopener noreferrer">Pinyin</a></li>
-<li><a href="https://github.com/vuejs/vue" target="_blank" rel="noopener noreferrer">Vue</a></li>
-<li><a href="https://github.com/ElemeFE/element" target="_blank" rel="noopener noreferrer">Element</a></li>
-<li><a href="https://github.com/PanJiaChen/vue-element-admin" target="_blank" rel="noopener noreferrer">vue-element-admin</a></li>
-<li><a href="https://github.com/wangeditor-team/wangEditor" target="_blank" rel="noopener noreferrer">wangEditor</a></li>
-<li><a href="https://github.com/apache/echarts" target="_blank" rel="noopener noreferrer">ECharts</a></li>
-<li><a href="https://gitee.com/hg-code/thinkphp-apidoc" target="_blank" rel="noopener noreferrer">Apidoc</a></li>
-<li>更多composer、npm依赖项目</li>
-</ul>
-]]></content>
-    <author>
-      <name>skyselang</name>
-    </author>
-    <contributor>
-      <name>skyselang</name>
-    </contributor>
-    <published>2021-04-26T07:00:42.000Z</published>
-    <rights>Copyright by skyselang</rights>
-  </entry>
-  <entry>
-    <title type="html">yylAdmin</title>
-    <id>https://doc.yyladmin.top/yylAdminDoc/</id>
-    <link href="https://doc.yyladmin.top/yylAdminDoc/"/>
-    <updated>2021-04-26T07:00:42.000Z</updated>
-    <author>
-      <name>skyselang</name>
-    </author>
-    <contributor>
-      <name>skyselang</name>
-    </contributor>
-    <published>2021-04-26T07:00:42.000Z</published>
-    <rights>Copyright by skyselang</rights>
-  </entry>
-  <entry>
-    <title type="html">添加后台接口</title>
-    <id>https://doc.yyladmin.top/yylAdminDoc/use/adminapi/</id>
-    <link href="https://doc.yyladmin.top/yylAdminDoc/use/adminapi/"/>
-    <updated>2021-04-26T07:00:42.000Z</updated>
-    <content type="html"><![CDATA[<p>yylAdmin</p>
-<h3 id="添加接口代码"> 添加接口代码</h3>
-<div><pre><code>控制器  
-app/admin/controller/Member.php  
-
-验证器  
-app/common/validate/MemberValidate.php
-
-模型  
-app/common/model/MemberModel.php
-
-业务逻辑  
-app/common/service/MemberService.php
-
-缓存  
-app/common/cache/MemberCache.php
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><p><img src="https://images.gitee.com/uploads/images/2021/0119/154801_d0c15bdc_1051221.png" alt="添加接口代码"></p>
-<blockquote>
-<p>这一步不是必须的，如果是仅仅用来设置权限控制前端显示可直接下一步，参考系统管理-&gt;地图坐标拾取，没有接口代码，只有菜单信息</p>
-</blockquote>
-<h3 id="添加菜单信息"> 添加菜单信息</h3>
-<p><img src="https://images.gitee.com/uploads/images/2021/0119/153318_c8e9efd7_1051221.png" alt="添加菜单信息"></p>
-<blockquote>
-<p>如果有对应的接口，菜单链接必须严格按照 应用/控制器/操作 格式填写，区分大小写</p>
-</blockquote>
-<h3 id="分配相应权限"> 分配相应权限</h3>
-<p><img src="https://images.gitee.com/uploads/images/2021/0119/150220_43634569_1051221.png" alt="分配相应权限"></p>
-<blockquote>
-<p>如果是系统管理员则拥有所有权限，无需分配</p>
-</blockquote>
-]]></content>
-    <author>
-      <name>skyselang</name>
-    </author>
-    <contributor>
-      <name>skyselang</name>
-    </contributor>
-    <published>2021-04-26T07:00:42.000Z</published>
-    <rights>Copyright by skyselang</rights>
-  </entry>
-  <entry>
     <title type="html">添加后台页面</title>
     <id>https://doc.yyladmin.top/yylAdminDoc/use/adminpage/</id>
     <link href="https://doc.yyladmin.top/yylAdminDoc/use/adminpage/"/>
@@ -439,7 +410,7 @@ app/common/cache/MemberCache.php
     <content type="html"><![CDATA[<p>自动生成接口文档及在线调试功能使用的是 <a href="https://gitee.com/hg-code/thinkphp-apidoc" target="_blank" rel="noopener noreferrer">ThinkPHP-ApiDoc</a>。<br>
 请查看文档 <a href="https://hg-code.gitee.io/thinkphp-apidoc/" target="_blank" rel="noopener noreferrer">ThinkPHP-ApiDoc</a>， 按要求编写注释即可自动生成接口文档。</p>
 <p>然后可在后台 接口文档 功能页面查看接口文档信息和在线调试接口。</p>
-<p><img src="/apidoc.png" alt="apidoc"></p>
+<p><img src="/yylAdminDoc/img/use/apidoc.png" alt="apidoc"></p>
 ]]></content>
     <author>
       <name>skyselang</name>
@@ -466,7 +437,7 @@ app/common/cache/MemberCache.php
 <h3 id="添加接口信息"> 添加接口信息</h3>
 <p><img src="https://images.gitee.com/uploads/images/2021/0119/162149_7ed75c00_1051221.png" alt="添加接口信息"></p>
 <h3 id="设置是否无需权限"> 设置是否无需权限</h3>
-<p>有些接口无需登录就可以访问的，如注册等</p>
+<p>有些接口无需登录就可以访问的，如登录、注册等</p>
 <p><img src="https://images.gitee.com/uploads/images/2021/0119/162451_af6c978e_1051221.png" alt="设置是否无需权限"></p>
 ]]></content>
     <author>
@@ -487,10 +458,39 @@ app/common/cache/MemberCache.php
 <ul>
 <li>添加后台接口</li>
 <li>添加后台页面</li>
-<li>添加前后接口</li>
+<li>添加前台接口</li>
 <li>接口文档/调试</li>
 </ul>
 <p>接下来会以 会员管理 为例展开说明。</p>
+]]></content>
+    <author>
+      <name>skyselang</name>
+    </author>
+    <contributor>
+      <name>skyselang</name>
+    </contributor>
+    <published>2021-04-26T07:00:42.000Z</published>
+    <rights>Copyright by skyselang</rights>
+  </entry>
+  <entry>
+    <title type="html">鸣谢</title>
+    <id>https://doc.yyladmin.top/yylAdminDoc/guide/thank/</id>
+    <link href="https://doc.yyladmin.top/yylAdminDoc/guide/thank/"/>
+    <updated>2021-04-26T07:00:42.000Z</updated>
+    <content type="html"><![CDATA[<p>感谢以下项目，排名不分先后</p>
+<ul>
+<li><a href="https://github.com/php/php-src" target="_blank" rel="noopener noreferrer">PHP</a></li>
+<li><a href="https://github.com/top-think/framework" target="_blank" rel="noopener noreferrer">ThinkPHP</a></li>
+<li><a href="https://github.com/firebase/php-jwt" target="_blank" rel="noopener noreferrer">PHP-JWT</a></li>
+<li><a href="https://github.com/overtrue/pinyin" target="_blank" rel="noopener noreferrer">Pinyin</a></li>
+<li><a href="https://github.com/vuejs/vue" target="_blank" rel="noopener noreferrer">Vue</a></li>
+<li><a href="https://github.com/ElemeFE/element" target="_blank" rel="noopener noreferrer">Element</a></li>
+<li><a href="https://github.com/PanJiaChen/vue-element-admin" target="_blank" rel="noopener noreferrer">vue-element-admin</a></li>
+<li><a href="https://github.com/wangeditor-team/wangEditor" target="_blank" rel="noopener noreferrer">wangEditor</a></li>
+<li><a href="https://github.com/apache/echarts" target="_blank" rel="noopener noreferrer">ECharts</a></li>
+<li><a href="https://gitee.com/hg-code/thinkphp-apidoc" target="_blank" rel="noopener noreferrer">Apidoc</a></li>
+<li>更多composer、npm依赖项目</li>
+</ul>
 ]]></content>
     <author>
       <name>skyselang</name>
