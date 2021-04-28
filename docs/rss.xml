@@ -5,12 +5,76 @@
     <title>yylAdmin</title>
     <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/</link>
     <description>基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等前后台基础功能，简单轻量，开箱即用，前后分离，免费开源</description>
-    <language>en-US</language>
-    <pubDate>Tue, 27 Apr 2021 16:43:27 GMT</pubDate>
-    <lastBuildDate>Tue, 27 Apr 2021 16:43:27 GMT</lastBuildDate>
+    <language>zh-CN</language>
+    <pubDate>Wed, 28 Apr 2021 01:22:31 GMT</pubDate>
+    <lastBuildDate>Wed, 28 Apr 2021 01:22:31 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by skyselang</copyright>
+    <item>
+      <title>配置</title>
+      <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/config/</link>
+      <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/config/</guid>
+      <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">配置</source>
+      <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="yyladmin"> yylAdmin</h2>
+<h3 id="admin"> admin</h3>
+<p>config/admin.php</p>
+<h3 id="index"> index</h3>
+<p>config/index.php</p>
+<h3 id="thinkphp"> ThinkPHP</h3>
+<p>更多配置请参考<a href="https://www.kancloud.cn/manual/thinkphp6_0/1037484" target="_blank" rel="noopener noreferrer">ThinkPHP配置</a></p>
+<h2 id="yyladminweb"> yylAdminWeb</h2>
+<p>src/settings.js</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>教程</title>
+      <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/course/</link>
+      <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/course/</guid>
+      <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">教程</source>
+      <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="教程"> 教程</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>常见问题</title>
+      <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/fqa/</link>
+      <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/fqa/</guid>
+      <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">常见问题</source>
+      <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="常见问题"> 常见问题</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>基础</title>
+      <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/base/</link>
+      <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/base/</guid>
+      <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">基础</source>
+      <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
+      <content:encoded><![CDATA[<p>安装之前请确保PHP环境和Vue环境已经搭建好并且可以运行</p>
+<h2 id="开发环境"> 开发环境</h2>
+<ul>
+<li><a href="https://www.xp.cn/" target="_blank" rel="noopener noreferrer">phpStudy</a>（Windows10，Nginx1.16，MySQL5.5，PHP7.2，Redis）</li>
+<li><a href="https://www.phpcomposer.com/" target="_blank" rel="noopener noreferrer">Composer</a>（v2.0）</li>
+<li><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener noreferrer">Node.js</a>（v12.x）</li>
+</ul>
+<h2 id="版本控制"> 版本控制</h2>
+<ul>
+<li><a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">Git</a></li>
+</ul>
+<h2 id="后端框架"> 后端框架</h2>
+<ul>
+<li><a href="https://www.kancloud.cn/manual/thinkphp6_0/1037479" target="_blank" rel="noopener noreferrer">ThinkPHP</a>（v6.0）</li>
+</ul>
+<h2 id="前端框架ui"> 前端框架UI</h2>
+<ul>
+<li><a href="https://cn.vuejs.org/v2/guide/syntax.html" target="_blank" rel="noopener noreferrer">Vue</a>（v2.x）</li>
+<li><a href="https://element.eleme.cn/#/zh-CN/component/installation" target="_blank" rel="noopener noreferrer">Element</a>（v2.x）</li>
+<li><a href="https://github.com/PanJiaChen/vue-element-admin" target="_blank" rel="noopener noreferrer">vue-element-admin</a></li>
+</ul>
+]]></content:encoded>
+    </item>
     <item>
       <title>目录</title>
       <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/catalog/</link>
@@ -83,33 +147,6 @@
 <span>..</span>.
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>基础</title>
-      <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/base/</link>
-      <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/base/</guid>
-      <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">基础</source>
-      <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
-      <content:encoded><![CDATA[<h2 id="开发环境"> 开发环境</h2>
-<ul>
-<li><a href="https://www.xp.cn/" target="_blank" rel="noopener noreferrer">phpStudy</a>（Windows10，Nginx1.16，MySQL5.5，PHP7.2，Redis）</li>
-<li><a href="https://www.phpcomposer.com/" target="_blank" rel="noopener noreferrer">Composer</a>（v2.0）</li>
-<li><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener noreferrer">Node.js</a>（v12.x）</li>
-</ul>
-<h2 id="版本控制"> 版本控制</h2>
-<ul>
-<li><a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">Git</a></li>
-</ul>
-<h2 id="后端框架"> 后端框架</h2>
-<ul>
-<li><a href="https://www.kancloud.cn/manual/thinkphp6_0/1037479" target="_blank" rel="noopener noreferrer">ThinkPHP</a>（v6.0）</li>
-</ul>
-<h2 id="前端框架ui"> 前端框架UI</h2>
-<ul>
-<li><a href="https://cn.vuejs.org/v2/guide/syntax.html" target="_blank" rel="noopener noreferrer">Vue</a>（v2.x）</li>
-<li><a href="https://element.eleme.cn/#/zh-CN/component/installation" target="_blank" rel="noopener noreferrer">Element</a>（v2.x）</li>
-</ul>
-]]></content:encoded>
     </item>
     <item>
       <title>安装</title>
@@ -194,22 +231,36 @@ cnpm run build:stage
 ]]></content:encoded>
     </item>
     <item>
-      <title>常见问题</title>
-      <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/fqa/</link>
-      <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/fqa/</guid>
-      <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">常见问题</source>
+      <title>介绍</title>
+      <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/</link>
+      <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/</guid>
+      <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">介绍</source>
       <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
-      <content:encoded><![CDATA[<h2 id="常见问题"> 常见问题</h2>
+      <content:encoded><![CDATA[<h2 id="简介"> 简介</h2>
+<p>yylAdmin是一个基于ThinkPHP6和Vue2极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等基础功能；前后台基础框架；你可以在此基础上根据你的业务需求进行开发扩展。简单轻量，开箱即用，前后分离，免费开源。</p>
+<h2 id="功能"> 功能</h2>
+<ul>
+<li>登录退出</li>
+<li>权限管理</li>
+<li>日志管理</li>
+<li>实用工具</li>
+<li>接口文档：自动生成接口文档，在线调试</li>
+<li>表单构建：表单设计操作，自动生成Vue代码</li>
+<li>更多动能请安装后体验...</li>
+</ul>
+<h2 id="演示"> 演示</h2>
+<p>地址：<a href="https://admin.yyladmin.top" target="_blank" rel="noopener noreferrer">yylAdmin demo</a><br>
+账号：yyladmin、admin、demo、php<br>
+密码：123456<br>
+提示：演示账号只有部分权限，请安装后体验全部功能</p>
+<h2 id="支持"> 支持</h2>
+<p>如果本项目对您有所帮助，请点个Star支持我们</p>
+<ul>
+<li><a href="https://gitee.com/skyselang/yylAdmin" target="_blank" rel="noopener noreferrer">Gitee</a><img src="https://gitee.com/skyselang/yylAdmin/badge/star.svg" alt="Gitee"></li>
+<li><a href="https://github.com/skyselang/yylAdmin" target="_blank" rel="noopener noreferrer">Github</a><img src="https://img.shields.io/github/stars/skyselang/yylAdmin" alt="Github"></li>
+</ul>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>教程</title>
-      <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/course/</link>
-      <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/course/</guid>
-      <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">教程</source>
-      <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
-      <content:encoded><![CDATA[<h2 id="教程"> 教程</h2>
-]]></content:encoded>
+      <enclosure url="https://gitee.com/skyselang/yylAdmin/badge/star.svg" type="image/svg+xml"/>
     </item>
     <item>
       <title>鸣谢</title>
@@ -228,42 +279,17 @@ cnpm run build:stage
 <li><a href="https://github.com/PanJiaChen/vue-element-admin" target="_blank" rel="noopener noreferrer">vue-element-admin</a></li>
 <li><a href="https://github.com/wangeditor-team/wangEditor" target="_blank" rel="noopener noreferrer">wangEditor</a></li>
 <li><a href="https://github.com/apache/echarts" target="_blank" rel="noopener noreferrer">ECharts</a></li>
-<li><a href="https://gitee.com/hg-code/thinkphp-apidoc" target="_blank" rel="noopener noreferrer">Apidoc</a></li>
+<li><a href="https://gitee.com/hg-code/thinkphp-apidoc" target="_blank" rel="noopener noreferrer">ThinkPHP-ApiDoc</a></li>
 <li>更多composer、npm依赖项目</li>
 </ul>
 ]]></content:encoded>
     </item>
     <item>
-      <title>介绍</title>
-      <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/</link>
-      <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/</guid>
-      <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">介绍</source>
+      <title>yylAdmin</title>
+      <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/</link>
+      <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/</guid>
+      <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">yylAdmin</source>
       <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
-      <content:encoded><![CDATA[<h2 id="简介"> 简介</h2>
-<p>yylAdmin是一个基于ThinkPHP6和Vue2极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等基础功能；前后台基础框架；你可以在此基础上根据你的业务需求进行开发扩展。简单轻量，开箱即用，前后分离，免费开源。</p>
-<h2 id="功能"> 功能</h2>
-<ul>
-<li>登录退出</li>
-<li>权限管理</li>
-<li>日志管理</li>
-<li>实用工具</li>
-<li>接口文档：自动生成接口文档，在线调试</li>
-<li>表单构建：表单设计操作，自动生成Vue代码</li>
-<li>...</li>
-</ul>
-<h2 id="演示"> 演示</h2>
-<p>地址：<a href="https://admin.yyladmin.top" target="_blank" rel="noopener noreferrer">yylAdmin demo</a><br>
-账号：yyladmin、admin、demo、php<br>
-密码：123456<br>
-提示：演示账号只有部分权限，请安装后体验全部功能</p>
-<h2 id="支持"> 支持</h2>
-<p>如果本项目对您有所帮助，请点个Star支持我们</p>
-<ul>
-<li><a href="https://gitee.com/skyselang/yylAdmin" target="_blank" rel="noopener noreferrer">Gitee</a><img src="https://gitee.com/skyselang/yylAdmin/badge/star.svg" alt="Gitee"></li>
-<li><a href="https://github.com/skyselang/yylAdmin" target="_blank" rel="noopener noreferrer">Github</a><img src="https://img.shields.io/github/stars/skyselang/yylAdmin" alt="Github"></li>
-</ul>
-]]></content:encoded>
-      <enclosure url="https://gitee.com/skyselang/yylAdmin/badge/star.svg" type="image/svg+xml"/>
     </item>
     <item>
       <title>添加后台接口</title>
@@ -336,7 +362,7 @@ app/common/cache/MemberCache.php</p>
       <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">接口文档/调试</source>
       <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
       <content:encoded><![CDATA[<p>自动生成接口文档及在线调试功能使用的是 <a href="https://gitee.com/hg-code/thinkphp-apidoc" target="_blank" rel="noopener noreferrer">ThinkPHP-ApiDoc</a>。<br>
-请查看文档 <a href="https://hg-code.gitee.io/thinkphp-apidoc/" target="_blank" rel="noopener noreferrer">ThinkPHP-ApiDoc</a>， 按要求编写注释即可自动生成接口文档。</p>
+请查看 <a href="https://hg-code.gitee.io/thinkphp-apidoc/" target="_blank" rel="noopener noreferrer">ThinkPHP-ApiDoc文档</a>， 按要求编写注释即可自动生成接口文档。</p>
 <p>然后可在后台 接口文档 功能页面查看接口文档信息和在线调试接口。</p>
 <img :src="$withBase('/image/use/apidoc.png')" alt="接口文档与调试">
 ]]></content:encoded>
@@ -376,23 +402,6 @@ app/common/cache/MemberCache.php</p>
 </ul>
 <p>接下来会以 会员管理 为例展开说明。</p>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>配置</title>
-      <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/config/</link>
-      <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/config/</guid>
-      <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">配置</source>
-      <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
-      <content:encoded><![CDATA[<h2 id="admin"> admin</h2>
-<h2 id="index"> index</h2>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>yylAdmin</title>
-      <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/</link>
-      <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/</guid>
-      <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">yylAdmin</source>
-      <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
     </item>
   </channel>
 </rss>

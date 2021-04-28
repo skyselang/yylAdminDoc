@@ -25,6 +25,11 @@ module.exports = config({
       { src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" },
     ],
   ],
+  locales: {
+    "/": {
+      lang: "zh-CN",
+    },
+  },
 
   themeConfig: {
     logo: "/logo.svg",
@@ -72,6 +77,10 @@ module.exports = config({
     },
 
     copyright: true,
+
+    lastUpdate: {
+      timezone: "Asia/Shanghai",
+    },
 
     git: {
       timezone: "Asia/Shanghai",

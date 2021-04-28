@@ -3,6 +3,8 @@ icon: creative
 title: 基础
 ---
 
+安装之前请确保PHP环境和Vue环境已经搭建好并且可以运行
+
 ## 开发环境
 
 - [phpStudy](https://www.xp.cn/)（Windows10，Nginx1.16，MySQL5.5，PHP7.2，Redis）
@@ -21,3 +23,4 @@ title: 基础
 
 - [Vue](https://cn.vuejs.org/v2/guide/syntax.html)（v2.x）
 - [Element](https://element.eleme.cn/#/zh-CN/component/installation)（v2.x）
+- [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)

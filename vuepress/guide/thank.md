@@ -14,5 +14,5 @@ title: 鸣谢
 - [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
 - [wangEditor](https://github.com/wangeditor-team/wangEditor)
 - [ECharts](https://github.com/apache/echarts)
-- [Apidoc](https://gitee.com/hg-code/thinkphp-apidoc)
+- [ThinkPHP-ApiDoc](https://gitee.com/hg-code/thinkphp-apidoc)
 - 更多composer、npm依赖项目
