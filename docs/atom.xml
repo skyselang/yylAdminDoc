@@ -6,7 +6,7 @@
   <author>
     <name>skyselang</name>
   </author>
-  <updated>2021-04-28T01:22:31.781Z</updated>
+  <updated>2021-05-11T02:27:31.918Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/atom.xml"/>
   <link rel="alternate" href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/"/>
@@ -18,7 +18,7 @@
     <title type="html">配置</title>
     <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/config/</id>
     <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/config/"/>
-    <updated>2021-04-26T07:00:42.000Z</updated>
+    <updated>2021-04-28T01:23:56.000Z</updated>
     <content type="html"><![CDATA[<h2 id="yyladmin"> yylAdmin</h2>
 <h3 id="admin"> admin</h3>
 <p>config/admin.php</p>
@@ -44,6 +44,7 @@
     <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/course/"/>
     <updated>2021-04-26T07:00:42.000Z</updated>
     <content type="html"><![CDATA[<h2 id="教程"> 教程</h2>
+<p><a href="./same-domain-name.html">yylAdmin前后端部署在同一域名下</a></p>
 ]]></content>
     <author>
       <name>skyselang</name>
@@ -52,6 +53,34 @@
       <name>skyselang</name>
     </contributor>
     <published>2021-04-26T07:00:42.000Z</published>
+    <rights>Copyright by skyselang</rights>
+  </entry>
+  <entry>
+    <title type="html">yylAdmin前后端部署在同一域名下</title>
+    <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/course/same-domain-name/</id>
+    <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/course/same-domain-name/"/>
+    <updated>2021-05-11T02:28:59.401Z</updated>
+    <content type="html"><![CDATA[<h3 id="设置前端环境接口地址"> 设置前端环境接口地址</h3>
+<p>.env.production
+<img :src="$withBase('/image/course/same-domain-name/1-env-prod.png')" alt=""></p>
+<h3 id="配置路径和打包目录、打包"> 配置路径和打包目录、打包</h3>
+<p>.vue.config.js
+<img :src="$withBase('/image/course/same-domain-name/2-vue-config-js.png')" alt=""></p>
+<h3 id="把打包后的目录复制到yyladmin的public文件夹下"> 把打包后的目录复制到yylAdmin的public文件夹下</h3>
+<p>yylAdmin/public/admin
+<img :src="$withBase('/image/course/same-domain-name/3-copy-yyladmin-public.png')" alt=""></p>
+<h3 id="在本地测试一下是否能访问"> 在本地测试一下是否能访问</h3>
+<p>http://localhost:9526/admin/
+<img :src="$withBase('/image/course/same-domain-name/4-localhost-open.png')" alt=""></p>
+<h3 id="把yyladmin上传到服务器上、访问"> 把yylAdmin上传到服务器上、访问</h3>
+<p>你的域名/admin/</p>
+<img :src="$withBase('/image/course/same-domain-name/5-pro-open.png')" alt="">]]></content>
+    <author>
+      <name>skyselang</name>
+    </author>
+    <contributor>
+      <name>skyselang</name>
+    </contributor>
     <rights>Copyright by skyselang</rights>
   </entry>
   <entry>
@@ -74,7 +103,7 @@
     <title type="html">基础</title>
     <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/base/</id>
     <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/base/"/>
-    <updated>2021-04-26T07:00:42.000Z</updated>
+    <updated>2021-04-28T01:23:56.000Z</updated>
     <content type="html"><![CDATA[<p>安装之前请确保PHP环境和Vue环境已经搭建好并且可以运行</p>
 <h2 id="开发环境"> 开发环境</h2>
 <ul>
@@ -279,7 +308,7 @@ cnpm run build:stage
     <title type="html">介绍</title>
     <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/</id>
     <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/"/>
-    <updated>2021-04-27T15:18:57.000Z</updated>
+    <updated>2021-04-28T01:23:56.000Z</updated>
     <content type="html"><![CDATA[<h2 id="简介"> 简介</h2>
 <p>yylAdmin是一个基于ThinkPHP6和Vue2极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等基础功能；前后台基础框架；你可以在此基础上根据你的业务需求进行开发扩展。简单轻量，开箱即用，前后分离，免费开源。</p>
 <h2 id="功能"> 功能</h2>
@@ -317,7 +346,7 @@ cnpm run build:stage
     <title type="html">鸣谢</title>
     <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/thank/</id>
     <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/thank/"/>
-    <updated>2021-04-26T07:00:42.000Z</updated>
+    <updated>2021-04-28T01:23:56.000Z</updated>
     <content type="html"><![CDATA[<p>感谢以下项目，排名不分先后</p>
 <ul>
 <li><a href="https://github.com/php/php-src" target="_blank" rel="noopener noreferrer">PHP</a></li>
@@ -438,7 +467,7 @@ app/common/cache/MemberCache.php</p>
     <title type="html">接口文档/调试</title>
     <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/use/apidoc/</id>
     <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/use/apidoc/"/>
-    <updated>2021-04-27T16:40:10.000Z</updated>
+    <updated>2021-04-28T01:23:56.000Z</updated>
     <content type="html"><![CDATA[<p>自动生成接口文档及在线调试功能使用的是 <a href="https://gitee.com/hg-code/thinkphp-apidoc" target="_blank" rel="noopener noreferrer">ThinkPHP-ApiDoc</a>。<br>
 请查看 <a href="https://hg-code.gitee.io/thinkphp-apidoc/" target="_blank" rel="noopener noreferrer">ThinkPHP-ApiDoc文档</a>， 按要求编写注释即可自动生成接口文档。</p>
 <p>然后可在后台 接口文档 功能页面查看接口文档信息和在线调试接口。</p>

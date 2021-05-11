@@ -6,8 +6,8 @@
     <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/</link>
     <description>基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等前后台基础功能，简单轻量，开箱即用，前后分离，免费开源</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 28 Apr 2021 01:22:31 GMT</pubDate>
-    <lastBuildDate>Wed, 28 Apr 2021 01:22:31 GMT</lastBuildDate>
+    <pubDate>Tue, 11 May 2021 02:27:31 GMT</pubDate>
+    <lastBuildDate>Tue, 11 May 2021 02:27:31 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by skyselang</copyright>
@@ -35,7 +35,29 @@
       <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">教程</source>
       <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="教程"> 教程</h2>
+<p><a href="./same-domain-name.html">yylAdmin前后端部署在同一域名下</a></p>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>yylAdmin前后端部署在同一域名下</title>
+      <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/course/same-domain-name/</link>
+      <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/course/same-domain-name/</guid>
+      <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">yylAdmin前后端部署在同一域名下</source>
+      <content:encoded><![CDATA[<h3 id="设置前端环境接口地址"> 设置前端环境接口地址</h3>
+<p>.env.production
+<img :src="$withBase('/image/course/same-domain-name/1-env-prod.png')" alt=""></p>
+<h3 id="配置路径和打包目录、打包"> 配置路径和打包目录、打包</h3>
+<p>.vue.config.js
+<img :src="$withBase('/image/course/same-domain-name/2-vue-config-js.png')" alt=""></p>
+<h3 id="把打包后的目录复制到yyladmin的public文件夹下"> 把打包后的目录复制到yylAdmin的public文件夹下</h3>
+<p>yylAdmin/public/admin
+<img :src="$withBase('/image/course/same-domain-name/3-copy-yyladmin-public.png')" alt=""></p>
+<h3 id="在本地测试一下是否能访问"> 在本地测试一下是否能访问</h3>
+<p>http://localhost:9526/admin/
+<img :src="$withBase('/image/course/same-domain-name/4-localhost-open.png')" alt=""></p>
+<h3 id="把yyladmin上传到服务器上、访问"> 把yylAdmin上传到服务器上、访问</h3>
+<p>你的域名/admin/</p>
+<img :src="$withBase('/image/course/same-domain-name/5-pro-open.png')" alt="">]]></content:encoded>
     </item>
     <item>
       <title>常见问题</title>
