@@ -24,7 +24,7 @@ app/common/cache/MemberCache.php
 
 <img :src="$withBase('/image/use/adminapi.jpg')" alt="添加接口代码">
 
-> 这一步不是必须的，如果是仅仅用来设置权限控制前端显示可直接下一步，参考系统管理->地图坐标拾取，没有接口代码，只有菜单信息
+> 这一步不是必须的，如果是仅仅用来设置权限控制前端显示可直接下一步，参考系统管理->实用工具->地图，没有接口代码，只有菜单信息
 
 ### 添加菜单信息
 
@@ -36,4 +36,4 @@ app/common/cache/MemberCache.php
 
 <img :src="$withBase('/image/use/adminrole.jpg')" alt="分配相应权限">
 
-> 如果是系统管理员则拥有所有权限，无需分配
+> 如果是超管则拥有所有权限，无需分配

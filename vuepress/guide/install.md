@@ -82,5 +82,5 @@ cnpm run build:stage
 地址：[http://localhost:9527](http://localhost:9527)  
 账号：yyladmin  
 密码：123456  
-管理员：skyselang  
+超管：skyselang  
 密码：123456

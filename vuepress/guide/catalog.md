@@ -27,17 +27,17 @@ yylAdmin
 ├── config                     # 配置目录（admin、index，其它为tp配置）
 ├── extend                     # 扩展类库
 ├── public                     # 对外访问目录
-│   │── private                # 数据库文件在里面
 │   │── static                 # 静态资源目录
 │   │── storage                # 上传目录（读写权限）
-│   │── .htaccess              # apache重写文件
+│   │── .htaccess              # apache重写文件（伪静态）
 │   │── index.php              # 入口文件
-│   └── nginx.htaccess         # nginx重写文件
+│   └── nginx.htaccess         # nginx重写文件（伪静态）
 │   ...                 
 ├── route                      # 路由（没有用到路由）
 ├── runtime                    # 运行时目录（读写权限）
 ├── vendor                     # Composer类库目录
-├── .env.example               # 环境变量示例文件，重命名.env后使用
+├── .env.example               # 环境变量示例文件，重命名成.env后使用
+├── yyladmin.sql               # 数据库文件
 ...
 # 更多请参考thinkphp6目录结构
 ```
@@ -65,9 +65,9 @@ yylAdminWeb
 │   ├── App.vue                # 入口页面
 │   ├── main.js                # 入口文件加载组件初始化等
 │   ├── permission.js          # 权限管理
-│   └── setting.js             # 基础设置
+│   └── setting.js             # 设置（系统名称、页面标题等）
 ├── .env.xxx                   # 环境变量配置
-├── .eslintrc.js               # eslint配置项
+├── .eslintrc.js               # eslint配置
 ├── package.json               # package.json
 ├── postcss.config.js          # postcss配置
 └── vue.config.js              # vue-cli配置
