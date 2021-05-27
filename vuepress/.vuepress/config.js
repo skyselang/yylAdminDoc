@@ -50,7 +50,7 @@ module.exports = config({
     sidebar: {
       "/guide/": ["", "base", "install", "catalog", "thank"],
       "/config/": [""],
-      "/use/": ["", "adminapi", "adminpage", "indexapi", "apidoc"],
+      "/use/": ["", "adminapi", "adminpage", "adminrule", "indexapi", "apidoc"],
       "/course/": [""],
       "/fqa/": [""],
     },
