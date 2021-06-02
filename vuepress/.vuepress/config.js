@@ -133,7 +133,7 @@ module.exports = config({
             type: "image/png",
           },
           {
-            src: "/assets/icon/chrome-192.png",
+            src: "/yylAdminDoc/assets/icon/chrome-192.png",
             sizes: "192x192",
             type: "image/png",
           },

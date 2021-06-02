@@ -6,7 +6,7 @@
   <author>
     <name>skyselang</name>
   </author>
-  <updated>2021-06-02T03:57:33.062Z</updated>
+  <updated>2021-06-02T04:03:06.543Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/atom.xml"/>
   <link rel="alternate" href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/"/>
@@ -28,6 +28,25 @@
 <p>更多配置请参考<a href="https://www.kancloud.cn/manual/thinkphp6_0/1037484" target="_blank" rel="noopener noreferrer">ThinkPHP6配置</a></p>
 <h2 id="yyladminweb"> yylAdminWeb</h2>
 <p>src/settings.js</p>
+]]></content>
+    <author>
+      <name>skyselang</name>
+    </author>
+    <contributor>
+      <name>skyselang</name>
+    </contributor>
+    <published>2021-04-26T07:00:42.000Z</published>
+    <rights>Copyright by skyselang</rights>
+  </entry>
+  <entry>
+    <title type="html">教程</title>
+    <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/course/</id>
+    <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/course/"/>
+    <updated>2021-05-21T04:52:01.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="教程"> 教程</h2>
+<ul>
+<li><a href="./same-domain-name.html">前后端部署到同一域名</a></li>
+</ul>
 ]]></content>
     <author>
       <name>skyselang</name>
@@ -152,61 +171,6 @@ Linux服务器必须开启PHP的 putenv、proc_open 函数，否则 安装依赖
     <rights>Copyright by skyselang</rights>
   </entry>
   <entry>
-    <title type="html">教程</title>
-    <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/course/</id>
-    <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/course/"/>
-    <updated>2021-05-21T04:52:01.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="教程"> 教程</h2>
-<ul>
-<li><a href="./same-domain-name.html">前后端部署到同一域名</a></li>
-</ul>
-]]></content>
-    <author>
-      <name>skyselang</name>
-    </author>
-    <contributor>
-      <name>skyselang</name>
-    </contributor>
-    <published>2021-04-26T07:00:42.000Z</published>
-    <rights>Copyright by skyselang</rights>
-  </entry>
-  <entry>
-    <title type="html">基础</title>
-    <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/base/</id>
-    <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/base/"/>
-    <updated>2021-04-28T01:23:56.000Z</updated>
-    <content type="html"><![CDATA[<p>安装之前请确保PHP环境和Vue环境已经搭建好并且可以运行</p>
-<h2 id="开发环境"> 开发环境</h2>
-<ul>
-<li><a href="https://www.xp.cn/" target="_blank" rel="noopener noreferrer">phpStudy</a>（Windows10，Nginx1.16，MySQL5.5，PHP7.2，Redis）</li>
-<li><a href="https://www.phpcomposer.com/" target="_blank" rel="noopener noreferrer">Composer</a>（v2.0）</li>
-<li><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener noreferrer">Node.js</a>（v12.x）</li>
-</ul>
-<h2 id="版本控制"> 版本控制</h2>
-<ul>
-<li><a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">Git</a></li>
-</ul>
-<h2 id="后端框架"> 后端框架</h2>
-<ul>
-<li><a href="https://www.kancloud.cn/manual/thinkphp6_0/1037479" target="_blank" rel="noopener noreferrer">ThinkPHP</a>（v6.0）</li>
-</ul>
-<h2 id="前端框架ui"> 前端框架UI</h2>
-<ul>
-<li><a href="https://cn.vuejs.org/v2/guide/syntax.html" target="_blank" rel="noopener noreferrer">Vue</a>（v2.x）</li>
-<li><a href="https://element.eleme.cn/#/zh-CN/component/installation" target="_blank" rel="noopener noreferrer">Element</a>（v2.x）</li>
-<li><a href="https://github.com/PanJiaChen/vue-element-admin" target="_blank" rel="noopener noreferrer">vue-element-admin</a></li>
-</ul>
-]]></content>
-    <author>
-      <name>skyselang</name>
-    </author>
-    <contributor>
-      <name>skyselang</name>
-    </contributor>
-    <published>2021-04-26T07:00:42.000Z</published>
-    <rights>Copyright by skyselang</rights>
-  </entry>
-  <entry>
     <title type="html">目录</title>
     <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/catalog/</id>
     <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/catalog/"/>
@@ -277,6 +241,42 @@ Linux服务器必须开启PHP的 putenv、proc_open 函数，否则 安装依赖
 <span>..</span>.
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br></div></div>]]></content>
+    <author>
+      <name>skyselang</name>
+    </author>
+    <contributor>
+      <name>skyselang</name>
+    </contributor>
+    <published>2021-04-26T07:00:42.000Z</published>
+    <rights>Copyright by skyselang</rights>
+  </entry>
+  <entry>
+    <title type="html">基础</title>
+    <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/base/</id>
+    <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/base/"/>
+    <updated>2021-04-28T01:23:56.000Z</updated>
+    <content type="html"><![CDATA[<p>安装之前请确保PHP环境和Vue环境已经搭建好并且可以运行</p>
+<h2 id="开发环境"> 开发环境</h2>
+<ul>
+<li><a href="https://www.xp.cn/" target="_blank" rel="noopener noreferrer">phpStudy</a>（Windows10，Nginx1.16，MySQL5.5，PHP7.2，Redis）</li>
+<li><a href="https://www.phpcomposer.com/" target="_blank" rel="noopener noreferrer">Composer</a>（v2.0）</li>
+<li><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener noreferrer">Node.js</a>（v12.x）</li>
+</ul>
+<h2 id="版本控制"> 版本控制</h2>
+<ul>
+<li><a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">Git</a></li>
+</ul>
+<h2 id="后端框架"> 后端框架</h2>
+<ul>
+<li><a href="https://www.kancloud.cn/manual/thinkphp6_0/1037479" target="_blank" rel="noopener noreferrer">ThinkPHP</a>（v6.0）</li>
+</ul>
+<h2 id="前端框架ui"> 前端框架UI</h2>
+<ul>
+<li><a href="https://cn.vuejs.org/v2/guide/syntax.html" target="_blank" rel="noopener noreferrer">Vue</a>（v2.x）</li>
+<li><a href="https://element.eleme.cn/#/zh-CN/component/installation" target="_blank" rel="noopener noreferrer">Element</a>（v2.x）</li>
+<li><a href="https://github.com/PanJiaChen/vue-element-admin" target="_blank" rel="noopener noreferrer">vue-element-admin</a></li>
+</ul>
+]]></content>
     <author>
       <name>skyselang</name>
     </author>
@@ -376,35 +376,6 @@ cnpm run build:stage
     <rights>Copyright by skyselang</rights>
   </entry>
   <entry>
-    <title type="html">鸣谢</title>
-    <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/thank/</id>
-    <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/thank/"/>
-    <updated>2021-04-28T01:23:56.000Z</updated>
-    <content type="html"><![CDATA[<p>感谢以下项目，排名不分先后</p>
-<ul>
-<li><a href="https://github.com/php/php-src" target="_blank" rel="noopener noreferrer">PHP</a></li>
-<li><a href="https://github.com/top-think/framework" target="_blank" rel="noopener noreferrer">ThinkPHP</a></li>
-<li><a href="https://github.com/firebase/php-jwt" target="_blank" rel="noopener noreferrer">PHP-JWT</a></li>
-<li><a href="https://github.com/overtrue/pinyin" target="_blank" rel="noopener noreferrer">Pinyin</a></li>
-<li><a href="https://github.com/vuejs/vue" target="_blank" rel="noopener noreferrer">Vue</a></li>
-<li><a href="https://github.com/ElemeFE/element" target="_blank" rel="noopener noreferrer">Element</a></li>
-<li><a href="https://github.com/PanJiaChen/vue-element-admin" target="_blank" rel="noopener noreferrer">vue-element-admin</a></li>
-<li><a href="https://github.com/wangeditor-team/wangEditor" target="_blank" rel="noopener noreferrer">wangEditor</a></li>
-<li><a href="https://github.com/apache/echarts" target="_blank" rel="noopener noreferrer">ECharts</a></li>
-<li><a href="https://gitee.com/hg-code/thinkphp-apidoc" target="_blank" rel="noopener noreferrer">ThinkPHP-ApiDoc</a></li>
-<li>更多composer、npm依赖项目</li>
-</ul>
-]]></content>
-    <author>
-      <name>skyselang</name>
-    </author>
-    <contributor>
-      <name>skyselang</name>
-    </contributor>
-    <published>2021-04-26T07:00:42.000Z</published>
-    <rights>Copyright by skyselang</rights>
-  </entry>
-  <entry>
     <title type="html">介绍</title>
     <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/</id>
     <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/"/>
@@ -431,6 +402,35 @@ cnpm run build:stage
 <ul>
 <li><a href="https://gitee.com/skyselang/yylAdmin" target="_blank" rel="noopener noreferrer">Gitee</a><img src="https://gitee.com/skyselang/yylAdmin/badge/star.svg" alt="Gitee" /></li>
 <li><a href="https://github.com/skyselang/yylAdmin" target="_blank" rel="noopener noreferrer">Github</a><img src="https://img.shields.io/github/stars/skyselang/yylAdmin" alt="Github" /></li>
+</ul>
+]]></content>
+    <author>
+      <name>skyselang</name>
+    </author>
+    <contributor>
+      <name>skyselang</name>
+    </contributor>
+    <published>2021-04-26T07:00:42.000Z</published>
+    <rights>Copyright by skyselang</rights>
+  </entry>
+  <entry>
+    <title type="html">鸣谢</title>
+    <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/thank/</id>
+    <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/thank/"/>
+    <updated>2021-04-28T01:23:56.000Z</updated>
+    <content type="html"><![CDATA[<p>感谢以下项目，排名不分先后</p>
+<ul>
+<li><a href="https://github.com/php/php-src" target="_blank" rel="noopener noreferrer">PHP</a></li>
+<li><a href="https://github.com/top-think/framework" target="_blank" rel="noopener noreferrer">ThinkPHP</a></li>
+<li><a href="https://github.com/firebase/php-jwt" target="_blank" rel="noopener noreferrer">PHP-JWT</a></li>
+<li><a href="https://github.com/overtrue/pinyin" target="_blank" rel="noopener noreferrer">Pinyin</a></li>
+<li><a href="https://github.com/vuejs/vue" target="_blank" rel="noopener noreferrer">Vue</a></li>
+<li><a href="https://github.com/ElemeFE/element" target="_blank" rel="noopener noreferrer">Element</a></li>
+<li><a href="https://github.com/PanJiaChen/vue-element-admin" target="_blank" rel="noopener noreferrer">vue-element-admin</a></li>
+<li><a href="https://github.com/wangeditor-team/wangEditor" target="_blank" rel="noopener noreferrer">wangEditor</a></li>
+<li><a href="https://github.com/apache/echarts" target="_blank" rel="noopener noreferrer">ECharts</a></li>
+<li><a href="https://gitee.com/hg-code/thinkphp-apidoc" target="_blank" rel="noopener noreferrer">ThinkPHP-ApiDoc</a></li>
+<li>更多composer、npm依赖项目</li>
 </ul>
 ]]></content>
     <author>
@@ -529,6 +529,28 @@ app/common/cache/MemberCache.php</p>
     <rights>Copyright by skyselang</rights>
   </entry>
   <entry>
+    <title type="html">刷新后台权限</title>
+    <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/use/adminrule/</id>
+    <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/use/adminrule/"/>
+    <updated>2021-05-27T10:31:13.000Z</updated>
+    <content type="html"><![CDATA[<p>yylAdminWeb</p>
+<h3 id="重新登录刷新权限"> 重新登录刷新权限</h3>
+<img :src="$withBase('/image/use/adminweblogout.jpg')" alt="重新登录刷新权限">
+<blockquote>
+<p>侧边栏不会实时更新，需要重新登录拉取最新权限才会显示出来，
+如果没显示出来请检前面步骤查看是否已分配权限，roles和菜单链接是否一致等</p>
+</blockquote>
+]]></content>
+    <author>
+      <name>skyselang</name>
+    </author>
+    <contributor>
+      <name>skyselang</name>
+    </contributor>
+    <published>2021-05-27T10:31:13.000Z</published>
+    <rights>Copyright by skyselang</rights>
+  </entry>
+  <entry>
     <title type="html">接口文档/调试</title>
     <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/use/apidoc/</id>
     <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/use/apidoc/"/>
@@ -572,28 +594,6 @@ app/common/cache/MemberCache.php</p>
       <name>skyselang</name>
     </contributor>
     <published>2021-04-26T07:00:42.000Z</published>
-    <rights>Copyright by skyselang</rights>
-  </entry>
-  <entry>
-    <title type="html">刷新后台权限</title>
-    <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/use/adminrule/</id>
-    <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/use/adminrule/"/>
-    <updated>2021-05-27T10:31:13.000Z</updated>
-    <content type="html"><![CDATA[<p>yylAdminWeb</p>
-<h3 id="重新登录刷新权限"> 重新登录刷新权限</h3>
-<img :src="$withBase('/image/use/adminweblogout.jpg')" alt="重新登录刷新权限">
-<blockquote>
-<p>侧边栏不会实时更新，需要重新登录拉取最新权限才会显示出来，
-如果没显示出来请检前面步骤查看是否已分配权限，roles和菜单链接是否一致等</p>
-</blockquote>
-]]></content>
-    <author>
-      <name>skyselang</name>
-    </author>
-    <contributor>
-      <name>skyselang</name>
-    </contributor>
-    <published>2021-05-27T10:31:13.000Z</published>
     <rights>Copyright by skyselang</rights>
   </entry>
   <entry>
