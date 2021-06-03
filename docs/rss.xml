@@ -6,8 +6,8 @@
     <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/</link>
     <description>基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等前后台基础功能，简单轻量，开箱即用，前后分离，免费开源</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 02 Jun 2021 04:03:06 GMT</pubDate>
-    <lastBuildDate>Wed, 02 Jun 2021 04:03:06 GMT</lastBuildDate>
+    <pubDate>Thu, 03 Jun 2021 03:45:16 GMT</pubDate>
+    <lastBuildDate>Thu, 03 Jun 2021 03:45:16 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by skyselang</copyright>
@@ -133,6 +133,35 @@ Linux服务器必须开启PHP的 putenv、proc_open 函数，否则 安装依赖
 ]]></content:encoded>
     </item>
     <item>
+      <title>基础</title>
+      <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/base/</link>
+      <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/base/</guid>
+      <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">基础</source>
+      <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
+      <content:encoded><![CDATA[<p>安装之前请确保PHP环境和Vue环境已经搭建好并且可以运行</p>
+<h2 id="开发环境"> 开发环境</h2>
+<ul>
+<li><a href="https://www.xp.cn/" target="_blank" rel="noopener noreferrer">phpStudy</a>（Windows10，Nginx1.16，MySQL5.5，PHP7.2，Redis）</li>
+<li><a href="https://www.phpcomposer.com/" target="_blank" rel="noopener noreferrer">Composer</a>（v2.0）</li>
+<li><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener noreferrer">Node.js</a>（v12.x）</li>
+</ul>
+<h2 id="版本控制"> 版本控制</h2>
+<ul>
+<li><a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">Git</a></li>
+</ul>
+<h2 id="后端框架"> 后端框架</h2>
+<ul>
+<li><a href="https://www.kancloud.cn/manual/thinkphp6_0/1037479" target="_blank" rel="noopener noreferrer">ThinkPHP</a>（v6.0）</li>
+</ul>
+<h2 id="前端框架ui"> 前端框架UI</h2>
+<ul>
+<li><a href="https://cn.vuejs.org/v2/guide/syntax.html" target="_blank" rel="noopener noreferrer">Vue</a>（v2.x）</li>
+<li><a href="https://element.eleme.cn/#/zh-CN/component/installation" target="_blank" rel="noopener noreferrer">Element</a>（v2.x）</li>
+<li><a href="https://github.com/PanJiaChen/vue-element-admin" target="_blank" rel="noopener noreferrer">vue-element-admin</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title>目录</title>
       <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/catalog/</link>
       <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/catalog/</guid>
@@ -159,6 +188,10 @@ Linux服务器必须开启PHP的 putenv、proc_open 函数，否则 安装依赖
 │   <span>..</span>.
 ├── config                     <span># 配置目录（admin、index，其它为tp配置）</span>
 ├── extend                     <span># 扩展类库</span>
+├── private                    <span># private目录</span>
+│   │── apidoc                 <span># apidoc开发文档和模板</span>
+│   │── captcha                <span># 验证码背景图和字体</span>
+│   └── yyladmin.sql           <span># 数据库文件</span>
 ├── public                     <span># 对外访问目录</span>
 │   │── static                 <span># 静态资源目录</span>
 │   │── storage                <span># 上传目录（读写权限）</span>
@@ -170,11 +203,10 @@ Linux服务器必须开启PHP的 putenv、proc_open 函数，否则 安装依赖
 ├── runtime                    <span># 运行时目录（读写权限）</span>
 ├── vendor                     <span># Composer类库目录</span>
 ├── .env.example               <span># 环境变量示例文件，重命名成.env后使用</span>
-├── yyladmin.sql               <span># 数据库文件</span>
 <span>..</span>.
 <span># 更多请参考thinkphp6目录结构</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br></div></div><h2 id="yyladminweb"> yylAdminWeb</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br></div></div><h2 id="yyladminweb"> yylAdminWeb</h2>
 <div><pre><code>yylAdminWeb
 ├── build                      <span># 构建相关</span>
 ├── public                     <span># 静态资源</span>
@@ -206,35 +238,6 @@ Linux服务器必须开启PHP的 putenv、proc_open 函数，否则 安装依赖
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>基础</title>
-      <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/base/</link>
-      <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/base/</guid>
-      <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">基础</source>
-      <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
-      <content:encoded><![CDATA[<p>安装之前请确保PHP环境和Vue环境已经搭建好并且可以运行</p>
-<h2 id="开发环境"> 开发环境</h2>
-<ul>
-<li><a href="https://www.xp.cn/" target="_blank" rel="noopener noreferrer">phpStudy</a>（Windows10，Nginx1.16，MySQL5.5，PHP7.2，Redis）</li>
-<li><a href="https://www.phpcomposer.com/" target="_blank" rel="noopener noreferrer">Composer</a>（v2.0）</li>
-<li><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener noreferrer">Node.js</a>（v12.x）</li>
-</ul>
-<h2 id="版本控制"> 版本控制</h2>
-<ul>
-<li><a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">Git</a></li>
-</ul>
-<h2 id="后端框架"> 后端框架</h2>
-<ul>
-<li><a href="https://www.kancloud.cn/manual/thinkphp6_0/1037479" target="_blank" rel="noopener noreferrer">ThinkPHP</a>（v6.0）</li>
-</ul>
-<h2 id="前端框架ui"> 前端框架UI</h2>
-<ul>
-<li><a href="https://cn.vuejs.org/v2/guide/syntax.html" target="_blank" rel="noopener noreferrer">Vue</a>（v2.x）</li>
-<li><a href="https://element.eleme.cn/#/zh-CN/component/installation" target="_blank" rel="noopener noreferrer">Element</a>（v2.x）</li>
-<li><a href="https://github.com/PanJiaChen/vue-element-admin" target="_blank" rel="noopener noreferrer">vue-element-admin</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
       <title>安装</title>
       <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/install/</link>
       <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/install/</guid>
@@ -264,7 +267,7 @@ Linux服务器必须开启PHP的 putenv、proc_open 函数，否则 安装依赖
 <span>composer</span> <span>install</span>
 
 <span># 导入数据库</span>
-数据库文件：yyladmin.sql
+数据库文件：private/yyladmin.sql
 
 <span># 修改配置</span>
 重命名.env.example成.env环境变量文件修改里面配置（或修改config文件夹里面的配置）
@@ -323,7 +326,7 @@ cnpm run build:stage
       <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">介绍</source>
       <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="简介"> 简介</h2>
-<p>yylAdmin是一个基于ThinkPHP6和Vue2极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等基础功能；前后台基础框架；你可以在此基础上根据你的业务需求进行开发扩展。前后分离，简单轻量，免费开源，开箱即用。</p>
+<p>yylAdmin是一个基于ThinkPHP6和Vue2极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试、快速生成Crud等基础功能；前后台基础框架；你可以在此基础上根据你的业务需求进行开发扩展。前后分离，简单轻量，免费开源，开箱即用。</p>
 <h2 id="功能"> 功能</h2>
 <ul>
 <li>登录退出</li>
@@ -331,6 +334,7 @@ cnpm run build:stage
 <li>日志管理</li>
 <li>实用工具</li>
 <li>接口文档与调试</li>
+<li>快速生成Crud</li>
 <li>前台基础功能：Token认证、接口管理、微信登录、会员管理...</li>
 <li>更多动能请安装后体验...</li>
 </ul>
@@ -460,6 +464,27 @@ app/common/cache/MemberCache.php</p>
 请查看 <a href="https://hg-code.gitee.io/thinkphp-apidoc/" target="_blank" rel="noopener noreferrer">ThinkPHP-ApiDoc文档</a>， 按要求编写注释即可自动生成接口文档。</p>
 <p>然后可在后台 系统管理-&gt;接口文档 页面查看接口文档信息和在线调试接口。</p>
 <img :src="$withBase('/image/use/apidoc.png')" alt="接口文档与调试">
+]]></content:encoded>
+    </item>
+    <item>
+      <title>快速生成Crud</title>
+      <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/use/fastcrud/</link>
+      <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/use/fastcrud/</guid>
+      <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">快速生成Crud</source>
+      <content:encoded><![CDATA[<div><p>注意</p>
+<p>在<code>DEBUG</code>模式下可用，确保站点目录有777权限，一般在本地开发时使用。</p>
+</div>
+<h3 id="填写快速生成crud参数"> 填写快速生成Crud参数</h3>
+<img :src="$withBase('/image/use/fastcrud1.png')" alt="">
+<img :src="$withBase('/image/use/fastcrud2.png')" alt="">
+<h3 id="填写快速生成菜单信息"> 填写快速生成菜单信息</h3>
+<img :src="$withBase('/image/use/fastcrud3.png')" alt="">
+<h3 id="刷新接口文档、调试接口"> 刷新接口文档、调试接口</h3>
+<img :src="$withBase('/image/use/fastcrud4.png')" alt="">
+<h3 id="接口代码和数据表已自动生成"> 接口代码和数据表已自动生成</h3>
+<img :src="$withBase('/image/use/fastcrud5.png')" alt="">
+<img :src="$withBase('/image/use/fastcrud6.png')" alt="">
+<p>然后根据自己的业务逻辑修改接口代码和数据表。</p>
 ]]></content:encoded>
     </item>
     <item>

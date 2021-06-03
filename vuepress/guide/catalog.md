@@ -26,6 +26,10 @@ yylAdmin
 │   ...
 ├── config                     # 配置目录（admin、index，其它为tp配置）
 ├── extend                     # 扩展类库
+├── private                    # private目录
+│   │── apidoc                 # apidoc开发文档和模板
+│   │── captcha                # 验证码背景图和字体
+│   └── yyladmin.sql           # 数据库文件
 ├── public                     # 对外访问目录
 │   │── static                 # 静态资源目录
 │   │── storage                # 上传目录（读写权限）
@@ -37,7 +41,6 @@ yylAdmin
 ├── runtime                    # 运行时目录（读写权限）
 ├── vendor                     # Composer类库目录
 ├── .env.example               # 环境变量示例文件，重命名成.env后使用
-├── yyladmin.sql               # 数据库文件
 ...
 # 更多请参考thinkphp6目录结构
 ```

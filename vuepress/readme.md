@@ -4,14 +4,14 @@ icon: home
 title: yylAdmin
 heroImage: /logo.svg
 heroText: yylAdmin
-tagline: 基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等前后台基础功能；前后分离，简单轻量，免费开源，开箱即用。
+tagline: 基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试、快速生成Crud等前后台基础功能；前后分离，简单轻量，免费开源，开箱即用。
 action:
   - text: 快速上手 💡
     link: /guide/
     type: primary
 
   - text: 教程 🏠
-    link: /
+    link: /course/
 
 features:
   - title: 前后分离
@@ -28,6 +28,9 @@ features:
 
   - title: 接口文档
     details: 编写注释即可自动生成API文档，支持公共注释定义、业务逻辑层、数据表字段的引用，在线调试。
+
+  - title: 生成Crud
+    details: 配置+模板即可快速生成Crud接口代码及数据表的创建，大大提高工作效率。
 
   - title: 实用工具
     details: 内置字符串转换、随机字符串、时间戳转换、二维码生成、字节转换、地图坐标、服务器信息等实用工具。

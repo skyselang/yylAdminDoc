@@ -29,7 +29,7 @@ composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
 composer install
 
 # 导入数据库
-数据库文件：yyladmin.sql
+数据库文件：private/yyladmin.sql
 
 # 修改配置
 重命名.env.example成.env环境变量文件修改里面配置（或修改config文件夹里面的配置）
