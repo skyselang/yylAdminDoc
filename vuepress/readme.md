@@ -2,9 +2,9 @@
 home: true
 icon: home
 title: yylAdmin
-heroImage: /logo.svg
+heroImage: /hero-image.svg
 heroText: yylAdmin
-tagline: 基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理、文件管理、接口文档与调试、快速生成Crud等前后台基础功能；前后分离，简单轻量，免费开源，开箱即用。
+tagline: 基于ThinkPHP6和Vue2的极简后台管理系统
 action:
   - text: 快速上手 💡
     link: /guide/
@@ -42,5 +42,5 @@ features:
     details: 内置字符串转换、随机字符串、时间戳转换、二维码生成、字节转换、地图坐标、服务器信息等实用工具。
 
 copyrightText: false
-footer: MIT Licensed | Copyright © 2020-present skyselang
+footer: MIT Licensed | Copyright © 2018-present skyselang
 ---

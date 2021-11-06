@@ -3,7 +3,7 @@
   "title": "yylAdmin",
   "home_page_url": "https://skyselang.github.io/yylAdminDoc/yylAdminDoc/",
   "feed_url": "https://skyselang.github.io/yylAdminDoc/yylAdminDoc/feed.json",
-  "description": "基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等前后台基础功能，简单轻量，开箱即用，前后分离，免费开源",
+  "description": "基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等前后台基础功能，前后分离，简单轻量，免费开源，开箱即用",
   "author": {
     "name": "skyselang"
   },
@@ -28,7 +28,7 @@
       "id": "https://skyselang.github.io/yylAdminDoc/yylAdminDoc/course/",
       "content_html": "<ul>\n<li><a href=\"./same-domain-name.html\">yylAdmin前后端部署到同一域名</a></li>\n</ul>\n",
       "date_published": "2021-04-26T07:00:42.000Z",
-      "date_modified": "2021-05-21T04:52:01.000Z",
+      "date_modified": "2021-09-30T10:10:57.000Z",
       "authors": [
         {
           "name": "skyselang"
@@ -127,7 +127,7 @@
       "content_html": "<h2 id=\"简介\"> 简介</h2>\n<p>yylAdmin是一个基于ThinkPHP6和Vue2极简后台管理系统，只有登录退出、权限管理、日志管理、文件管理、接口文档与调试、快速生成CRUD等基础功能；前后台基础框架；你可以在此基础上根据你的业务需求进行开发扩展。前后分离，简单轻量，免费开源，开箱即用。</p>\n<h2 id=\"功能\"> 功能</h2>\n<ul>\n<li>登录退出</li>\n<li>权限管理</li>\n<li>日志管理</li>\n<li>实用工具</li>\n<li>文件管理</li>\n<li>接口文档与调试</li>\n<li>快速生成CRUD</li>\n<li>前台基础功能：Token认证、接口管理、微信登录、会员管理...</li>\n<li>更多动能请安装后体验...</li>\n</ul>\n<h2 id=\"演示\"> 演示</h2>\n<p>地址：<a href=\"https://admin.yyladmin.top\" target=\"_blank\" rel=\"noopener noreferrer\">yylAdmin demo</a><br>\n账号：yyladmin、admin、demo、php<br>\n密码：123456<br>\n提示：演示账号只有部分权限，请安装后体验全部功能</p>\n<h2 id=\"支持\"> 支持</h2>\n<p>如果本项目对您有所帮助，请点个Star支持我们</p>\n<ul>\n<li><a href=\"https://gitee.com/skyselang/yylAdmin\" target=\"_blank\" rel=\"noopener noreferrer\">Gitee</a><img src=\"https://gitee.com/skyselang/yylAdmin/badge/star.svg\" alt=\"Gitee\" /></li>\n<li><a href=\"https://github.com/skyselang/yylAdmin\" target=\"_blank\" rel=\"noopener noreferrer\">Github</a><img src=\"https://img.shields.io/github/stars/skyselang/yylAdmin\" alt=\"Github\" /></li>\n</ul>\n",
       "image": "https://gitee.com/skyselang/yylAdmin/badge/star.svg",
       "date_published": "2021-04-26T07:00:42.000Z",
-      "date_modified": "2021-06-03T04:43:37.000Z",
+      "date_modified": "2021-09-30T10:10:57.000Z",
       "authors": [
         {
           "name": "skyselang"
@@ -155,7 +155,7 @@
       "id": "https://skyselang.github.io/yylAdminDoc/yylAdminDoc/",
       "content_html": "",
       "date_published": "2021-04-26T07:00:42.000Z",
-      "date_modified": "2021-07-13T00:39:54.000Z",
+      "date_modified": "2021-09-30T10:10:57.000Z",
       "authors": [
         {
           "name": "skyselang"
@@ -251,7 +251,7 @@
       "title": "新增功能",
       "url": "https://skyselang.github.io/yylAdminDoc/yylAdminDoc/use/",
       "id": "https://skyselang.github.io/yylAdminDoc/yylAdminDoc/use/",
-      "content_html": "<h2 id=\"步骤\"> 步骤</h2>\n<ul>\n<li>添加后台接口</li>\n<li>添加后台页面</li>\n<li>刷新后台权限</li>\n<li>添加前台接口</li>\n<li>接口文档/调试</li>\n</ul>\n<p>接下来会以 会员管理 为例展开说明。</p>\n",
+      "content_html": "<div><p>提示</p>\n<p>因为代码更新原因，截图和最新代码不一定对得上，但思路是一样的。</p>\n</div>\n<h2 id=\"步骤\"> 步骤</h2>\n<ul>\n<li>添加后台接口</li>\n<li>添加后台页面</li>\n<li>刷新后台权限</li>\n<li>添加前台接口</li>\n<li>接口文档/调试</li>\n</ul>\n<p>接下来会以 会员管理 为例展开说明。</p>\n",
       "date_published": "2021-04-26T07:00:42.000Z",
       "date_modified": "2021-05-27T10:31:13.000Z",
       "authors": [

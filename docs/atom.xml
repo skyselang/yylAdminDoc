@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
   <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/</id>
   <title>yylAdmin</title>
-  <subtitle>基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等前后台基础功能，简单轻量，开箱即用，前后分离，免费开源</subtitle>
+  <subtitle>基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等前后台基础功能，前后分离，简单轻量，免费开源，开箱即用</subtitle>
   <author>
     <name>skyselang</name>
   </author>
-  <updated>2021-09-30T08:55:53.037Z</updated>
+  <updated>2021-11-06T07:08:41.954Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/atom.xml"/>
   <link rel="alternate" href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/"/>
@@ -42,7 +42,7 @@
     <title type="html">教程</title>
     <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/course/</id>
     <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/course/"/>
-    <updated>2021-05-21T04:52:01.000Z</updated>
+    <updated>2021-09-30T10:10:57.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li><a href="./same-domain-name.html">yylAdmin前后端部署到同一域名</a></li>
 </ul>
@@ -381,7 +381,7 @@ cnpm run build:stage
     <title type="html">介绍</title>
     <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/</id>
     <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/guide/"/>
-    <updated>2021-06-03T04:43:37.000Z</updated>
+    <updated>2021-09-30T10:10:57.000Z</updated>
     <content type="html"><![CDATA[<h2 id="简介"> 简介</h2>
 <p>yylAdmin是一个基于ThinkPHP6和Vue2极简后台管理系统，只有登录退出、权限管理、日志管理、文件管理、接口文档与调试、快速生成CRUD等基础功能；前后台基础框架；你可以在此基础上根据你的业务需求进行开发扩展。前后分离，简单轻量，免费开源，开箱即用。</p>
 <h2 id="功能"> 功能</h2>
@@ -450,7 +450,7 @@ cnpm run build:stage
     <title type="html">yylAdmin</title>
     <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/</id>
     <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/"/>
-    <updated>2021-07-13T00:39:54.000Z</updated>
+    <updated>2021-09-30T10:10:57.000Z</updated>
     <author>
       <name>skyselang</name>
     </author>
@@ -634,7 +634,10 @@ app/common/cache/MemberCache.php</p>
     <id>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/use/</id>
     <link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/use/"/>
     <updated>2021-05-27T10:31:13.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="步骤"> 步骤</h2>
+    <content type="html"><![CDATA[<div><p>提示</p>
+<p>因为代码更新原因，截图和最新代码不一定对得上，但思路是一样的。</p>
+</div>
+<h2 id="步骤"> 步骤</h2>
 <ul>
 <li>添加后台接口</li>
 <li>添加后台页面</li>

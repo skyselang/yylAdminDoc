@@ -4,10 +4,10 @@
     <atom:link href="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml" rel="self" type="application/rss+xml"/>
     <title>yylAdmin</title>
     <link>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/</link>
-    <description>基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等前后台基础功能，简单轻量，开箱即用，前后分离，免费开源</description>
+    <description>基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等前后台基础功能，前后分离，简单轻量，免费开源，开箱即用</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 30 Sep 2021 08:55:53 GMT</pubDate>
-    <lastBuildDate>Thu, 30 Sep 2021 08:55:53 GMT</lastBuildDate>
+    <pubDate>Sat, 06 Nov 2021 07:08:41 GMT</pubDate>
+    <lastBuildDate>Sat, 06 Nov 2021 07:08:41 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by skyselang</copyright>
@@ -514,7 +514,10 @@ app/common/cache/MemberCache.php</p>
       <guid>https://skyselang.github.io/yylAdminDoc/yylAdminDoc/use/</guid>
       <source url="https://skyselang.github.io/yylAdminDoc/yylAdminDoc/rss.xml">新增功能</source>
       <pubDate>Mon, 26 Apr 2021 07:00:42 GMT</pubDate>
-      <content:encoded><![CDATA[<h2 id="步骤"> 步骤</h2>
+      <content:encoded><![CDATA[<div><p>提示</p>
+<p>因为代码更新原因，截图和最新代码不一定对得上，但思路是一样的。</p>
+</div>
+<h2 id="步骤"> 步骤</h2>
 <ul>
 <li>添加后台接口</li>
 <li>添加后台页面</li>

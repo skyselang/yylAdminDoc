@@ -3,7 +3,7 @@ const { config } = require("vuepress-theme-hope");
 module.exports = config({
   base: "/yylAdminDoc/",
   title: "yylAdmin",
-  description: "基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等前后台基础功能，简单轻量，开箱即用，前后分离，免费开源",
+  description: "基于ThinkPHP6和Vue2的极简后台管理系统，只有登录退出、权限管理、日志管理、接口文档与调试等前后台基础功能，前后分离，简单轻量，免费开源，开箱即用",
 
   dest: "./docs",
 
@@ -14,12 +14,12 @@ module.exports = config({
     ],
     [
       "script",
-      {
-        src:
-          "https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js",
-      },
+      { src: "https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js" },
     ],
-    ["script", { src: "https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js" }],
+    [
+      "script",
+      { src: "https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js" }
+    ],
     [
       "script",
       { src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" },
@@ -43,10 +43,12 @@ module.exports = config({
       { text: "配置", link: "/config/", icon: "config" },
       { text: "使用", link: "/use/", icon: "edit" },
       { text: "教程", link: "/course/", icon: "blog" },
-      { text: "常见问题", link: "/fqa/", icon: "question" },
+      { text: "演示", link: "/guide/#演示", icon: "computer" },
+      { text: "问题", link: "/fqa/", icon: "question" },
       { text: "Gitee", link: "https://gitee.com/skyselang/yylAdmin.git", icon: "gitee" },
     ],
 
+    sidebarIcon: false,
     sidebar: {
       "/guide/": ["", "base", "install", "catalog", "thank"],
       "/config/": [""],
@@ -102,64 +104,6 @@ module.exports = config({
       },
     },
 
-    pwa: {
-      favicon: "/yylAdminDoc/favicon.ico",
-      cachePic: true,
-      apple: {
-        icon: "/yylAdminDoc/assets/icon/apple-icon-152.png",
-        statusBarColor: "black",
-      },
-      msTile: {
-        image: "/yylAdminDoc/assets/icon/ms-icon-144.png",
-        color: "#ffffff",
-      },
-      manifest: {
-        icons: [
-          {
-            src: "/yylAdminDoc/assets/icon/chrome-mask-512.png",
-            sizes: "512x512",
-            purpose: "maskable",
-            type: "image/png",
-          },
-          {
-            src: "/yylAdminDoc/assets/icon/chrome-mask-192.png",
-            sizes: "192x192",
-            purpose: "maskable",
-            type: "image/png",
-          },
-          {
-            src: "/yylAdminDoc/assets/icon/chrome-512.png",
-            sizes: "512x512",
-            type: "image/png",
-          },
-          {
-            src: "/yylAdminDoc/assets/icon/chrome-192.png",
-            sizes: "192x192",
-            type: "image/png",
-          },
-        ],
-        shortcuts: [
-          {
-            name: "Guide",
-            short_name: "Guide",
-            url: "/guide/",
-            icons: [
-              {
-                src: "/yylAdminDoc/assets/icon/guide-maskable.png",
-                sizes: "192x192",
-                purpose: "maskable",
-                type: "image/png",
-              },
-              {
-                src: "/yylAdminDoc/assets/icon/guide-monochrome.png",
-                sizes: "192x192",
-                purpose: "monochrome",
-                type: "image/png",
-              },
-            ],
-          },
-        ],
-      },
-    },
+    pwa: false
   },
 });
