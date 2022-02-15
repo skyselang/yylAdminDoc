@@ -1,5 +1,0 @@
-
-User-agent:*
-Disallow:
-
-Sitemap: https://skyselang.github.io/yylAdminDoc/yylAdminDoc/sitemap.xml
