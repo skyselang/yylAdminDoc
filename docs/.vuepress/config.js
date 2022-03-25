@@ -32,13 +32,13 @@ module.exports = {
       },
       {
         text: '开发', link: '/pages/dev/', items: [
-          { text: '新增功能', link: '/pages/dev/' },
+          { text: '新增功能', link: '/pages/dev-add/' },
           { text: '添加后台接口', link: '/pages/dev-admin/' },
           { text: '添加后台页面', link: '/pages/dev-page/' },
           { text: '刷新后台权限', link: '/pages/dev-rule/' },
           { text: '添加前台接口', link: '/pages/dev-api/' },
           { text: '接口文档调试', link: '/pages/dev-apidoc/' },
-          { text: '快速生成CRUD', link: '/pages/dev-crud/' },
+          { text: '代码生成器', link: '/pages/dev-crud/' },
         ]
       },
       {
