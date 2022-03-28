@@ -27,11 +27,10 @@ module.exports = {
           { text: '目录', link: '/pages/catalogue/' },
           { text: '配置', link: '/pages/config/' },
           { text: '鸣谢', link: '/pages/thank/' },
-          { text: '支持', link: '/pages/support/' },
         ]
       },
       {
-        text: '开发', link: '/pages/dev/', items: [
+        text: '开发', link: '/pages/dev-add/', items: [
           { text: '新增功能', link: '/pages/dev-add/' },
           { text: '添加后台接口', link: '/pages/dev-admin/' },
           { text: '添加后台页面', link: '/pages/dev-page/' },
@@ -51,12 +50,13 @@ module.exports = {
           { text: '跨域问题', link: '/pages/fqa-cross-domain/' },
         ]
       },
+      { text: '支持', link: '/pages/support/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/hero-image.png', // 导航栏logo
-    repo: 'skyselang/yylAdmin', // 导航栏右侧生成Github链接
+    repo: 'https://gitee.com/skyselang/yylAdmin', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
-    lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
+    lastUpdated: '上次更新', // 更新的时间，及前缀文字 string | boolean (取值为git提交时间)
 
     // 以下配置是Vdoing主题改动的和新增的配置
     sidebar: { mode: 'structuring', collapsable: false }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
@@ -96,8 +96,8 @@ module.exports = {
       ]
     },
     footer: { // 页脚信息
-      createYear: 2018, // 博客创建年份
-      copyrightInfo: 'skyselang | MIT License', // 博客版权信息，支持a标签
+      createYear: 2018, // 创建年份
+      copyrightInfo: 'skyselang | MIT License', // 版权信息，支持a标签
     },
     htmlModules,
   },
