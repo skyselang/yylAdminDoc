@@ -11,7 +11,7 @@ module.exports = {
   base: '/yylAdminDoc/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
-    ['meta', { name: 'keywords', content: 'yylAdmin,yylAdminWeb,thinkphp,element'}],
+    ['meta', { name: 'keywords', content: 'yylAdmin,yylAdminWeb,thinkphp,element' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
   ],
 
@@ -31,13 +31,8 @@ module.exports = {
       },
       {
         text: '开发', link: '/pages/dev-add/', items: [
-          { text: '新增功能', link: '/pages/dev-add/' },
-          { text: '添加后台接口', link: '/pages/dev-admin/' },
-          { text: '添加后台页面', link: '/pages/dev-page/' },
-          { text: '刷新后台权限', link: '/pages/dev-rule/' },
-          { text: '添加前台接口', link: '/pages/dev-api/' },
-          { text: '接口文档调试', link: '/pages/dev-apidoc/' },
-          { text: '代码生成器', link: '/pages/dev-crud/' },
+          { text: '开发', link: '/pages/dev-add/' },
+          { text: '前端', link: '/pages/web-token/' },
         ]
       },
       {
@@ -72,7 +67,7 @@ module.exports = {
     // contentBgStyle: 1,
 
     category: false, // 是否打开分类功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含分类字段 2.页面中显示与分类相关的信息和模块 3.自动生成分类页面（在@pages文件夹）。如关闭，则反之。
-    
+
     tag: false, // 是否打开标签功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含标签字段 2.页面中显示与标签相关的信息和模块 3.自动生成标签页面（在@pages文件夹）。如关闭，则反之。
     // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
 
