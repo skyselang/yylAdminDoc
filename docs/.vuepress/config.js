@@ -33,6 +33,7 @@ module.exports = {
         text: '开发', link: '/pages/dev-add/', items: [
           { text: '开发', link: '/pages/dev-add/' },
           { text: '前端', link: '/pages/web-token/' },
+          { text: '调试', link: '/pages/debug-apidoc/' },
         ]
       },
       {
