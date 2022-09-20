@@ -44,6 +44,7 @@ module.exports = {
       {
         text: '问答', link: '/pages/fqa-cross-domain/', items: [
           { text: '跨域问题', link: '/pages/fqa-cross-domain/' },
+          { text: '接口文档问题', link: '/pages/fqa-apidoc/' },
         ]
       },
       { text: '支持', link: '/pages/support/' },
@@ -74,7 +75,7 @@ module.exports = {
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
       name: 'skyselang', // 必需
-      href: 'https://github.com/skyselang' // 可选的
+      href: 'https://gitee.com/skyselang' // 可选的
     },
     social: { // 社交图标，显示于博主信息栏和页脚栏
       // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
