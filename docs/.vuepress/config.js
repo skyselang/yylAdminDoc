@@ -27,6 +27,7 @@ module.exports = {
           { text: '目录', link: '/pages/catalogue/' },
           { text: '配置', link: '/pages/config/' },
           { text: '鸣谢', link: '/pages/thank/' },
+          { text: '更新日志', link: '/pages/uplog/' },
         ]
       },
       {
