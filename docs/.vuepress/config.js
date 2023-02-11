@@ -34,11 +34,13 @@ module.exports = {
         text: '开发', link: '/pages/dev-add/', items: [
           { text: '开发', link: '/pages/dev-add/' },
           { text: '前端', link: '/pages/web-token/' },
+          { text: '后端', link: '/pages/admin-timer/' },
           { text: '调试', link: '/pages/debug-apidoc/' },
         ]
       },
       {
         text: '教程', link: '/pages/course-same-domain-name/', items: [
+          { text: '宝塔面板部署', link: '/pages/course-bt-deploy/' },
           { text: '前后端部署到同一域名', link: '/pages/course-same-domain-name/' },
         ]
       },
