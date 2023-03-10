@@ -50,6 +50,7 @@ module.exports = {
           { text: '接口文档问题', link: '/pages/fqa-apidoc/' },
         ]
       },
+      { text: '演示', link: '/pages/guide/#演示' },
       { text: '支持', link: '/pages/support/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
