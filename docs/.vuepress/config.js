@@ -27,6 +27,7 @@ module.exports = {
           { text: '目录', link: '/pages/catalogue/' },
           { text: '配置', link: '/pages/config/' },
           { text: '鸣谢', link: '/pages/thank/' },
+          { text: '支持', link: '/pages/support/' },
           { text: '更新日志', link: '/pages/uplog/' },
         ]
       },
@@ -48,14 +49,15 @@ module.exports = {
         text: '问答', link: '/pages/fqa-cross-domain/', items: [
           { text: '跨域问题', link: '/pages/fqa-cross-domain/' },
           { text: '接口文档问题', link: '/pages/fqa-apidoc/' },
+          { text: 'NodeJS版本问题', link: '/pages/fqa-nodejs-version/' },
         ]
       },
       { text: '演示', link: '/pages/guide/#演示' },
-      { text: '支持', link: '/pages/support/' },
+      { text: 'Gitee', link: 'https://gitee.com/skyselang/yylAdmin' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/hero-image.png', // 导航栏logo
-    repo: 'https://gitee.com/skyselang/yylAdmin', // 导航栏右侧生成Github链接
+    repo: 'skyselang/yylAdmin', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字 string | boolean (取值为git提交时间)
 
