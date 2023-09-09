@@ -52,7 +52,14 @@ module.exports = {
           { text: 'NodeJS版本问题', link: '/pages/fqa-nodejs-version/' },
         ]
       },
+      {
+        text: '版本', link: '/pages/guide/', items: [
+          { text: 'v3', link: '/pages/guide/' },
+          { text: 'v2', link: '/v2/pages/guide/' },
+        ]
+      },
       { text: '演示', link: '/pages/guide/#演示' },
+
       { text: 'Gitee', link: 'https://gitee.com/skyselang/yylAdmin' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
@@ -100,7 +107,7 @@ module.exports = {
     },
     footer: { // 页脚信息
       createYear: 2018, // 创建年份
-      copyrightInfo: 'skyselang | MIT License', // 版权信息，支持a标签
+      copyrightInfo: 'yyladmin | Apache-2.0', // 版权信息，支持a标签
     },
     htmlModules,
   },
