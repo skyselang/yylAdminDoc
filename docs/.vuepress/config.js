@@ -14,7 +14,7 @@ module.exports = {
     ['meta', { name: 'keywords', content: 'yylAdmin,yylAdminWeb,thinkphp,element' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
   ],
-
+  port: 9529,
   // 主题配置
   themeConfig: {
     nav: [
@@ -41,6 +41,7 @@ module.exports = {
       },
       {
         text: '教程', link: '/pages/course-same-domain-name/', items: [
+          { text: '开发工具推荐', link: '/pages/course-dev-tools/' },
           { text: '宝塔面板部署', link: '/pages/course-bt-deploy/' },
           { text: '前后端部署到同一域名', link: '/pages/course-same-domain-name/' },
         ]
@@ -107,7 +108,7 @@ module.exports = {
     },
     footer: { // 页脚信息
       createYear: 2018, // 创建年份
-      copyrightInfo: 'yyladmin | Apache-2.0', // 版权信息，支持a标签
+      copyrightInfo: 'yylAdmin | Apache-2.0', // 版权信息，支持a标签
     },
     htmlModules,
   },
@@ -150,4 +151,16 @@ module.exports = {
       }
     ]
   ],
+
+  // Markdown
+  markdown: {
+    extractHeaders: ['h2', 'h3', 'h4']
+  },
+
+  // Webpack
+  configureWebpack: (config, isServer) => {
+    if (!isServer) {
+      // 修改客户端的 webpack 配置
+    }
+  }
 }
