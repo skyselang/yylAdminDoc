@@ -7,7 +7,7 @@ module.exports = {
   // theme: require.resolve('../../vdoing'), // 使用本地主题
 
   title: "yylAdmin",
-  description: '一个基于ThinkPHP6和Vue2的极简后台管理系统',
+  description: '一个基于ThinkPHP8和Vue3的极简后台管理系统',
   base: '/yylAdminDoc/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
@@ -55,8 +55,8 @@ module.exports = {
       },
       {
         text: '版本', link: '/pages/guide/', items: [
-          { text: 'v3', link: '/pages/guide/' },
-          { text: 'v2', link: '/v2/pages/guide/' },
+          { text: 'v4', link: '/pages/guide/' },
+          { text: 'v3', link: '/v3/pages/guide/' },
         ]
       },
       { text: '演示', link: '/pages/guide/#演示' },
