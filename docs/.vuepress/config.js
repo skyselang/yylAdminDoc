@@ -20,8 +20,8 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '指南', link: '/pages/guide/', items: [
-          { text: '介绍', link: '/pages/guide/' },
+        text: '指南', link: '/pages/guides/', items: [
+          { text: '介绍', link: '/pages/guides/' },
           { text: '基础', link: '/pages/base/' },
           { text: '安装', link: '/pages/install/' },
           { text: '目录', link: '/pages/catalogue/' },
@@ -54,12 +54,12 @@ module.exports = {
         ]
       },
       {
-        text: '版本', link: '/pages/guide/', items: [
-          { text: 'v4', link: '/pages/guide/' },
-          { text: 'v3', link: '/v3/pages/guide/' },
+        text: '版本', link: '/pages/guides/', items: [
+          { text: 'v4', link: '/pages/guides/' },
+          { text: 'v3', link: '/v3/pages/guides/' },
         ]
       },
-      { text: '演示', link: '/pages/guide/#演示' },
+      { text: '演示', link: '/pages/guides/#演示' },
 
       { text: 'Gitee', link: 'https://gitee.com/skyselang/yylAdmin' },
     ],
