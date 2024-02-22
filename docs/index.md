@@ -4,7 +4,7 @@ heroImage: /img/hero-image.png
 heroText: yylAdmin
 tagline: 基于ThinkPHP8和Vue3的极简后台管理系统
 actionText: 开始使用 →
-actionLink: /pages/guides/
+actionLink: /pages/guide/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式 提示：可以到palette.styl修改背景颜色$bannerTextColor变量
 
 features: # 可选的

@@ -20,8 +20,8 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '指南', link: '/pages/guides/', items: [
-          { text: '介绍', link: '/pages/guides/' },
+        text: '指南', link: '/pages/guide/', items: [
+          { text: '介绍', link: '/pages/guide/' },
           { text: '基础', link: '/pages/base/' },
           { text: '安装', link: '/pages/install/' },
           { text: '目录', link: '/pages/catalogue/' },
@@ -40,7 +40,7 @@ module.exports = {
         ]
       },
       {
-        text: '教程', link: '/pages/course-same-domain-name/', items: [
+        text: '教程', link: '/pages/course-dev-tools/', items: [
           { text: '开发工具推荐', link: '/pages/course-dev-tools/' },
           { text: '宝塔面板部署', link: '/pages/course-bt-deploy/' },
           { text: '前后端部署到同一域名', link: '/pages/course-same-domain-name/' },
@@ -54,12 +54,12 @@ module.exports = {
         ]
       },
       {
-        text: '版本', link: '/pages/guides/', items: [
-          { text: 'v4', link: '/pages/guides/' },
-          { text: 'v3', link: '/v3/pages/guides/' },
+        text: '版本', link: '/pages/guide/', items: [
+          { text: 'v4', link: '/pages/guide/' },
+          { text: 'v3', link: '/v3/pages/guide/' },
         ]
       },
-      { text: '演示', link: '/pages/guides/#演示' },
+      { text: '演示', link: '/pages/guide/#演示' },
 
       { text: 'Gitee', link: 'https://gitee.com/skyselang/yylAdmin' },
     ],
@@ -92,7 +92,6 @@ module.exports = {
       href: 'https://gitee.com/skyselang' // 可选的
     },
     social: { // 社交图标，显示于博主信息栏和页脚栏
-      // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
       icons: [
         {
           iconClass: 'icon-gitee',
@@ -155,12 +154,5 @@ module.exports = {
   // Markdown
   markdown: {
     extractHeaders: ['h2', 'h3', 'h4']
-  },
-
-  // Webpack
-  configureWebpack: (config, isServer) => {
-    if (!isServer) {
-      // 修改客户端的 webpack 配置
-    }
   }
 }
