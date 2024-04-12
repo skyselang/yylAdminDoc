@@ -23,7 +23,8 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://gitee.com/skyselang/yyladmin-doc.git master:docs
+git push -f https://gitee.com/skyselang/yylAdminDoc.git master:docs
+git push -f https://github.com/skyselang/yylAdminDoc.git master:docs
 
 cd -
 rm -rf docs/.vitepress/dist
