@@ -5,6 +5,7 @@ export default defineConfig({
   title: "yylAdmin",
   description: "基于ThinkPHP和Vue的极简后台管理系统",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  base: "/yyladmindoc/",
   ignoreDeadLinks: [
     // 忽略所有 localhost 链接
     /^http?:\/\/localhost/,
