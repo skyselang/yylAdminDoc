@@ -4,10 +4,10 @@
 set -e
 
 # 生成静态文件
-npm run build
+pnpm run docs:build
 
 # 进入生成的文件夹
-cd docs/.vuepress/dist
+cd docs/.vitepress/dist
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
@@ -23,8 +23,7 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://gitee.com/skyselang/yylAdminDoc.git master:docs
-git push -f https://github.com/skyselang/yylAdminDoc.git master:docs
+git push -f https://gitee.com/skyselang/yyladmin-doc.git master:docs
 
 cd -
-rm -rf docs/.vuepress/dist
+rm -rf docs/.vitepress/dist
