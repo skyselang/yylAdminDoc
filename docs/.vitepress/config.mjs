@@ -89,6 +89,7 @@ export default defineConfig({
             { text: "跨域问题", link: "/fqa/cross-domain" },
             { text: "接口文档问题", link: "/fqa/apidoc" },
             { text: "NodeJS版本问题", link: "/fqa/nodejs-version" },
+            { text: "旧版文档", link: "/fqa/old-doc" },
           ],
         },
       ],
