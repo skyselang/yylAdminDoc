@@ -21,14 +21,6 @@ yylAdmin是一个基于ThinkPHP8和Vue3极简后台管理系统，只有登录�
 - 暗黑模式
 - 更多功能请安装后体验
 
-## 演示 {#demo}
-
-地址：[demo](https://admin.yyladmin.top)  
-账号：yyladmin、admin、demo、test、php  
-密码：123456  
-提示：演示账号只有部分权限，请安装后体验全部功能。  
-前台：[index](https://www.yyladmin.top) （登录注册，第三方登录，会员信息......）
-
 ## 代码
 
 前后端代码同步托管在Gitee、Github。

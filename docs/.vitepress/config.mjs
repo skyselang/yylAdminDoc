@@ -18,6 +18,7 @@ export default defineConfig({
       { text: "指南", link: "/guide/intro" },
       { text: "开发", link: "/dev/develop/add" },
       { text: "问答", link: "/fqa/dev-tools" },
+      { text: "演示", link: "/guide/demo" },
     ],
 
     sidebar: {
@@ -27,6 +28,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "介绍", link: "/guide/intro" },
+            { text: "演示", link: "/guide/demo" },
             { text: "基础", link: "/guide/base" },
             { text: "安装", link: "/guide/install" },
             { text: "目录", link: "/guide/catalogue" },

@@ -15,7 +15,10 @@ hero:
       link: /guide/intro
     - theme: alt
       text: 演示
-      link: /guide/intro#demo
+      link: /guide/demo
+    - theme: alt
+      text: 前台
+      link: https://www.yyladmin.top/    
 
 features:
   - title: 前后分离
