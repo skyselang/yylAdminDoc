@@ -2,4 +2,4 @@
 
 ## vuepress
  
-[yyladmin-doc](https://skyselang.gitee.io/yyladmin-doc/)
+[yyladmin-doc](https://olddoc.yyladmin.top/)
