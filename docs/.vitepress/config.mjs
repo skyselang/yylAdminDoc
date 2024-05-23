@@ -6,7 +6,7 @@ export default defineConfig({
   description: "基于ThinkPHP和Vue的极简后台管理系统",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   base: "/",
-  outDir: '../dist',
+  outDir: "../dist",
   ignoreDeadLinks: [
     // 忽略所有 localhost 链接
     /^http?:\/\/localhost/,
@@ -56,6 +56,15 @@ export default defineConfig({
           ],
         },
         {
+          text: "后端",
+          collapsed: false,
+          items: [
+            { text: "缓存", link: "/dev/admin/cache" },
+            { text: "定时任务", link: "/dev/admin/timer" },
+            { text: "队列支持", link: "/dev/admin/queue" },
+          ],
+        },
+        {
           text: "前端",
           collapsed: false,
           items: [
@@ -64,13 +73,9 @@ export default defineConfig({
           ],
         },
         {
-          text: "后端",
+          text: "其它",
           collapsed: false,
-          items: [
-            { text: "缓存", link: "/dev/admin/cache" },
-            { text: "定时任务", link: "/dev/admin/timer" },
-            { text: "队列支持", link: "/dev/admin/queue" },
-          ],
+          items: [{ text: "多语言", link: "/dev/other/lang" }],
         },
         {
           text: "调试",
@@ -89,7 +94,6 @@ export default defineConfig({
             { text: "开发工具推荐", link: "/fqa/dev-tools" },
             { text: "宝塔面板部署", link: "/fqa/bt-deploy" },
             { text: "前后端部署到同一域名", link: "/fqa/same-domain-name" },
-            { text: "多语言", link: "/fqa/lang" },
             { text: "跨域问题", link: "/fqa/cross-domain" },
             { text: "接口文档问题", link: "/fqa/apidoc" },
             { text: "NodeJS版本问题", link: "/fqa/nodejs-version" },
