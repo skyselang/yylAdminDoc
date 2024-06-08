@@ -119,6 +119,14 @@ npm run build:stage
 ```bash
 npm run build:prod
 ```
+#### 打包测试后预览
+```bash
+npm run preview:stage
+```
+#### 打包正式后预览
+```bash
+npm run preview:prod
+```
 
 ## 访问后台
 

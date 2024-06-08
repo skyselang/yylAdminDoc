@@ -4,11 +4,11 @@
   "description": "yyladmin document",
   "main": "index.js",
   "scripts": {
-    "dev": "vitepress dev docs",
+    "dev": "vitepress dev docs --open --port 9529",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "preview": "vitepress preview docs --port 9529"
   },
   "devDependencies": {
-    "vitepress": "^1.2.2"
+    "vitepress": "^1.2.3"
   }
 }
