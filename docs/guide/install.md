@@ -11,7 +11,8 @@
 - Npm >= 8.19
 
 ::: warning
-Node 版本过低或过高可能无法安装，你可以使用 [n](https://github.com/tj/n)，[nvm](https://github.com/creationix/nvm) 或 [nvm-windows](https://github.com/creationix/nvm) 在同一台电脑中管理多个 Node 版本。
+Node 版本过低或过高可能无法安装，你可以使用 [n](https://github.com/tj/n)，[nvm](https://github.com/creationix/nvm) 或 [nvm-windows](https://github.com/creationix/nvm) 在同一台电脑中管理多个 Node 版本。  
+后端项目的 runtime、public/storage/file 文件夹需要读写权限，否则无法运行和上传文件。
 :::
 
 ## 安装后端
