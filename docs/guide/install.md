@@ -7,7 +7,7 @@
   开启 putenv、proc_open 函数
 - MySQL >= 5.5
 - Redis >= 5.0
-- Node >= 18.12
+- Node >= 18.18
 - Npm >= 8.19
 
 ::: warning
