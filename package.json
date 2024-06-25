@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "vitepress dev docs --open --port 9529",
-    "build": "vitepress build docs",
-    "preview": "vitepress preview docs --port 9529"
+    "build:prod": "vitepress build docs",
+    "preview:prod": "vitepress preview docs --port 9529"
   },
   "devDependencies": {
     "vitepress": "^1.2.3"
