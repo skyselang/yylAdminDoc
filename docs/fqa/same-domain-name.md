@@ -3,6 +3,8 @@
 前端和后端部署在同一个域名下，可以解决跨域问题，可以通过下面方法设置。
 >当然前后端分开部署正常情况下也不会有跨域问题，yylAdmin已经做了跨域处理
 
+演示：[admin](https://api.yyladmin.top/admin)  
+
 ## 设置环境变量文件
 /.env.production  
 把 .env.production 复制后重命名为 .env.production.local  
