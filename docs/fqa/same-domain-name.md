@@ -39,13 +39,18 @@ pnpm run build:prod
 [http://localhost:9526/admin/](http://localhost:9526/admin/){target="_self"}  
 >http://localhost:9526是后端地址，/admin/ 是前面设置的 base 路径  
 
-## 部署yylAdmin到服务器上
-你的域名/admin/
->输入部署后端域名，再加上 base 路径就可以访问了  
+## 部署到服务器
+把打包后的 admin 文件夹部署到服务器上后端项目的 public 文件夹下。  
+输入部署后端域名，再加上 base 路径就可以访问了：你的域名/admin/。  
+演示：[admin](https://api.yyladmin.top/admin)  
 
 ## 测试环境  
 可以根据打包环境修改对应文件，如果打包测试环境，  
 就复制 .env.staging 后重命名成 .env.staging.local， 然后按照上面步骤修改  
 
 ## 其它前端
-同样，可以把前端（pc、h5）等 与 后端（yylAdmin）放到同一个域名下。
+同样，可以把前端（pc、h5）等 与 后端（yylAdmin）放到同一个域名下。  
+
+Vue Router history 设为 createWebHashHistory：[不同的历史模式](https://router.vuejs.org/zh/guide/essentials/history-mode.html)。  
+本地储存（localStorage等）的键名（key）不要与其它项目冲突。  
+伪静态设置。
