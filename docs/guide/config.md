@@ -1,66 +1,72 @@
 # 配置
 
+::: warning 
+因为代码更新原因，配置会有增减，请查看具体配置文件。
+:::
+
 ## 后端
 
-### admin
+## admin
+
 config/admin.php
 
-#### token_type
+### token_type
 - 类型：string  
 token方式：header、param
 
-#### token_name
+### token_name
 - 类型：string  
 token名称，前后端必须一致
 
-#### super_ids
+### super_ids
 - 类型：array  
 超管用户ID，所有权限
 
-#### super_hide
+### super_hide
 - 类型：boolean 
 系统超管用户是否隐藏
 
-#### menu_is_unlogin
+### menu_is_unlogin
 - 类型：array  
 无需登录菜单url，不用登录就可以访问
 
-#### menu_is_unauth
+### menu_is_unauth
 - 类型：array  
 无需权限菜单url，登录后不用分配权限也可以访问
 
-#### menu_is_unrate
+### menu_is_unrate
 - 类型：array  
 无需限率菜单url，不受接口设置的接口速率限制
 
-#### log_param_without
+### log_param_without
 - 类型：array  
 日志记录请求参数排除字段（敏感、内容多等信息）
 
-### api  
+## api  
+
 config/api.php
 
-#### token_type
+### token_type
 - 类型：string  
 token方式：header、param
 
-#### token_name
+### token_name
 - 类型：string  
 token名称，前后端必须一致
 
-#### super_ids
+### super_ids
 - 类型：array  
 超级会员ID，所有权限
 
-#### api_is_unlogin
+### api_is_unlogin
 - 类型：array  
 无需登录接口url，不用登录就可以访问
 
-#### api_is_unrate
+### api_is_unrate
 - 类型：array  
 无需限率接口url，不受接口设置的接口速率限制
 
-#### log_param_without
+### log_param_without
 - 类型：array  
 日志记录请求参数排除字段（敏感、内容多等信息）
 
@@ -74,66 +80,66 @@ token名称，前后端必须一致
 
 src/settings.js
 
-#### systemName
+### systemName
 - 类型：string  
 默认系统名称
 
-#### pageTitle
+### pageTitle
 - 类型：string  
 默认页面标题
 
-#### faviconUrl
+### faviconUrl
 - 类型：string  
 默认favicon图标
 
-#### logoUrl
+### logoUrl
 - 类型：string  
 默认logo图片
 
-#### sidebarLogo
+### sidebarLogo
 - 类型：boolean  
 是否在侧边栏中显示logo
 
-#### sidebarName
+### sidebarName
 - 类型：boolean  
 是否在侧边栏中显示系统名称
 
-#### fixedHeader
+### fixedHeader
 - 类型：boolean  
 是否固定头部
 
-#### tagsView
+### tagsView
 - 类型：boolean  
 是否显示标签栏
 
-#### layout
+### layout
 - 类型：string  
 布局：left、top、mix
 
-#### theme
+### theme
 - 类型：string  
 主题模式：light明亮，dark暗黑
 
-#### themeColor
+### themeColor
 - 类型：string  
 主题颜色
 
-#### tokenType
+### tokenType
 - 类型：string  
 token方式：header、param
 
-#### tokenName
+### tokenName
 - 类型：string  
 token名称，前后端必须一致
 
-#### pageLimit
+### pageLimit
 - 类型：number  
 分页每页默认数量
 
-#### size
+### size
 - 类型：string  
 element-plus 默认 size
 
-#### language
+### language
 - 类型：string  
 语言：zh-cn中文，en英文

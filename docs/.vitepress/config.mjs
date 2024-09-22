@@ -68,14 +68,16 @@ export default defineConfig({
           text: "前端",
           collapsed: false,
           items: [
-            { text: "token", link: "/dev/web/token" },
             { text: "多级目录", link: "/dev/web/nested" },
           ],
         },
         {
           text: "其它",
           collapsed: false,
-          items: [{ text: "多语言", link: "/dev/other/lang" }],
+          items: [
+            { text: "token", link: "/dev/other/token" },
+            { text: "多语言", link: "/dev/other/lang" },
+          ],
         },
         {
           text: "调试",
@@ -124,6 +126,7 @@ export default defineConfig({
     },
 
     outline: {
+      level: [2, 5],
       label: "页面导航",
     },
 

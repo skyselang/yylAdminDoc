@@ -3,13 +3,13 @@
 如果项目对你有帮助，或者是想支持继续开发维护，可以通过如下`任意`方式支持
 
 ## Star
-如果本项目对您有所帮助，请点个 Star
-[Gitee](https://gitee.com/skyselang/yylAdmin)
+如果本项目对您有所帮助，请点个 Star  
+[Gitee](https://gitee.com/skyselang/yylAdmin)  
 [Github](https://github.com/skyselang/yylAdmin)
 
 ## Issue
-使用时有任何问题或者建议，请提个 Issue 
-[Gitee](https://gitee.com/skyselang/yylAdmin/issues)
+使用时有任何问题或者建议，请提个 Issue   
+[Gitee](https://gitee.com/skyselang/yylAdmin/issues)  
 [Github](https://github.com/skyselang/yylAdmin/issues)
 
 ## Group

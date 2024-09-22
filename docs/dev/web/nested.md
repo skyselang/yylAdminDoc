@@ -35,12 +35,13 @@ export default {
  <router-view />
 ```
 
-目录结构 router-view
+## 目录结构 router-view
 <img src="/image/dev/nested-catelog.jpg" alt="目录结构">
 <img src="/image/dev/nested-routerview.jpg" alt="router-view">
 
-菜单管理，目录的组件路径填写 router-view 文件路径
+## 菜单管理
+目录的组件路径填写 router-view 文件路径
 <img src="/image/dev/nested-routerfile.jpg" alt="router-view文件路径">
 
-效果预览
+## 效果预览
 <img src="/image/dev/nested-preview.jpg" alt="效果预览">

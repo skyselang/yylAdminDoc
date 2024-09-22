@@ -4,7 +4,7 @@
 
 自动生成接口文档及在线调试功能使用的是 [Apidoc](https://gitee.com/hg-code/apidoc-php)。  
 
-### Apidoc
+## Apidoc
 
 请查看 [Apidoc文档](https://gitee.com/hg-code/apidoc-php)， 按要求编写注释即可自动生成接口文档。  
 

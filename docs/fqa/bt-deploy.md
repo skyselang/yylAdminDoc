@@ -5,7 +5,7 @@
 ## 环境安装
 
 ### 安装软件
-点击【软件商店】-【运行环境】，安装Nginx(>=1.20)、MySQL(>=5.7)、PHP(>=8.0)、node(>=18.18)、npm(>=8.19)。
+点击【软件商店】-【运行环境】，安装Nginx(>=1.20)、MySQL(>=5.5)、PHP(>=8.0)、node(>=18.18)、npm(>=8.19)。
 >安装软件的时候，使用极速安装，避免出现一些环境引起的问题。 
 
 <img src="/image/fqa/bt-deploy/bt-env-1.png" alt="">
@@ -34,7 +34,7 @@
 <img src="/image/fqa/bt-deploy/bt-dep-set-pseudo-static.jpg" alt="">
 
 ### 目录权限
-设置网站runtime和storage目录读写权限。
+设置网站runtime和public/storage目录读写权限。
 <img src="/image/fqa/bt-deploy/bt-dep-set-runtime.jpg" alt="">
 <img src="/image/fqa/bt-deploy/bt-dep-set-storage.jpg" alt="">
 

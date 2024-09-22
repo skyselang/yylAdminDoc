@@ -11,8 +11,8 @@
 - Npm >= 8.19
 
 ::: warning
-Node 版本过低或过高可能无法安装，你可以使用 [n](https://github.com/tj/n)，[nvm](https://github.com/creationix/nvm) 或 [nvm-windows](https://github.com/creationix/nvm) 在同一台电脑中管理多个 Node 版本。  
-后端项目的 runtime、public/storage/file 文件夹需要读写权限，否则无法运行和上传文件。
+Node 版本过低或过高可能无法安装，你可以使用 [n](https://github.com/tj/n)，[nvm](https://github.com/creationix/nvm) 或 [nvm-windows](https://github.com/creationix/nvm) 进行 Node 版本切换。  
+后端项目 runtime、public/storage 文件夹需要读写权限，否则无法运行和上传文件。
 :::
 
 ## 安装后端
@@ -74,7 +74,7 @@ location / {
 </IfModule>
 ```
 ::: warning
-不设置伪静态接口文档无法访问  
+不设置伪静态接口文档无法访问。  
 :::
 
 ## 安装前端
@@ -87,44 +87,44 @@ git clone https://gitee.com/skyselang/yylAdminWeb.git
 ```bash
 cd yylAdminWeb
 ```
-#### 设置 npm
+### 设置 npm
 ```bash
 npm config set registry https://registry.npmmirror.com
 ```
-#### 安装依赖
+### 安装依赖
 ```bash
 npm install
 ```
 > 也可以使用 cnpm、pnpm、yarn
-#### 修改配置
+### 修改配置
 ```bash
 复制.env.xxx后重命名成.env.xxx.local环境变量文件修改里面配置
 ```
-#### 本地开发 启动项目
+### 本地开发 启动项目
 ```bash
 npm run dev
 ```
-#### 检查代码错误 eslint
+### 检查代码错误 eslint
 ```bash
 npm run lint
 ```
-#### 修复代码错误 prettier
+### 修复代码错误 prettier
 ```bash
 npm run format
 ```
-#### 打包测试环境
+### 打包测试环境
 ```bash
 npm run build:stage
 ```
-#### 打包正式环境
+### 打包正式环境
 ```bash
 npm run build:prod
 ```
-#### 打包测试后预览
+### 打包测试后预览
 ```bash
 npm run preview:stage
 ```
-#### 打包正式后预览
+### 打包正式后预览
 ```bash
 npm run preview:prod
 ```

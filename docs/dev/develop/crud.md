@@ -12,17 +12,17 @@
 为了灵活适应各种项目结构与实现方式，需做好系统配置与模板编写。  
 接口生成器功能使用的是 [Apidoc](https://gitee.com/hg-code/apidoc-php)。文档 [接口生成器](https://docs.apidoc.icu/use/function/generator.html)。
 
-### 填写接口生成参数
+## 填写接口生成参数
 <img src="/image/dev/fastcrud1.png" alt="">
 <img src="/image/dev/fastcrud2.png" alt="">
 
-### 填写快速生成菜单信息
+## 填写快速生成菜单信息
 <img src="/image/dev/fastcrud3.png" alt="">
 
-### 刷新接口文档调试接口
+## 刷新接口文档调试接口
 <img src="/image/dev/fastcrud4.png" alt="">
 
-### 接口代码和数据表已生成
+## 接口代码和数据表已生成
 <img src="/image/dev/fastcrud5.png" alt="">
 <img src="/image/dev/fastcrud6.png" alt="">
 

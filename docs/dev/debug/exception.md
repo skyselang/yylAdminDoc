@@ -8,9 +8,9 @@
 exception($msg, $code);
 ```
 
-## 错误返回（调试使用）
-
-通过公共方法 error_e() 返回错误信息（调试使用）
+## 错误返回
+调试的时候使用  
+通过公共方法 error_e() 返回错误信息
 
 ```php
 error_e($data, $msg, $code);

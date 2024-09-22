@@ -1,9 +1,11 @@
 # 目录
 
+因为代码更新原因，目录会有所调整。
+
 ## 后端
 
 ::: warning
-runtime运行目录、public/storage上传目录需要读写权限，否则无法运行和上传文件！！！
+runtime运行目录、public/storage上传目录需要读写权限，否则无法运行和上传文件！！！  
 :::
 
 ```bash
@@ -28,7 +30,7 @@ runtime运行目录、public/storage上传目录需要读写权限，否则无�
 │   │── admin                  # 后台配置  
 │   │── api                    # 前台配置 
 │   │── apidoc                 # 接口文档配置 
-│   ...                        # 其它tp配置 
+│   ...                        # 其它配置 
 ├── extend                     # 扩展类库
 ├── private                    # private目录
 │   │── apidoc                 # 接口文档和模板
@@ -48,7 +50,7 @@ runtime运行目录、public/storage上传目录需要读写权限，否则无�
 ├── vendor                     # Composer类库目录
 ├── .env.example               # 环境变量示例文件，复制后重命名成.env后使用
 ├── ...
-# 更多请参考thinkphp6目录结构
+# 更多请参考thinkphp目录结构
 ```
 
 ## 前端
