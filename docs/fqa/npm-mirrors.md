@@ -96,3 +96,9 @@ npm 国内镜像可以显著提高国内开发者在使用 npm 时的下载速�
 
 官方地址：[https://www.npmjs.com](https://www.npmjs.com)  
 官方仓库：[https://registry.npmjs.org](https://registry.npmjs.org)
+
+要将 npm 恢复到默认的镜像源，你可以使用以下命令：
+
+```bash
+npm config set registry https://registry.npmjs.org/
+```

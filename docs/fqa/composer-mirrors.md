@@ -92,3 +92,9 @@ Composer 国内镜像可以显著提高国内开发者在使用 Composer 时的�
 
 官方地址：[https://getcomposer.org/](https://getcomposer.org/)  
 官方仓库：[https://repo.packagist.org](https://repo.packagist.org)
+
+如果需要解除镜像并恢复到 packagist 官方源，请执行以下命令：  
+
+```bash
+composer config -g --unset repos.packagist
+```
