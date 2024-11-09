@@ -26,6 +26,10 @@ token名称，前后端必须一致
 - 类型：boolean 
 系统超管用户是否隐藏
 
+### super_upload_size
+- 类型：boolean  
+系统超管用户上传文件大小是否不受限制
+
 ### menu_is_unlogin
 - 类型：array  
 无需登录菜单url，不用登录就可以访问
@@ -41,6 +45,10 @@ token名称，前后端必须一致
 ### log_param_without
 - 类型：array  
 日志记录请求参数排除字段（敏感、内容多等信息）
+
+### region_level
+- integer  
+地区级别：1省2市3区县4街道乡镇
 
 ## api  
 
@@ -70,10 +78,12 @@ token名称，前后端必须一致
 - 类型：array  
 日志记录请求参数排除字段（敏感、内容多等信息）
 
-### Apidoc
+## Apidoc
+config/apidoc.php  
 [接口文档配置](https://docs.apidoc.icu/config/)
 
-### ThinkPHP
+## ThinkPHP
+config/*.php，tp配置文件  
 [ThinkPHP8配置](https://doc.thinkphp.cn/v8_0/preface.html)
 
 ## 前端
@@ -143,3 +153,7 @@ element-plus 默认 size
 ### language
 - 类型：string  
 语言：zh-cn中文，en英文
+
+### storePrefix
+- 类型：string  
+本地存储前缀

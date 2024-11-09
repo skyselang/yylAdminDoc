@@ -16,3 +16,8 @@
 | 插件 | [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) | VSCode插件：vue 语法高亮、智能提示等 |
 | 插件 | [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) | VSCode插件：vue格式化等 |
 | 插件 | [element-plus-vue](https://marketplace.visualstudio.com/items?itemName=xuanzai.element-plus-vue) | VSCode插件：vue Element-plus 组件提示 |
+| 插件 | [Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans) | VSCode插件：简体中文 |
+| 插件 | [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) | VSCode插件：运行代码片段 |
+| 插件 | [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) | VSCode插件：查看git日志、文件历史、比较分支 |
+| 插件 | [i18n Ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally) | VSCode插件：i18n扩展 |
+| 插件 | [UnoCSS](https://marketplace.visualstudio.com/items?itemName=antfu.unocss) | VSCode插件：UnoCSS扩展 |
