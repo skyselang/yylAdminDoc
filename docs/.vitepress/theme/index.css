@@ -1,0 +1,9 @@
+.medium-zoom-overlay {
+  z-index: 250;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.medium-zoom-image {
+  z-index: 251;
+  transition: transform 0.3s ease;
+}
