@@ -7,11 +7,12 @@ module.exports = {
   // theme: require.resolve('../../vdoing'), // 使用本地主题
 
   title: "yylAdmin",
-  description: '一个基于ThinkPHP6和Vue2的极简后台管理系统',
-  base: '/yylAdminDoc/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+  description: '一个基于ThinkPHP8和Vue3的极简后台管理系统',
+  base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+  dest: './dist',
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
-    ['meta', { name: 'keywords', content: 'yylAdmin,yylAdminWeb,thinkphp,element' }],
+    ['meta', { name: 'keywords', content: 'yylAdmin,thinkphp,element-plus' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
   ],
   port: 9529,
@@ -20,46 +21,47 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '指南', link: '/pages/guide/', items: [
-          { text: '介绍', link: '/pages/guide/' },
-          { text: '基础', link: '/pages/base/' },
-          { text: '安装', link: '/pages/install/' },
-          { text: '目录', link: '/pages/catalogue/' },
-          { text: '配置', link: '/pages/config/' },
-          { text: '鸣谢', link: '/pages/thank/' },
-          { text: '支持', link: '/pages/support/' },
-          { text: '更新日志', link: '/pages/uplog/' },
+        text: '指南', link: '/guide/intro/', items: [
+          { text: '介绍', link: '/guide/intro/' },
+          { text: '基础', link: '/guide/base/' },
+          { text: '安装', link: '/guide/install/' },
+          { text: '目录', link: '/guide/catalogue/' },
+          { text: '配置', link: '/guide/config/' },
+          { text: '鸣谢', link: '/guide/thank/' },
+          { text: '支持', link: '/guide/support/' },
+          { text: '更新日志', link: '/guide/uplog/' },
         ]
       },
       {
-        text: '开发', link: '/pages/dev-add/', items: [
-          { text: '开发', link: '/pages/dev-add/' },
-          { text: '前端', link: '/pages/web-token/' },
-          { text: '后端', link: '/pages/admin-timer/' },
-          { text: '调试', link: '/pages/debug-apidoc/' },
+        text: '开发', link: '/develop/add/', items: [
+          { text: '开发', link: '/develop/add/' },
+          { text: '前端', link: '/web/token/' },
+          { text: '后端', link: '/admin/timer/' },
+          { text: '调试', link: '/debug/apidoc/' },
         ]
       },
       {
-        text: '教程', link: '/pages/course-same-domain-name/', items: [
-          { text: '开发工具推荐', link: '/pages/course-dev-tools/' },
-          { text: '宝塔面板部署', link: '/pages/course-bt-deploy/' },
-          { text: '前后端部署到同一域名', link: '/pages/course-same-domain-name/' },
+        text: '教程', link: '/course/dev-tools/', items: [
+          { text: '开发工具推荐', link: '/course/dev-tools/' },
+          { text: '宝塔面板部署', link: '/course/bt-deploy/' },
+          { text: '前后端部署到同一域名', link: '/course/same-domain-name/' },
         ]
       },
       {
-        text: '问答', link: '/pages/fqa-cross-domain/', items: [
-          { text: '跨域问题', link: '/pages/fqa-cross-domain/' },
-          { text: '接口文档问题', link: '/pages/fqa-apidoc/' },
-          { text: 'NodeJS版本问题', link: '/pages/fqa-nodejs-version/' },
+        text: '问答', link: '/fqa/cross-domain/', items: [
+          { text: '跨域问题', link: '/fqa/cross-domain/' },
+          { text: '接口文档问题', link: '/fqa/apidoc/' },
+          { text: 'NodeJS版本问题', link: '/fqa/nodejs-version/' },
+          { text: '新版文档', link: '/fqa/new-doc/' },
         ]
       },
       {
-        text: '版本', link: '/pages/guide/', items: [
-          { text: 'v3', link: '/pages/guide/' },
-          { text: 'v2', link: '/v2/pages/guide/' },
+        text: '版本', link: '/guide/intro/', items: [
+          { text: 'v4', link: '/guide/intro/' },
+          { text: 'v3', link: '/v3/pages/guide/' },
         ]
       },
-      { text: '演示', link: '/pages/guide/#演示' },
+      { text: '演示', link: '/guide/intro/#演示' },
 
       { text: 'Gitee', link: 'https://gitee.com/skyselang/yylAdmin' },
     ],
@@ -92,7 +94,6 @@ module.exports = {
       href: 'https://gitee.com/skyselang' // 可选的
     },
     social: { // 社交图标，显示于博主信息栏和页脚栏
-      // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
       icons: [
         {
           iconClass: 'icon-gitee',
@@ -155,12 +156,5 @@ module.exports = {
   // Markdown
   markdown: {
     extractHeaders: ['h2', 'h3', 'h4']
-  },
-
-  // Webpack
-  configureWebpack: (config, isServer) => {
-    if (!isServer) {
-      // 修改客户端的 webpack 配置
-    }
   }
 }
