@@ -31,5 +31,5 @@ yylAdmin是一个基于ThinkPHP8和Vue3极简后台管理系统，只有登录�
 ## 版本
 | 版本 | 分支 | 简介 | 环境 |
 |------|-----------------------------------------------------|-----------------------------|---------------|
-| v4   | [master](https://gitee.com/skyselang/yylAdmin)      | thinkphp8 vue3 element-plus | php8.0 node18 |
+| v4   | [v4](https://gitee.com/skyselang/yylAdmin/tree/v4/) | thinkphp8 vue3 element-plus | php8.0 node18 |
 | v3   | [v3](https://gitee.com/skyselang/yylAdmin/tree/v3/) | thinkphp6 vue2 element-ui   | php7.3 node12 |   

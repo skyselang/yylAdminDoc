@@ -12,4 +12,4 @@
 ## 文档路径
 
 默认文档路径是 public/apidoc，可以根据需求修改成其它路径，只需把 apidoc 文件夹名改成其它名称即可，比如：public/document。  
-示例：[document](https://api.yyladmin.top/document)
+示例：[document](https://apiv4.yyladmin.top/document)
