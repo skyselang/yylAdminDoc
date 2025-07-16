@@ -2,4 +2,4 @@
 
 ## vuepress
  
-[yyladmin-doc](https://olddoc.yyladmin.top/)
+[yylAdminDoc](https://docv3.yyladmin.top/)
