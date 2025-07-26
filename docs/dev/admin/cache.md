@@ -6,7 +6,36 @@
 
 ## 业务缓存类
 业务：根据业务功能添加缓存类。  
-例子：内容管理 app\common\cache\content\ContentCache，内容缓存操作调用此类。
+例子：内容管理 app\common\cache\content\ContentCache，内容缓存操作调用此类。  
+系统提供了缓存基类 app\common\cache\BaseCache，业务缓存类继承基类即可。
+
+```php
+<?php
+namespace app\common\cache\content;
+use app\common\cache\BaseCache;
+/**
+ * 内容管理缓存
+ */
+class ContentCache extends BaseCache
+{
+    // 缓存标签
+    public $tag = 'content';
+
+    // 缓存前缀
+    protected $prefix = 'content:';
+
+    // 缓存有效时间（秒，0永久）
+    protected $expire = 43200;
+
+    // 构造函数
+    function __construct()
+    {
+        $this->tag($this->tag);
+        $this->prefix($this->prefix);
+        $this->expire($this->expire);
+    }
+}
+```
 
 ## 通用缓存类
 通用：app\common\cache\Cache; 用法和 ThinkPHP 缓存使用一致。  

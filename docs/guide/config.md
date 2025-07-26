@@ -26,9 +26,13 @@ token名称，前后端必须一致
 - 类型：boolean 
 系统超管用户是否隐藏
 
-### super_upload_size
+### super_upload_limit
 - 类型：boolean  
 系统超管用户上传文件大小是否不受限制
+
+### super_api_rate
+- 类型：boolean  
+系统超管用户接口请求速率是否不受限制
 
 ### menu_is_unlogin
 - 类型：array  
@@ -157,3 +161,11 @@ element-plus 默认 size
 ### storePrefix
 - 类型：string  
 本地存储前缀
+
+### addEditDialog
+- 类型：boolean  
+添加修改是否弹窗方式，true对话框弹窗，false新标签页面
+
+### frontRouter
+- 类型：boolean  
+是否开启前端路由，true前端静态路由，false后端动态路由

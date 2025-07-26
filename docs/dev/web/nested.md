@@ -4,13 +4,13 @@
 
 如果你的路由是多级目录，有三级路由嵌套的情况下，不要忘记还要手动在二级目录的根文件下添加一个router-view：
 
-```html
+```vue
  <router-view />
 ```
 
 router-view文件内容：
 
-```html
+```vue
 <template>
   <router-view />
 </template>
@@ -31,7 +31,7 @@ export default {
 
 原则上有多少级路由嵌套就需要多少个router-view：
 
-```html
+```vue
  <router-view />
 ```
 

@@ -4,14 +4,15 @@
 
 ## 开发环境
 
-- [phpStudy](https://www.xp.cn/)（Windows10，Nginx1.16，MySQL5.5，PHP8.0，Redis）
+- [phpStudy](https://www.xp.cn/)（Windows10，Nginx1.16，MySQL5.5，PHP8.2，Redis）
 - [Composer](https://www.phpcomposer.com/)（v2.x）
-- [Node.js](https://nodejs.org/zh-cn/)（v18.x）
-- [Visual Studio Code](https://code.visualstudio.com/)（VS Code）
+- [Node.js](https://nodejs.org/zh-cn/)（v20.x）
+- [Pnpm](https://www.pnpm.cn/)（v10.x）
+- [Visual Studio Code](https://code.visualstudio.com/)（v1.x）
 
 ## 版本控制
 
-- [Git](https://git-scm.com/)
+- [Git](https://git-scm.com/)（v2.x）
 
 ## 后端框架、插件
 

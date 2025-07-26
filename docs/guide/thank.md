@@ -15,10 +15,13 @@
 
 ## npm
 - [Vue](https://github.com/vuejs/vue)
+- [Vite](https://github.com/vitejs/vite)
+- [Pinia](https://github.com/vuejs/pinia)
+- [vue-i18n](https://github.com/intlify/vue-i18n)
+- [vue-router](https://github.com/vuejs/router)
 - [Element Plus](https://element-plus.gitee.io/zh-CN/)
+- [ECharts](https://github.com/apache/echarts)
+- [wangEditor](https://github.com/wangeditor-team/wangEditor)
 - [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
 - [vue3-element-admin](https://gitee.com/youlaiorg/vue3-element-admin)
-- [wangEditor](https://github.com/wangeditor-team/wangEditor)
-- [ECharts](https://github.com/apache/echarts)
-- [SheetJS](https://github.com/SheetJS/sheetjs)
 - ...

@@ -1,4 +1,4 @@
-# 接口生成器
+# 接口生成器crud
 
 ## 生成接口代码
 
@@ -11,6 +11,13 @@
 功能由系统配置+模板+可视化页面配置来实现。  
 为了灵活适应各种项目结构与实现方式，需做好系统配置与模板编写。  
 接口生成器功能使用的是 [Apidoc](https://gitee.com/hg-code/apidoc-php)。文档 [接口生成器](https://docs.apidoc.icu/use/function/generator.html)。
+
+## 开启接口生成器配置  
+.env
+```txt
+# 是否开启接口生成器
+GENERATOR_ENABLE = true
+```
 
 ## 填写接口生成参数
 <img src="/image/dev/fastcrud1.png" alt="">
