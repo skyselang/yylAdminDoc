@@ -2,7 +2,7 @@
 
 ## node.js
 
-node.js 版本兼容 >= 18  
+node.js 版本兼容 >= 20  
 查看当前 node.js 版本：
 
 ```bash

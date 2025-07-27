@@ -6,11 +6,11 @@
 演示：[admin](https://apiv4.yyladmin.top/admin)  
 
 ## 设置环境变量文件
-/.env.production  
+.env.production  
 把 .env.production 复制后重命名为 .env.production.local  
 
 ## 设置环境变量参数
-/.env.production.local  
+.env.production.local  
 baseURL 设置为空;  
 base 设置为 /admin/ ；  
 outDir 设置为 admin ;  

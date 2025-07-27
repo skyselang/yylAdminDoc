@@ -1,6 +1,6 @@
 {
   "name": "yyladmindoc",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "yyladmin document",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,12 @@
     "vitepress": "^1.6.3"
   },
   "engines": {
-    "node": ">=18.18.0",
-    "npm": ">=8.18.0"
+    "node": ">=20.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }

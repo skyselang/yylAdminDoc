@@ -2,13 +2,14 @@
 
 ## 环境要求
 
-- PHP >= 8.0  
+- PHP >= 8.2  
   安装 fileinfo、redis 扩展  
   开启 putenv、proc_open 函数
+- Composer >= 2.5  
 - MySQL >= 5.5
 - Redis >= 5.0
-- Node >= 18.18
-- Npm >= 8.19
+- Node >= 20.0
+- Pnpm >= 10.0
 
 ::: warning
 Node 版本过低或过高可能无法安装，你可以使用 [n](https://github.com/tj/n)，[nvm](https://github.com/creationix/nvm) 或 [nvm-windows](https://github.com/creationix/nvm) 进行 Node 版本切换。  
@@ -24,10 +25,6 @@ git clone https://gitee.com/skyselang/yylAdmin.git
 ### 进入项目目录
 ```bash
 cd yylAdmin
-```
-### 设置 composer
-```bash
-composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
 ```
 ### 安装依赖
 ```bash
@@ -49,7 +46,7 @@ composer install
 域名：localhost
 端口：9526
 根目录：yylAdmin/public
-PHP版本：8.0.2
+PHP版本：8.2.9
 ```
 ### 设置伪静态
 #### Nginx
@@ -87,46 +84,46 @@ git clone https://gitee.com/skyselang/yylAdminWeb.git
 ```bash
 cd yylAdminWeb
 ```
-### 设置 npm
+### 设置 pnpm 镜像
 ```bash
-npm config set registry https://registry.npmmirror.com
+pnpm config set registry https://registry.npmmirror.com
 ```
 ### 安装依赖
 ```bash
-npm install
+pnpm install
 ```
-> 也可以使用 cnpm、pnpm、yarn
+> 也可以使用 npm、cnpm、yarn
 ### 修改配置
 ```bash
 复制.env.xxx后重命名成.env.xxx.local环境变量文件修改里面配置
 ```
 ### 本地开发 启动项目
 ```bash
-npm run dev
+pnpm run dev
 ```
 ### 检查代码错误 eslint
 ```bash
-npm run lint
+pnpm run lint
 ```
 ### 修复代码错误 prettier
 ```bash
-npm run format
+pnpm run format
 ```
 ### 打包测试环境
 ```bash
-npm run build:stage
+pnpm run build:stage
 ```
 ### 打包正式环境
 ```bash
-npm run build:prod
+pnpm run build:prod
 ```
 ### 打包测试后预览
 ```bash
-npm run preview:stage
+pnpm run preview:stage
 ```
 ### 打包正式后预览
 ```bash
-npm run preview:prod
+pnpm run preview:prod
 ```
 
 ## 访问后台

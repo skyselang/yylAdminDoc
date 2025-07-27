@@ -52,7 +52,7 @@ export default defineConfig({
             { text: "刷新后台菜单权限", link: "/dev/develop/refresh" },
             { text: "添加前台接口", link: "/dev/develop/api" },
             { text: "添加接口文档调试", link: "/dev/develop/apidoc" },
-            { text: "接口生成器", link: "/dev/develop/crud" },
+            { text: "接口生成器crud", link: "/dev/develop/crud" },
           ],
         },
         {
@@ -67,9 +67,7 @@ export default defineConfig({
         {
           text: "前端",
           collapsed: false,
-          items: [
-            { text: "多级目录", link: "/dev/web/nested" },
-          ],
+          items: [{ text: "多级目录", link: "/dev/web/nested" }],
         },
         {
           text: "其它",
@@ -77,6 +75,7 @@ export default defineConfig({
           items: [
             { text: "token", link: "/dev/other/token" },
             { text: "多语言", link: "/dev/other/lang" },
+            { text: "路由", link: "/dev/other/route" },
           ],
         },
         {
@@ -95,13 +94,13 @@ export default defineConfig({
           items: [
             { text: "开发工具推荐", link: "/fqa/dev-tools" },
             { text: "宝塔面板部署", link: "/fqa/bt-deploy" },
-            { text: "前后端部署到同一域名", link: "/fqa/same-domain-name" },
-            { text: "跨域问题", link: "/fqa/cross-domain" },
+            { text: "CORS跨域问题", link: "/fqa/cross-domain" },
+            { text: "同域名部署前后端", link: "/fqa/same-domain-name" },
             { text: "接口文档问题", link: "/fqa/apidoc" },
             { text: "Node.js版本问题", link: "/fqa/nodejs-version" },
             { text: "Composer镜像", link: "/fqa/composer-mirrors" },
             { text: "npm镜像", link: "/fqa/npm-mirrors" },
-            { text: "旧版文档", link: "/fqa/old-doc" },
+            { text: "版本文档", link: "/fqa/old-doc" },
           ],
         },
       ],
