@@ -18,7 +18,7 @@ hero:
       link: /guide/demo
     - theme: alt
       text: 🏠️前台
-      link: https://wwwv4.yyladmin.top/    
+      link: https://www.yyladmin.top/    
 
 features:
   - title: 🍐前后分离

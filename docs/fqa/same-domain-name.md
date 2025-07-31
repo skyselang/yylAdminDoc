@@ -3,7 +3,7 @@
 前端和后端部署在同一个域名下，可以解决跨域问题，节省域名服务器，不用单独部署前端项目等；可以通过下面方法设置。
 >当然前后端分开部署正常情况下也不会有跨域问题，yylAdmin已经做了跨域处理
 
-演示：[admin](https://apiv4.yyladmin.top/admin)  
+演示：[admin](https://api.yyladmin.top/admin)  
 
 ## 设置环境变量文件
 .env.production  
@@ -42,7 +42,7 @@ pnpm run build:prod
 ## 部署到服务器
 把打包后的 admin 文件夹部署到服务器上后端项目的 public 文件夹下。  
 输入部署后端域名，再加上 base 路径就可以访问了：你的域名/admin/。  
-演示：[admin](https://apiv4.yyladmin.top/admin)  
+演示：[admin](https://api.yyladmin.top/admin)  
 
 ## 测试环境  
 可以根据打包环境修改对应文件，如果打包测试环境，  
