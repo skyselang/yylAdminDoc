@@ -62,6 +62,8 @@ export default defineConfig({
             { text: "缓存", link: "/dev/admin/cache" },
             { text: "定时任务", link: "/dev/admin/timer" },
             { text: "队列支持", link: "/dev/admin/queue" },
+            { text: "短信", link: "/dev/admin/sms" },
+            { text: "邮件", link: "/dev/admin/email" },
           ],
         },
         {
