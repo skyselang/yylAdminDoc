@@ -97,7 +97,7 @@ export default defineConfig({
             { text: "开发工具推荐", link: "/fqa/dev-tools" },
             { text: "宝塔面板部署", link: "/fqa/bt-deploy" },
             { text: "CORS跨域问题", link: "/fqa/cross-domain" },
-            { text: "同域名部署前后端", link: "/fqa/same-domain-name" },
+            { text: "前后端同域名部署", link: "/fqa/same-domain-name" },
             { text: "接口文档问题", link: "/fqa/apidoc" },
             { text: "Node.js版本问题", link: "/fqa/nodejs-version" },
             { text: "Composer镜像", link: "/fqa/composer-mirrors" },
