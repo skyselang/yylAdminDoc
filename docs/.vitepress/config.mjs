@@ -77,7 +77,7 @@ export default defineConfig({
           items: [
             { text: "token", link: "/dev/other/token" },
             { text: "多语言", link: "/dev/other/lang" },
-            { text: "路由", link: "/dev/other/route" },
+            { text: "路由和菜单", link: "/dev/other/route" },
           ],
         },
         {

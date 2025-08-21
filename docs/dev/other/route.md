@@ -1,4 +1,6 @@
-# 路由
+# 路由和菜单
+
+路由和菜单是关联的
 
 ## 路由方式
 
@@ -28,16 +30,16 @@ frontRouter: true; // 是否开启前端路由，true前端静态路由，false�
  * 在 src/router/modules/ 下根据路由配置项配置路由文件
  * 在此引入配置路由文件
  */
-import member from '@/router/modules/member'
-import content from '@/router/modules/content'
-import file from '@/router/modules/file'
-import log from '@/router/modules/log'
-import setting from '@/router/modules/setting'
-import system from '@/router/modules/system'
+import member from "@/router/modules/member";
+import content from "@/router/modules/content";
+import file from "@/router/modules/file";
+import log from "@/router/modules/log";
+import setting from "@/router/modules/setting";
+import system from "@/router/modules/system";
 
-const frontRoutes = [member, content, file, log, setting, system]
+const frontRoutes = [member, content, file, log, setting, system];
 
-export default frontRoutes
+export default frontRoutes;
 ```
 
 ### 菜单管理
