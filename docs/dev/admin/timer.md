@@ -8,19 +8,19 @@
 // app\command\Timer.php
 public function start()
 {
-  $this->timer = \Workerman\Timer::add($this->interval, function () {
-    $output = new Output();
-    $output->writeln('timer runing ' . date('Y-m-d H:i:s'));
+    $this->timer = \Workerman\Timer::add($this->interval, function () {
+        $output = new Output();
+        $output->writeln('timer runing ' . date('Y-m-d H:i:s'));
 
-    // 这里执行具体的任务
-    try {
-      // 日志清除
-      event('LogClear');
-    } catch (\Exception $e) {
-        $output->writeln('timer LogClear ' . $e->getMessage());
-        Logs()::write('LogClear:' . $e->getMessage(), 'timer');
-    }
-  });
+        // 这里执行具体的任务
+        try {
+            // 日志清除
+            event('LogClear');
+        } catch (\Exception $e) {
+            $output->writeln('timer ' . $e->getMessage());
+            $this->log(['msg' => $e->getMessage()]);
+        }
+    });
 }
 ```
 

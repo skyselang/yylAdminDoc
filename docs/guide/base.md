@@ -4,7 +4,7 @@
 
 ## 开发环境
 
-- [phpStudy](https://www.xp.cn/)（Windows10，Nginx1.16，MySQL5.5，PHP8.2，Redis）
+- [phpStudy](https://www.xp.cn/)（Windows10，Nginx1.16，MySQL5.5，PHP8.2，Redis5.0）
 - [Composer](https://www.phpcomposer.com/)（v2.x）
 - [Node.js](https://nodejs.org/zh-cn/)（v20.x）
 - [Pnpm](https://www.pnpm.cn/)（v10.x）

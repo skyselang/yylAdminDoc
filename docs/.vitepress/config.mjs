@@ -86,6 +86,7 @@ export default defineConfig({
           items: [
             { text: "异常处理", link: "/dev/debug/exception" },
             { text: "接口文档", link: "/dev/debug/apidoc" },
+            { text: "vue调试", link: "/dev/debug/vuedevtools" },
           ],
         },
       ],
@@ -98,6 +99,7 @@ export default defineConfig({
             { text: "宝塔面板部署", link: "/fqa/bt-deploy" },
             { text: "CORS跨域问题", link: "/fqa/cross-domain" },
             { text: "前后端同域名部署", link: "/fqa/same-domain-name" },
+            { text: "nginx反向代理", link: "/fqa/nginx-proxy" },
             { text: "接口文档问题", link: "/fqa/apidoc" },
             { text: "Node.js版本问题", link: "/fqa/nodejs-version" },
             { text: "Composer镜像", link: "/fqa/composer-mirrors" },

@@ -18,8 +18,7 @@ QQ交流群：679883097
 <img src="/image/guide/qq-group01.png" alt="Q群: 679883097">
 
 ## Donation
-用于演示域名、服务器以及功能测试（对象存储、短信测试、邮件测试等）  
-可在 [Gitee](https://gitee.com/skyselang/yylAdmin) 捐赠。  
+用于演示域名、服务器以及功能测试（对象存储、短信测试、邮件测试等）。  
 | Wechat Admire | Wechat Pay | Alipay |
 | :---: | :---: | :---: |
 | <img src="/image/guide/jz-wxzs.jpg" alt="Wechat Admire Qrcode"> | <img src="/image/guide/jz-wx.jpg" alt="Wechat Pay QRcode"> | <img src="/image/guide/jz-zfb.jpg" alt="Alipay QRcode"> |

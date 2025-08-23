@@ -23,7 +23,7 @@ GENERATOR_ENABLE = true
 <img src="/image/dev/fastcrud1.png" alt="">
 <img src="/image/dev/fastcrud2.png" alt="">
 
-## 填写快速生成菜单信息
+## 添加接口菜单信息
 <img src="/image/dev/fastcrud3.png" alt="">
 
 ## 刷新接口文档调试接口
