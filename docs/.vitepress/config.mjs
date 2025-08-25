@@ -13,7 +13,7 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "/image/yyladmin-logo.png",
+    logo: { src: "/image/yyladmin-logo.png", width: 24, height: 24 },
 
     nav: [
       { text: "指南", link: "/guide/intro" },
