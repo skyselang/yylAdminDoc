@@ -1,5 +1,6 @@
 # 定时任务
 
+定时任务基于 [workerman](https://www.workerman.net/)  
 定时任务分为 Timer 和 Crontab
 
 ## Timer
@@ -153,9 +154,32 @@ Options:
   -v|vv|vvv, --verbose       Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
 ```
 
-## 注意
+## 注意事项
 
-::: warning
-确保执行命令的用户有足够权限或添加 sudo  
+### 执行命令的用户
+
+确保执行命令的用户有足够权限或添加 sudo
+
+### 任务耗时占用内存大
+
 任务比较耗时和占用内存大的请配置 PHP 运行内存大小、数据库断线重连、Redis 长连接等
-:::
+
+### 不要使用 exit die sleep 语句
+
+业务执行 exit die 语句会导致进程退出，并显示 WORKER EXIT UNEXPECTED 错误。当然，进程退出了会立刻重启一个新的进程继续服务。如果需要返回，可以调用 return。sleep 语句会让进程睡眠，睡眠过程中不会执行任何业务，框架也会停止运行，会导致该进程的所有客户端请求都无法处理
+
+### 改代码要重启
+
+workerman 是常驻内存的框架，改代码要重启 workerman 才能看到新代码的效果  
+修改代码后请先停止定时任务，再重新启动，定时任务才会生效
+
+```bash
+# 停止定时任务
+php think crontab stop
+# 启动定时任务
+php think crontab -m d
+```
+
+## 提示
+
+更多用法与问题请查阅官方文档 [workerman](https://www.workerman.net)
