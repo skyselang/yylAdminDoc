@@ -64,6 +64,8 @@ pnpm run build:prod
 
 同样，可以把前端（pc、h5）等 与 后端（yylAdmin）放到同一个域名下。
 
+## 注意
+
 Vue Router history 设为 createWebHashHistory：[不同的历史模式](https://router.vuejs.org/zh/guide/essentials/history-mode.html)。  
-本地储存（localStorage 等）的键名（key）不要与其它项目冲突。  
+本地储存（localStorage 等）的键名（key）不要与其它项目冲突，修改本地储存前缀。  
 伪静态设置。

@@ -1,8 +1,18 @@
 # npm 镜像
 
-npm（Node Package Manager）国内镜像是指在国内设置的 npm 仓库镜像，用于加速 npm 在国内的依赖包下载速度，提高开发效率。
+项目已从 npm 切换到了 pnpm，依然可以使用 npm，但建议使用 pnpm。
+
+## pnpm
+
+pnpm 在性能、磁盘空间效率和安全性方面提供了显著优势。
+
+所以项目现在使用的是 pnpm。
+
+[pnpm 中文网](https://www.pnpm.cn/)
 
 ## npm 镜像
+
+npm（Node Package Manager）国内镜像是指在国内设置的 npm 仓库镜像，用于加速 npm 在国内的依赖包下载速度，提高开发效率。
 
 ### 阿里云
 

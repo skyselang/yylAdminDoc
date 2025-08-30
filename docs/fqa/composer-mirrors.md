@@ -88,6 +88,8 @@ composer config repo.packagist composer https://mirrors.aliyun.com/composer/
 
 Composer 国内镜像可以显著提高国内开发者在使用 Composer 时的下载速度和开发效率。建议根据实际情况选择合适的镜像源，并按照正确的配置方法进行配置。
 
+网络条件允许，请优先使用官方源。
+
 ## 官方源
 
 官方地址：[https://getcomposer.org/](https://getcomposer.org/)  

@@ -1,6 +1,6 @@
-# 旧版文档
+# 版本文档
 
-## 文档版本
+## 历史版本文档
 
 [yyladmin-v4](https://docv4.yyladmin.top/)
 

@@ -10,7 +10,8 @@
 - [ApiDoc](https://github.com/HGthecode/apidoc-php)
 - [PHPMailer](https://github.com/PHPMailer/PHPMailer)
 - [EasySMS](https://github.com/overtrue/easy-sms)
-- [AJ-Captcha](https://gitee.com/anji-plus/captcha)
+- [AJ-Captcha](https://gitee.com/belief-team/captcha)
+- [Workerman](https://github.com/walkor/workerman)
 - ...
 
 ## npm

@@ -86,7 +86,7 @@ export default defineConfig({
           items: [
             { text: "异常处理", link: "/dev/debug/exception" },
             { text: "接口文档", link: "/dev/debug/apidoc" },
-            { text: "vue调试", link: "/dev/debug/vuedevtools" },
+            { text: "vue调试", link: "/dev/debug/vue" },
           ],
         },
       ],
