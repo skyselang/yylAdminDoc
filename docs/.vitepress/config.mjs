@@ -100,6 +100,7 @@ export default defineConfig({
             { text: "CORS跨域问题", link: "/fqa/cross-domain" },
             { text: "前后端同域名部署", link: "/fqa/same-domain-name" },
             { text: "nginx反向代理", link: "/fqa/nginx-proxy" },
+            { text: "vite代理", link: "/fqa/vite-proxy" },
             { text: "接口文档问题", link: "/fqa/apidoc" },
             { text: "Node.js版本问题", link: "/fqa/nodejs-version" },
             { text: "Composer镜像", link: "/fqa/composer-mirrors" },
