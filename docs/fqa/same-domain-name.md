@@ -13,18 +13,30 @@
 
 ## 设置环境变量参数
 
-.env.production.local  
-baseURL 设置为空;  
-base 设置为 /admin/ ；  
-outDir 设置为 admin ;
+在正式环境变量文件中设置前后端同域名部署即可。
 
-```
-# baseURL
+.env.production.local
+
+```txt{14-16}
+# 正式环境
+
+
+# 接口地址 baseURL
+VITE_APP_BASE_URL = 'https://api.yyladmin.top'
+# 公共基础路径 base
+VITE_APP_BASE = '/'
+# 输出目录 outDir
+VITE_APP_OUT_DIR = 'dist'
+# 本地存储前缀 storePrefix
+VITE_APP_STORE_PREFIX = 'admin_'
+
+# 前后端同域名部署
 VITE_APP_BASE_URL = ''
-# base
 VITE_APP_BASE = '/admin/'
-# outDir
 VITE_APP_OUT_DIR = 'admin'
+
+# nginx 反向代理
+# VITE_APP_BASE_URL = '/prodapi'
 ```
 
 > base、outDir 路径名称可以自定义，但是名称必须一样。  

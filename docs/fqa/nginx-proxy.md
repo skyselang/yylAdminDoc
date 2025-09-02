@@ -4,19 +4,30 @@
 
 ## 设置环境变量
 
-在环境变量文件中接口地址，比如 VITE_APP_BASE_URL = '/prodapi'
+在正式环境变量文件中设置 nginx 反向代理。
 
-.env.xxx.local
+.env.production.local
 
-```txt
+```txt{19}
+# 正式环境
+
+
 # 接口地址 baseURL
-VITE_APP_BASE_URL = '/prodapi'
+VITE_APP_BASE_URL = 'https://api.yyladmin.top'
 # 公共基础路径 base
 VITE_APP_BASE = '/'
 # 输出目录 outDir
 VITE_APP_OUT_DIR = 'dist'
 # 本地存储前缀 storePrefix
 VITE_APP_STORE_PREFIX = 'admin_'
+
+# 前后端同域名部署
+# VITE_APP_BASE_URL = ''
+# VITE_APP_BASE = '/admin/'
+# VITE_APP_OUT_DIR = 'admin'
+
+# nginx 反向代理
+VITE_APP_BASE_URL = '/prodapi'
 ```
 
 ## 配置反向代理
@@ -65,7 +76,7 @@ if ($isRedcert != 1) {
 
 需求修改一下重定向逻辑：如果 host 是 127.0.0.1，则不重定向
 
-```nginx
+```nginx{10-13}
 # 强制 https
 #HTTP_TO_HTTPS_START
 set $isRedcert 1;
