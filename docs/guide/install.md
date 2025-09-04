@@ -10,6 +10,7 @@
 - Redis >= 5.0
 - Node >= 20.0
 - Pnpm >= 10.0
+- Git >= 2.0
 
 ::: warning
 Node 版本过低或过高可能无法安装，你可以使用 [n](https://github.com/tj/n)，[nvm](https://github.com/creationix/nvm) 或 [nvm-windows](https://github.com/creationix/nvm) 进行 Node 版本切换。  
