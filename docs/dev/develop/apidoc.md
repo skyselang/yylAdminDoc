@@ -10,4 +10,4 @@
 
 然后可在后台 系统管理->接口文档 页面查看接口文档信息和在线调试接口。
 
-<img src="/image/dev/apidoc.jpg" alt="接口文档与调试">
+![接口文档与调试](/image/dev/apidoc.jpg)

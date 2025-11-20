@@ -1,10 +1,10 @@
 # 多语言、国际化
 
-## 后端
+## 后端多语言
 
 php：[ThinkPHP8 多语言](https://doc.thinkphp.cn/v8_0/lang.html)
 
-### 语言包
+### 后端语言包
 
 app/lang/zh-cn.php
 
@@ -18,13 +18,13 @@ app/lang/en.php
 '会员管理' => 'Member'
 ```
 
-### 使用
+### 后端使用多语言
 
 ```php
 lang('会员管理');
 ```
 
-### 配置
+### 后端配置
 
 .env
 
@@ -34,11 +34,11 @@ lang('会员管理');
 default_lang = zh-cn
 ```
 
-## 前端
+## 前端多语言
 
 vue：[Vue I18n](https://vue-i18n.intlify.dev/)
 
-### 语言包
+### 前端语言包
 
 src/lang/package/zh-cn.json
 
@@ -52,7 +52,7 @@ src/lang/package/en.json
   会员管理: "Member"
 ```
 
-### 使用
+### 前端多语言使用
 
 ```js
 import i18n from "@/lang/index";

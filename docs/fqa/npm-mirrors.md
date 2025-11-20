@@ -10,7 +10,7 @@ pnpm 在性能、磁盘空间效率和安全性方面提供了显著优势。
 
 [pnpm 中文网](https://www.pnpm.cn/)
 
-## npm 镜像
+## npm镜像
 
 npm（Node Package Manager）国内镜像是指在国内设置的 npm 仓库镜像，用于加速 npm 在国内的依赖包下载速度，提高开发效率。
 
@@ -19,7 +19,7 @@ npm（Node Package Manager）国内镜像是指在国内设置的 npm 仓库镜�
 官方地址：[http://www.npmmirror.com](http://www.npmmirror.com)  
 配置命令：
 
-```
+```bash
 npm config set registry https://registry.npmmirror.com
 ```
 
@@ -28,7 +28,7 @@ npm config set registry https://registry.npmmirror.com
 官方地址：[https://mirrors.cloud.tencent.com](https://mirrors.cloud.tencent.com/help/npm.html)  
 配置命令：
 
-```
+```bash
 npm config set registry https://mirrors.cloud.tencent.com/npm/
 ```
 
@@ -37,7 +37,7 @@ npm config set registry https://mirrors.cloud.tencent.com/npm/
 官方地址：[https://mirrors.huaweicloud.com](https://mirrors.huaweicloud.com/mirrorDetail/5ea0f1e03fdb11a72fd319b2?mirrorName=npm&catalog=language)  
 配置命令：
 
-```
+```bash
 npm config set registry https://mirrors.huaweicloud.com/repository/npm/
 ```
 
@@ -47,7 +47,7 @@ npm config set registry https://mirrors.huaweicloud.com/repository/npm/
 
 使用 npm config set registry 命令来全局配置 npm 镜像源，例如：
 
-```
+```bash
 npm config set registry https://registry.npmmirror.com/
 ```
 
@@ -57,7 +57,7 @@ npm config set registry https://registry.npmmirror.com/
 
 可以在命令行中通过添加--registry 参数来临时指定使用的镜像源，例如：
 
-```
+```bash
 npm install package-name --registry=https://registry.npmmirror.com/
 ```
 

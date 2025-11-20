@@ -6,15 +6,15 @@
 
 ## 编写接口代码
 
-<img src="/image/dev/indexapi.jpg" alt="编写接口代码">
+![编写接口代码](/image/dev/indexapi.jpg)
 
 ## 添加会员接口
 
-<img src="/image/dev/indexapirule.jpg" alt="添加接口信息">
+![添加接口信息](/image/dev/indexapirule.jpg)
 
 ## 设置会员权限
 
-<img src="/image/dev/indexapiunauth.jpg" alt="设置会员权限">
+![设置会员权限](/image/dev/indexapiunauth.jpg)
 
 > 如果关闭了会员接口设置，不再校验接口和权限，所有接口（免登除外）均需登录访问  
 > 如果开启了会员接口设置，则需要分配相应权限给会员，不然会员无法访问接口（免登和免权除外）  

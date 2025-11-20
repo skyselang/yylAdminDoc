@@ -4,7 +4,7 @@
 
 src/api/member.js
 
-<img src="/image/dev/adminwebapi.jpg" alt="新建接口文件">
+![新建接口文件](/image/dev/adminwebapi.jpg)
 
 > 注意接口函数的url参数值：/菜单链接
 
@@ -12,4 +12,4 @@ src/api/member.js
 
 src/views/member/member.vue
 
-<img src="/image/dev/adminwebpage.jpg" alt="新建页面文件">
+![新建页面文件](/image/dev/adminwebpage.jpg)

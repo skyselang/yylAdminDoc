@@ -17,6 +17,6 @@ app/common/service/member/MemberService.php
 缓存  
 app/common/cache/member/MemberCache.php
 
-<img src="/image/dev/adminapi.jpg" alt="添加接口代码">
+![添加接口代码](/image/dev/adminapi.jpg)
 
 > 这一步不是必须的，如果是仅仅用来设置权限控制前端显示可直接下一步

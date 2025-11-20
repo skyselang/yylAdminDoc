@@ -44,7 +44,7 @@ VITE_APP_OUT_DIR = 'admin'
 
 ## 运行打包命令
 
-```
+```bash
 pnpm run build:prod
 ```
 
@@ -59,7 +59,7 @@ pnpm run build:prod
 
 [http://localhost:9526/admin/](http://localhost:9526/admin/)
 
-> http://localhost:9526 是后端地址，/admin/ 是前面设置的 base 路径
+> <http://localhost:9526> 是后端地址，/admin/ 是前面设置的 base 路径
 
 ## 部署到服务器
 

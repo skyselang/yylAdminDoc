@@ -7,7 +7,7 @@
 
 秒级定时器，按时间间隔执行任务，可以精确到 0.001，即精确到毫秒级别。
 
-### 添加定时操作
+### 添加 Timer
 
 app\command\Timer.php  
 在 execute 方法中添加需要定时执行的操作，可以直接复制已有的定时器代码，然后定义好名称和执行间隔，以及需要具体执行的操作
@@ -30,9 +30,9 @@ public function execute()
 }
 ```
 
-### 开启定时任务
+### 开启 Timer
 
-#### 调试方式开启
+#### 调试方式开启 Timer
 
 ```bash
 php think timer
@@ -40,7 +40,7 @@ php think timer
 
 > debug 模式，开发调试使用
 
-#### 守护进程方式开启
+#### 守护进程方式开启 Timer
 
 ```bash
 php think timer -m d
@@ -48,7 +48,7 @@ php think timer -m d
 
 > daemon 模式，正式部署使用
 
-#### 查看定时任务参数
+#### 查看 Timer 参数
 
 ```bash
 php think timer --help
@@ -76,7 +76,7 @@ Options:
 
 类似 linux 的 crontab，按照 cron 表达式执行任务，支持秒级别定时
 
-### 添加定时操作
+### 添加 Crontab
 
 app\command\Crontab.php  
 在 execute 方法中添加需要定时执行的操作，可以直接复制已有的定时器代码，然后定义好名称和 cron 表达式，以及需要具体执行的操作
@@ -112,9 +112,9 @@ public function execute()
 +-------------- sec (0-59)[可省略，如果没有0位,则最小时间粒度是分钟]
 ```
 
-### 开启定时任务
+### 开启 Crontab
 
-#### 调试方式开启
+#### 调试方式开启 Crontab
 
 ```bash
 php think crontab
@@ -122,7 +122,7 @@ php think crontab
 
 > debug 模式，开发调试使用
 
-#### 守护进程方式开启
+#### 守护进程方式开启 Crontab
 
 ```bash
 php think crontab -m d
@@ -130,7 +130,7 @@ php think crontab -m d
 
 > daemon 模式，正式部署使用
 
-#### 查看定时任务参数
+#### 查看 Crontab 参数
 
 ```bash
 php think crontab --help

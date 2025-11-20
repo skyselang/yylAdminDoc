@@ -2,9 +2,7 @@
 
 Composer 镜像是指在国内设置的镜像服务器，仓库镜像主要用于缓存和加速 Composer 依赖包（libraries 和 packages）的下载。
 
-## Composer 镜像
-
-### 阿里云
+## 阿里云
 
 官方地址：[https://mirrors.aliyun.com/composer/](https://mirrors.aliyun.com/composer/)  
 配置命令：
@@ -13,7 +11,7 @@ Composer 镜像是指在国内设置的镜像服务器，仓库镜像主要用�
 composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
 ```
 
-### 腾讯云
+## 腾讯云
 
 官方地址：[https://mirrors.cloud.tencent.com/composer/](https://mirrors.cloud.tencent.com/composer/)  
 配置命令：
@@ -22,7 +20,7 @@ composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
 composer config -g repos.packagist composer https://mirrors.tencent.com/composer/
 ```
 
-### 华为云
+## 华为云
 
 官方地址：[https://mirrors.huaweicloud.com/composer/](https://mirrors.huaweicloud.com/mirrorDetail/5ea0f1e03fdb11a72fd319b3?mirrorName=php&catalog=language)  
 配置命令：
@@ -31,7 +29,7 @@ composer config -g repos.packagist composer https://mirrors.tencent.com/composer
 composer config -g repo.packagist composer https://mirrors.huaweicloud.com/repository/php/
 ```
 
-### 上海交通大学
+## 上海交通大学
 
 官方地址：[https://mirrors.sjtug.sjtu.edu.cn/packagist/](https://mirrors.sjtug.sjtu.edu.cn/packagist/)  
 配置命令：
@@ -40,7 +38,7 @@ composer config -g repo.packagist composer https://mirrors.huaweicloud.com/repos
 composer config -g repos.packagist composer https://packagist.mirrors.sjtug.sjtu.edu.cn
 ```
 
-### 中国全量镜像
+## 中国全量镜像
 
 官方地址：[https://www.phpcomposer.com/](https://www.phpcomposer.com/)  
 配置命令：
@@ -51,7 +49,7 @@ composer config -g repo.packagist composer https://packagist.phpcomposer.com
 
 ## 配置方法
 
-### 全局配置
+## 全局配置
 
 使用命令 `composer config -g repo.packagist composer` `镜像地址`，例如：
 
@@ -59,7 +57,7 @@ composer config -g repo.packagist composer https://packagist.phpcomposer.com
 composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
 ```
 
-### 项目配置
+## 项目配置
 
 进入你的项目的根目录（也就是 composer.json 文件所在目录），执行如下命令：
 

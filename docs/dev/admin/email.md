@@ -23,17 +23,17 @@ QQ 邮箱，网易邮箱，新浪邮箱 等；免费使用，可用性差，容�
 
 ### 搭建邮件服务
 
-#### 宝塔邮局
+### 宝塔邮局
 
 可以使用宝塔面板的宝塔邮局管理器软件，免费发送邮件；演示就是使用了宝塔邮局发送邮件。
 
-<img src="/image/dev/email-baota.png" alt="">
+![宝塔邮局](/image/dev/email-baota.png)
 
 ## 配置账号
 
 获取账号信息后在后台 系统设置->邮件设置 配置
 
-<img src="/image/dev/email-config.png" alt="">
+![邮件设置界面](/image/dev/email-config.png)
 
 ## 发送邮件
 
