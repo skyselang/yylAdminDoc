@@ -16,6 +16,7 @@ export default defineConfig({
     logo: { src: "/image/yyladmin-logo.png", width: 24, height: 24 },
 
     nav: [
+      { text: "Gitee2025年度开源项目评选投票", link: "https://gitee.com/activity/2025opensource?ident=IZQ0KG" },
       { text: "指南", link: "/guide/intro" },
       { text: "开发", link: "/dev/develop/add" },
       { text: "问答", link: "/fqa/dev-tools" },

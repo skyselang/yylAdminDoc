@@ -39,3 +39,13 @@
   z-index: 251;
   transition: transform 0.3s ease;
 }
+
+/* Gitee开源评选投票导航链接红色 */
+.VPNavBar .VPLink[href*="gitee.com/activity"] {
+  color: red !important;
+  font-weight: 500;
+}
+
+.VPNavBar .VPLink[href*="gitee.com/activity"]:hover {
+  color: red !important;
+}
