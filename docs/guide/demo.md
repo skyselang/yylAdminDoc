@@ -6,13 +6,12 @@
 
 ## 后台
 
-地址：[admin](https://admin.yyladmin.top)（前后端分开部署） [admin](https://api.yyladmin.top/admin)（前后端不分开部署）  
+地址：[admin](https://adminv5.yyladmin.top)（前后端分开部署） [admin](https://apiv5.yyladmin.top/admin)（前后端不分开部署）  
 账号：yyladmin、admin、demo、test、php  
-密码：123456   
+密码：123456
 
 ## 前台
 
-地址：[index](https://www.yyladmin.top)   
+地址：[index](https://wwwv5.yyladmin.top)
 账号：自行注册  
 功能：登录注册，第三方登录，会员信息等  
- 
